@@ -1,0 +1,51 @@
+left,right,category
+Hot,Cold,Objective
+Short,Long,Objective
+Dark,Light,Objective
+Quiet place,Loud place,Objective
+Colorless,Colorful,Objective
+Dry food,Wet food,Objective
+Soft,Hard,Objective
+Low calorie,High calorie,Objective
+Rare,Common,Objective
+Happens slowly,Happens suddenly,Objective
+Hard to pronounce,Easy to pronounce,Objective
+Temporary,Permanent,Objective
+Mental activity,Physical activity,Objective
+Blue,Green,Objective
+Square,Round,Objective
+Snack,Meal,Objective
+Sport,Game,Objective
+Normal pet,Exotic pet,Objective
+Limited,Infinite,Objective
+Messy food,Clean food,Objective
+Vice,Virtue,Subjective
+Bad habit,Good habit,Subjective
+Waste of time,Good use of time,Subjective
+Boring,Exciting,Subjective
+Funny topic,Serious topic,Subjective
+Useless major,Useful major,Subjective
+Plain,Fancy,Subjective
+Unpopular activity,Popular activity,Subjective
+Small talk,Heavy topic,Subjective
+Worst day of the year,Best day of the year,Subjective
+Talent,Skill,Subjective
+Art,Commerce,Subjective
+Nature,Nurture,Subjective
+Need,Want,Subjective
+Nobody does it,Everybody does it,Subjective
+Bad,Good,Ambiguous
+Cheap,Expensive,Ambiguous
+Dangerous,Safe,Ambiguous
+Easy to do,Hard to do,Ambiguous
+Difficult to use,Easy to use,Ambiguous
+Low quality,High quality,Ambiguous
+Unhealthy,Healthy,Ambiguous
+Inessential,Essential,Ambiguous
+Not enough,Too much,Ambiguous
+Optional,Mandatory,Ambiguous
+Hard to remember,Easy to remember,Ambiguous
+Deep thought,Shallow thought,Ambiguous
+Bad for you,Good for you,Ambiguous
+Casual event,Formal event,Ambiguous
+Unnatural,Natural,Ambiguous
