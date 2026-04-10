@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body{
-    background-color: rgb(21, 21, 27);
+    background-color: rgb(18, 18, 27);
 }
 
 h1{
@@ -23,6 +23,14 @@ h2{
   color: rgba(255, 255, 255, 0.554);
 }
 
+h3{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.554);
+}
+
 .parent {
   display: flex;
   justify-content: center; 
@@ -32,8 +40,16 @@ h2{
   gap: -100px;
 }
 
+.game {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0%;
+  transition: opacity 2.5s cubic-bezier(0.16, 1, 0.3, 1);
 
-
+}
 
 .button {
   display: block;
@@ -46,6 +62,25 @@ h2{
   background-color: transparent;
   cursor: pointer;
   border: 0;
+}
+
+.drawbutton{
+  display: block;
+  position: relative;
+  width: 56px;
+  height: 56px;
+  margin: 0;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.score{
+  display: block;
+  opacity: 0%;
+  transition: opacity 2.5s cubic-bezier(0.16, 1, 0.3, 1);
+
 }
 
 .button:before,
@@ -110,3 +145,11 @@ h2{
   transform: translateX(-56px);
 }
 
+.parent {
+  transition: transform 0.6s cubic-bezier(0.55, 0, 1, 0.45);
+  /* transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); */
+}
+
+.parent.moved {
+  transform: translateX(-80%); /* adjust how far left you want */
+}
