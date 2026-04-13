@@ -1,139 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style.css">
-    <link rel="stylesheet" href="../static/css/stars.css">
-    <title>Wally</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="../static/css/stars.css">
+  <title>Wally</title>
 </head>
 
 <body>
+  <div id="stars"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
+  <div class="parent">
+    <h1> Wally </h1>
+    <h2> A deep learning model to simulate Wavelength.</h2>
+    <button class="button">
+      <div class="button-box">
+        <span class="button-elem">
+          <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z">
+            </path>
+          </svg>
+        </span>
+        <span class="button-elem">
+          <svg viewBox="0 0 46 40">
+            <path
+              d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z">
+            </path>
+          </svg>
+        </span>
+      </div>
+    </button>
+  </div>
 
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-    <div class = "parent">
-        <h1> Wally </h1>
-        <h2> A deep learning model to simulate Wavelength.</h2>
-        <button class="button">
-        <div class="button-box">
-          <span class="button-elem">
-            <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
-              ></path>
-            </svg>
-          </span>
-          <span class="button-elem">
-            <svg viewBox="0 0 46 40">
-              <path
-                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
-              ></path>
-            </svg>
-          </span>
-        </div>
-      </button>
-    </div>
-    <div class = "game">
-      <div class = "parent">
-        <h1 class = "score"> . </h1>
-        <h2 class = "wordPair"> . </h2>
-        <h2> Please draw a word pair...</h3>
-        <button class = "drawbutton"> Draw </button>
+  <div class="game">
+    <div class="parent">
+      <div id="wheel-wrap">
+        <svg id="wally" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612.19 656.29">
+          <defs>
+            <style>
+            #wheel-wrap {
+              min-height: 250px;
+              min-width: 250px;
+            }
+              .cls-1 {
+                fill: #ffe07f
+              }
+
+              .cls-2 {
+                fill: #74c7a8
+              }
+
+              .cls-3 {
+                fill: #f2f6dc
+              }
+
+              .cls-4 {
+                fill: none;
+                stroke: #871518;
+                stroke-miterlimit: 10;
+                stroke-width: 4px
+              }
+
+              .cls-5 {
+                fill: #a4282c
+              }
+
+              .cls-6 {
+                fill: #150f28
+              }
+
+              .cls-7 {
+                fill: #01253e
+              }
+
+              .cls-8 {
+                fill: #e0e4df
+              }
+
+              .cls-9 {
+                fill: #f9a26b
+              }
+
+              .cls-10 {
+                fill: #f79757
+              }
+
+              .cls-11 {
+                fill: #9bced6
+              }
+            </style>
+          </defs>
+          <g id="inner_score">
+            <g>
+              <path class="cls-8"
+                d="M543.54,472.71c-6.4,7.4-25.56,2.44-32.54,8.99-7.12,6.69-3.37,26.11-11.02,31.91s-25.47-2.95-33.7,2.03c-8.32,5.03-8.73,24.81-17.45,28.9-8.79,4.12-24.26-8.22-33.38-5.07-9.17,3.17-13.69,22.44-23.09,24.63-9.44,2.2-22-13.09-31.6-11.89S343.28,571.32,333.61,571.52c-9.67.2-18.8-17.36-28.45-18.17s-21.56,14.98-31.09,13.16-14.76-20.87-24.06-23.68c-9.22-2.79-24.19,10.16-33.15,6.38-8.86-3.74-10.04-23.48-18.57-28.19-8.4-4.64-25.74,4.9-33.75-.69s-4.9-25.04-12.3-31.44-26.33-.66-32.89-7.63c-6.69-7.12.24-25.66-5.56-33.3-5.89-7.76-25.6-6.08-30.58-14.31s5.62-25,1.53-33.73c-4.12-8.79-23.75-11.27-26.91-20.39s10.72-23.26,8.53-32.66-20.88-15.94-22.08-25.53,15.31-20.51,15.11-30.19-17.14-19.9-16.33-29.55,19.22-16.88,21.03-26.41-12.64-23-9.83-32.3,22.3-12.47,26.08-21.44-7.57-25.11-2.86-33.64,24.4-7.5,29.99-15.51-2.2-26.09,4.2-33.5,25.56-2.44,32.54-8.99c7.12-6.69,3.37-26.11,11.02-31.91s25.47,2.95,33.7-2.03,8.73-24.81,17.45-28.9,24.26,8.22,33.38,5.07,13.69-22.44,23.09-24.63c9.44-2.2,22,13.09,31.6,11.89S311.94.2,321.61,0s18.8,17.36,28.45,18.17,21.56-14.98,31.09-13.16,14.76,20.87,24.06,23.68,24.19-10.16,33.15-6.38,10.04,23.48,18.57,28.19,25.74-4.9,33.75.69,4.9,25.04,12.3,31.44c7.4,6.4,26.33.66,32.89,7.63,6.69,7.12-.24,25.66,5.56,33.3,5.89,7.76,25.6,6.08,30.58,14.31,5.03,8.32-5.62,25-1.53,33.73s23.75,11.27,26.91,20.39-10.72,23.26-8.53,32.66c2.2,9.44,20.88,15.94,22.08,25.53,1.2,9.6-15.31,20.51-15.11,30.19s17.14,19.9,16.33,29.55-19.22,16.88-21.03,26.41,12.64,23,9.83,32.3-22.3,12.47-26.08,21.44,7.57,25.11,2.86,33.64-24.4,7.5-29.99,15.51c-5.48,7.85,2.2,26.09-4.2,33.5Z" />
+              <path class="cls-3" d="M334.63,60.07c-4.93-.07-9.85.01-14.77.26l11.58,225.51,3.2-225.77Z" />
+              <path class="cls-3" d="M378.63,65c-4.83-1.03-9.68-1.89-14.55-2.6l-32.64,223.44,47.19-220.84Z" />
+              <path class="cls-3" d="M319.86,60.33c-4.92.25-9.83.68-14.72,1.25l26.3,224.26-11.58-225.51Z" />
+              <path class="cls-3" d="M364.08,62.4c-4.88-.71-9.78-1.25-14.68-1.64l-17.96,225.08,32.64-223.44Z" />
+              <path class="cls-1" d="M392.97,68.56c-4.75-1.34-9.53-2.54-14.34-3.56l-47.19,220.84,61.53-217.28Z" />
+              <path class="cls-10" d="M459.52,99.91c-4.08-2.82-8.22-5.48-12.43-7.99l-115.65,193.92,128.08-185.93Z" />
+              <path class="cls-10" d="M447.09,91.92c-4.25-2.54-8.56-4.93-12.92-7.16l-102.73,201.08,115.65-193.92Z" />
+              <path class="cls-10" d="M434.17,84.75c-4.4-2.25-8.86-4.37-13.36-6.31l-89.37,207.4,102.73-201.08Z" />
+              <path class="cls-1" d="M420.81,78.44c-4.54-1.96-9.13-3.75-13.76-5.39l-75.61,212.79,89.37-207.4Z" />
+              <path class="cls-1" d="M407.05,73.05c-4.66-1.65-9.35-3.15-14.08-4.49l-61.53,217.28,75.61-212.79Z" />
+              <path class="cls-3" d="M163.83,134.6c-3.32,3.68-6.49,7.46-9.53,11.29l177.13,139.94-167.6-151.24Z" />
+              <path class="cls-3" d="M184.99,114c-3.72,3.18-7.35,6.51-10.9,9.97l157.35,161.87L184.99,114Z" />
+              <path class="cls-3" d="M196.54,104.78c-3.93,2.93-7.78,6-11.54,9.22l146.44,171.83L196.54,104.78Z" />
+              <path class="cls-3" d="M208.66,96.33c-4.11,2.67-8.16,5.49-12.12,8.45l134.9,181.06-122.78-189.51Z" />
+              <path class="cls-3" d="M174.09,123.97c-3.5,3.41-6.93,6.95-10.26,10.63l167.6,151.24L174.09,123.97Z" />
+              <path class="cls-11" d="M471.38,108.71c-3.89-3.08-7.84-6.02-11.87-8.8l-128.08,185.93,139.94-177.13Z" />
+              <path class="cls-3" d="M221.3,88.68c-4.28,2.4-8.5,4.95-12.64,7.65l122.78,189.51-110.14-197.15Z" />
+              <path class="cls-3" d="M247.98,76.01c-4.57,1.81-9.09,3.78-13.55,5.9l97,203.93-83.46-209.83Z" />
+              <path class="cls-3" d="M234.44,81.91c-4.44,2.11-8.82,4.36-13.13,6.77l110.14,197.15-97-203.93Z" />
+              <path class="cls-3" d="M276.09,66.92c-4.77,1.2-9.51,2.56-14.2,4.08l69.55,214.84-55.35-218.92Z" />
+              <path class="cls-3" d="M290.53,63.78c-4.84.89-9.66,1.93-14.44,3.14l55.35,218.92-40.91-222.06Z" />
+              <path class="cls-3" d="M305.14,61.58c-4.89.57-9.76,1.31-14.61,2.2l40.91,222.06-26.3-224.26Z" />
+              <path class="cls-3" d="M261.88,70.99c-4.68,1.51-9.31,3.19-13.9,5.01l83.46,209.83-69.55-214.84Z" />
+              <path class="cls-3" d="M349.39,60.76c-4.91-.39-9.84-.62-14.76-.69l-3.2,225.77,17.96-225.08Z" />
+              <path class="cls-3" d="M544.23,361.45c1.65-4.66,3.15-9.35,4.49-14.08l-217.28-61.53,212.79,75.61Z" />
+              <path class="cls-11" d="M482.67,118.23c-3.68-3.32-7.46-6.49-11.29-9.53l-139.94,177.13,151.24-167.6Z" />
+              <path class="cls-3" d="M552.28,333.03c1.03-4.83,1.89-9.68,2.6-14.55l-223.44-32.64,220.84,47.19Z" />
+              <path class="cls-3" d="M556.52,303.79c.39-4.91.62-9.84.69-14.76l-225.77-3.2,225.08,17.96Z" />
+              <path class="cls-3" d="M554.88,318.48c.71-4.88,1.25-9.78,1.64-14.68l-225.08-17.96,223.44,32.64Z" />
+              <path class="cls-3" d="M525.36,401.49c2.54-4.25,4.93-8.56,7.16-12.92l-201.08-102.73,193.92,115.65Z" />
+              <path class="cls-3" d="M517.37,413.92c2.82-4.08,5.48-8.22,7.99-12.43l-193.92-115.65,185.93,128.08Z" />
+              <path class="cls-3" d="M538.84,375.21c1.96-4.54,3.75-9.13,5.39-13.76l-212.79-75.61,207.4,89.37Z" />
+              <path class="cls-3" d="M508.57,425.78c3.08-3.89,6.02-7.84,8.8-11.87l-185.93-128.08,177.13,139.94Z" />
+              <path class="cls-3" d="M532.52,388.57c2.25-4.4,4.37-8.86,6.31-13.36l-207.4-89.37,201.08,102.73Z" />
+              <path class="cls-3" d="M557.21,289.03c.07-4.93-.01-9.85-.26-14.77l-225.51,11.58,225.77,3.2Z" />
+              <path class="cls-3" d="M548.72,347.37c1.34-4.75,2.54-9.53,3.56-14.34l-220.84-47.19,217.28,61.53Z" />
+              <path class="cls-9" d="M520.95,163.06c-2.67-4.11-5.49-8.16-8.45-12.12l-181.06,134.9,189.51-122.78Z" />
+              <path class="cls-9" d="M512.5,150.94c-2.93-3.93-6-7.78-9.22-11.54l-171.83,146.44,181.06-134.9Z" />
+              <path class="cls-3" d="M556.95,274.26c-.25-4.92-.68-9.83-1.25-14.72l-224.26,26.3,225.51-11.58Z" />
+              <path class="cls-11" d="M493.31,128.49c-3.41-3.5-6.95-6.93-10.63-10.26l-151.24,167.6,161.87-157.35Z" />
+              <path class="cls-9" d="M503.27,139.39c-3.18-3.72-6.51-7.35-9.97-10.9l-161.87,157.35,171.83-146.44Z" />
+              <path class="cls-3" d="M553.5,244.93c-.89-4.84-1.93-9.66-3.14-14.44l-218.92,55.35,222.06-40.91Z" />
+              <path class="cls-3" d="M555.7,259.54c-.57-4.89-1.31-9.76-2.2-14.61l-222.06,40.91,224.26-26.3Z" />
+              <path class="cls-3" d="M550.36,230.49c-1.2-4.77-2.56-9.51-4.08-14.2l-214.84,69.55,218.92-55.35Z" />
+              <g>
+                <path class="cls-1" d="M528.59,175.7c-2.4-4.28-4.95-8.5-7.65-12.64l-189.51,122.78,197.15-110.14Z" />
+                <path class="cls-1" d="M535.37,188.84c-2.11-4.44-4.36-8.82-6.77-13.13l-197.15,110.14,203.93-97Z" />
+                <path class="cls-1" d="M541.27,202.38c-1.81-4.57-3.78-9.09-5.9-13.55l-203.93,97,209.83-83.46Z" />
+              </g>
+              <path class="cls-3" d="M546.28,216.28c-1.51-4.68-3.19-9.31-5.01-13.9l-209.83,83.46,214.84-69.55Z" />
+              <path class="cls-3" d="M269.91,503.12c4.75,1.34,9.53,2.54,14.34,3.56l47.19-220.84-61.53,217.28Z" />
+              <path class="cls-3" d="M298.8,509.28c4.88.71,9.78,1.25,14.68,1.64l17.96-225.08-32.64,223.44Z" />
+              <path class="cls-3" d="M284.25,506.68c4.83,1.03,9.68,1.89,14.55,2.6l32.64-223.44-47.19,220.84Z" />
+              <path class="cls-3" d="M313.48,510.92c4.91.39,9.84.62,14.76.69l3.2-225.77-17.96,225.08Z" />
+              <path class="cls-3" d="M357.74,510.1c4.89-.57,9.76-1.31,14.61-2.2l-40.91-222.06,26.3,224.26Z" />
+              <path class="cls-3" d="M343.02,511.35c4.92-.25,9.83-.68,14.72-1.25l-26.3-224.26,11.58,225.51Z" />
+              <path class="cls-3" d="M328.24,511.61c4.93.07,9.85-.01,14.77-.26l-11.58-225.51-3.2,225.77Z" />
+              <path class="cls-3" d="M203.36,471.77c4.08,2.82,8.22,5.48,12.43,7.99l115.65-193.92-128.08,185.93Z" />
+              <path class="cls-3" d="M215.79,479.76c4.25,2.54,8.56,4.93,12.92,7.16l102.73-201.08-115.65,193.92Z" />
+              <path class="cls-3" d="M228.71,486.92c4.4,2.25,8.86,4.37,13.36,6.31l89.37-207.4-102.73,201.08Z" />
+              <path class="cls-3" d="M255.83,498.63c4.65,1.65,9.35,3.15,14.08,4.49l61.53-217.28-75.61,212.79Z" />
+              <path class="cls-3" d="M242.07,493.24c4.54,1.96,9.13,3.75,13.76,5.39l75.61-212.79-89.37,207.4Z" />
+              <path class="cls-3" d="M372.35,507.9c4.84-.89,9.66-1.93,14.44-3.14l-55.35-218.92,40.91,222.06Z" />
+              <path class="cls-3" d="M454.22,475.35c4.11-2.67,8.16-5.49,12.12-8.45l-134.9-181.06,122.78,189.51Z" />
+              <path class="cls-3" d="M477.88,457.67c3.72-3.18,7.35-6.51,10.9-9.97l-157.35-161.87,146.44,171.83Z" />
+              <path class="cls-3" d="M466.34,466.9c3.93-2.93,7.78-6,11.54-9.22l-146.44-171.83,134.9,181.06Z" />
+              <path class="cls-3" d="M488.79,447.71c3.5-3.41,6.93-6.95,10.26-10.63l-167.6-151.24,157.35,161.87Z" />
+              <path class="cls-3" d="M331.44,285.84l167.6,151.24c3.32-3.68,6.49-7.46,9.53-11.29l-177.13-139.94Z" />
+              <path class="cls-3" d="M414.89,495.67c4.57-1.81,9.09-3.78,13.55-5.9l-97-203.93,83.46,209.83Z" />
+              <path class="cls-3" d="M441.57,482.99c4.28-2.4,8.5-4.95,12.64-7.65l-122.78-189.51,110.14,197.15Z" />
+              <path class="cls-3" d="M400.99,500.68c4.68-1.51,9.31-3.19,13.9-5.01l-83.46-209.83,69.55,214.84Z" />
+              <path class="cls-3" d="M386.79,504.76c4.77-1.2,9.51-2.56,14.2-4.08l-69.55-214.84,55.35,218.92Z" />
+              <path class="cls-3" d="M191.49,462.97c3.89,3.08,7.84,6.02,11.87,8.8l128.08-185.93-139.94,177.13Z" />
+              <path class="cls-3" d="M428.44,489.77c4.44-2.11,8.82-4.36,13.13-6.77l-110.14-197.15,97,203.93Z" />
+              <path class="cls-3" d="M105.67,282.64c-.07,4.93.01,9.85.26,14.77l225.51-11.58-225.77-3.2Z" />
+              <path class="cls-3" d="M114.16,224.31c-1.34,4.75-2.54,9.53-3.56,14.34l220.84,47.19-217.28-61.53Z" />
+              <path class="cls-3" d="M110.6,238.65c-1.03,4.83-1.89,9.68-2.6,14.55l223.44,32.64-220.84-47.19Z" />
+              <path class="cls-3" d="M108,253.2c-.71,4.88-1.25,9.78-1.64,14.68l225.08,17.96-223.44-32.64Z" />
+              <path class="cls-3" d="M105.93,297.42c.25,4.92.68,9.83,1.25,14.72l224.26-26.3-225.51,11.58Z" />
+              <path class="cls-3" d="M154.31,145.89c-3.08,3.89-6.02,7.84-8.8,11.87l185.93,128.08-177.13-139.94Z" />
+              <path class="cls-3" d="M106.36,267.88c-.39,4.91-.62,9.84-.69,14.76l225.77,3.2-225.08-17.96Z" />
+              <path class="cls-3" d="M137.52,170.19c-2.54,4.25-4.93,8.56-7.16,12.92l201.08,102.73-193.92-115.65Z" />
+              <path class="cls-3" d="M145.51,157.76c-2.82,4.08-5.48,8.22-7.99,12.43l193.92,115.65-185.93-128.08Z" />
+              <path class="cls-3" d="M118.65,210.23c-1.65,4.66-3.15,9.35-4.49,14.08l217.28,61.53-212.79-75.61Z" />
+              <path class="cls-3" d="M130.35,183.11c-2.25,4.4-4.37,8.86-6.31,13.36l207.4,89.37-201.08-102.73Z" />
+              <path class="cls-3" d="M124.04,196.47c-1.96,4.54-3.75,9.13-5.39,13.76l212.79,75.61-207.4-89.37Z" />
+              <path class="cls-3" d="M169.57,443.19c3.41,3.5,6.95,6.93,10.63,10.26l151.24-167.6-161.87,157.35Z" />
+              <path class="cls-3" d="M150.38,420.74c2.93,3.93,6,7.78,9.22,11.54l171.83-146.44-181.06,134.9Z" />
+              <path class="cls-3" d="M141.93,408.62c2.67,4.11,5.49,8.16,8.45,12.12l181.06-134.9-189.51,122.78Z" />
+              <path class="cls-3" d="M180.2,453.44c3.68,3.32,7.46,6.49,11.29,9.53l139.94-177.13-151.24,167.6Z" />
+              <path class="cls-3" d="M134.28,395.97c2.4,4.28,4.95,8.5,7.65,12.64l189.51-122.78-197.15,110.14Z" />
+              <path class="cls-3" d="M159.6,432.28c3.18,3.72,6.51,7.35,9.97,10.9l161.87-157.35-171.83,146.44Z" />
+              <path class="cls-3" d="M116.59,355.39c1.51,4.68,3.19,9.31,5.01,13.9l209.83-83.46-214.84,69.55Z" />
+              <path class="cls-3" d="M112.52,341.19c1.2,4.77,2.56,9.51,4.08,14.2l214.84-69.55-218.92,55.35Z" />
+              <path class="cls-3" d="M109.38,326.75c.89,4.84,1.93,9.66,3.14,14.44l218.92-55.35-222.06,40.91Z" />
+              <path class="cls-3" d="M127.51,382.84c2.11,4.44,4.36,8.82,6.77,13.13l197.15-110.14-203.93,97Z" />
+              <path class="cls-3" d="M121.61,369.29c1.81,4.57,3.78,9.09,5.9,13.55l203.93-97-209.83,83.46Z" />
+              <path class="cls-3" d="M107.18,312.14c.57,4.89,1.31,9.76,2.2,14.61l222.06-40.91-224.26,26.3Z" />
+            </g>
+          </g>
+          <g id="inner_cover">
+            <path class="cls-2"
+              d="M556.24,262.91c-.98,160.59-115.14,246.76-228.09,246.74s-228.76-83.02-229.7-243.52c76.29,16.85,154.48,16.91,229.72,17.02s151.6-2.97,228.07-20.23Z" />
+          </g>
+          <g id="outer">
+            <g>
+              <path class="cls-7"
+                d="M328.18,24.64c-142.77,0-258.5,115.73-258.5,258.5s115.73,258.5,258.5,258.5,258.5-115.73,258.5-258.5S470.94,24.64,328.18,24.64ZM539.5,293.9h0s-.05,0-.07,0c-5.42,0-9.99-2.9-11.54-8.1l-3.2-10.77c-1.67-3.28-5.14-5.24-8.81-4.98l-187.7,13.09-187.7-13.09c-3.67-.26-7.14,1.7-8.81,4.98l-3.2,10.77c-1.55,5.2-6.12,8.09-11.54,8.1-.02,0-.05,0-.07,0h0c-5.6,0-10.09-4.66-9.85-10.26,5.29-118.69,101.72-222.98,221.17-222.98s215.88,104.29,221.17,222.98c.25,5.59-4.25,10.26-9.85,10.26Z" />
+              <path class="cls-7"
+                d="M430.06,476.17c-1.49-3.88-5.21-6.44-9.37-6.44h-192.27c-4.15,0-7.88,2.56-9.37,6.44l-63.79,166.51c-2.52,6.57,2.33,13.62,9.37,13.62h319.85c7.03,0,11.88-7.05,9.37-13.62l-63.79-166.51Z" />
+            </g>
+            <g>
+              <path class="cls-6"
+                d="M328.18,24.64c-142.77,0-258.5,115.73-258.5,258.5s115.73,258.5,258.5,258.5,258.5-115.73,258.5-258.5S470.94,24.64,328.18,24.64ZM539.5,293.9h0s-.05,0-.07,0c-5.42,0-9.99-2.9-11.54-8.1l-3.2-10.77c-1.67-3.28-5.14-5.24-8.81-4.98l-187.7,13.09-187.7-13.09c-3.67-.26-7.14,1.7-8.81,4.98l-3.2,10.77c-1.55,5.2-6.12,8.09-11.54,8.1-.02,0-.05,0-.07,0h0c-5.6,0-10.09-4.66-9.85-10.26,5.29-118.69,101.72-222.98,221.17-222.98s215.88,104.29,221.17,222.98c.25,5.59-4.25,10.26-9.85,10.26Z" />
+              <path class="cls-6"
+                d="M430.06,476.17c-1.49-3.88-5.21-6.44-9.37-6.44h-192.27c-4.15,0-7.88,2.56-9.37,6.44l-63.79,166.51c-2.52,6.57,2.33,13.62,9.37,13.62h319.85c7.03,0,11.88-7.05,9.37-13.62l-63.79-166.51Z" />
+            </g>
+          </g>
+          <g id="dial">
+            <g>
+              <path class="cls-5"
+                d="M334.14,242.8l-1.83-144.1h-.02c-.2-4.5-1.86-5.74-3.88-5.74s-3.67,1.24-3.88,5.74h-.02l-2.28,144.1c-19.7,2.88-34.83,19.84-34.83,40.34,0,22.52,18.26,40.78,40.78,40.78s40.78-18.26,40.78-40.78c0-20.5-15.13-37.46-34.82-40.34Z" />
+              <circle class="cls-4" cx="328.18" cy="283.14" r="30" />
+            </g>
+          </g>
+          <g id="handle">
+            <path class="cls-2"
+              d="M117.62,272.85v-.05s-1.12-.13-1.12-.13h0s-105.78-11.91-105.78-11.91c-5.13-.58-10.07,2.45-10.66,6.81-.59,4.35,3.38,8.39,8.51,8.96l106.91,12.04v-.05c5.42.19,10.32-2.66,10.87-6.74.55-4.07-3.43-7.92-8.73-8.94Z" />
+          </g>
+        </svg>
+      </div>
+
+      <h2 class="score"> . </h2>
+      <h2 class="wordPair"> . </h2>
+      <h2> Please draw a word pair...</h3>
+        <button class="drawbutton"> Draw </button>
         <input type="text">
         <button onclick="predict()">Predict</button>
-      </div>
     </div>
-    <script>
+  </div>
 
-      const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-      const wordPairs = [
-          ["Cold", "Hot"],
-          ["Dark", "Light"],
-          ["Quiet place", "Loud place"],
-          ["Colorless", "Colorful"],
-          ["Soft", "Hard"],
-          ["Low calorie", "High calorie"],
-          ["Hygenic", "Unhygenic"],
-          ["Happens slowly", "Happens suddenly"],
-          ["Temporary", "Permanent"],
-          ["Mental activity", "Physical activity"],
-          ["Square", "Round"],
-          ["Snack", "Meal"],
-          ["Tiny", "Huge"],
-          ["Messy food", "Clean food"],
-          ["Dangerous Job", "Safe Job"],
-          ["Childish", "Mature"],
-          ["Bad habit", "Good habit"],
-          ["Underpaid", "Overpaid"],
-          ["Boring", "Exciting"],
-          ["Useless major", "Useful major"],
-          ["Small talk", "Heavy topic"],
-          ["Niche fandom", "Mainstream fandom"],
-          ["Unpopular activity", "Popular activity"],
-          ["Nobody does it", "Everybody does it"],
-          ["Bad", "Good"],
-          ["Easy to use", "Difficult to use"],
-          ["Relaxing activity", "Stressful activity"],
-          ["Smells bad", "Smells good"],
-          ["Easy to spell", "Hard to spell"],
-          ["Easy subject", "Hard subject"],
-        ];
+  
 
-        var chosenPair;
+  <div class="score-display">
+    <div class="num" id="score-num">50</div>
+    <div class="lbl">score</div>
+  </div>
+  <div class="controls">
+    <div class="ctrl-row">
+      <label>Score</label>
+      <input type="range" min="0" max="100" value="50" step="1" id="score-slider">
+      <span class="val" id="score-val">50</span>
+    </div>
+    <div class="ctrl-row">
+      <label>Spin speed</label>
+      <input type="range" min="0" max="5" value="1" step="0.5" id="speed-slider">
+      <span class="val" id="speed-val">1x</span>
+    </div>
+    <div class="btn-row">
+      <button id="btn-rand">Random score</button>
+      <button id="btn-stop">Pause spin</button>
+    </div>
+  </div>
 
-        let guess = document.querySelector('input');
-        guess.addEventListener('input', function() {
-          console.log(guess.value);
+
+  <script>
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+    const wordPairs = [
+      ["Cold", "Hot"],
+      ["Dark", "Light"],
+      ["Quiet place", "Loud place"],
+      ["Colorless", "Colorful"],
+      ["Soft", "Hard"],
+      ["Low calorie", "High calorie"],
+      ["Hygenic", "Unhygenic"],
+      ["Happens slowly", "Happens suddenly"],
+      ["Temporary", "Permanent"],
+      ["Mental activity", "Physical activity"],
+      ["Square", "Round"],
+      ["Snack", "Meal"],
+      ["Tiny", "Huge"],
+      ["Messy food", "Clean food"],
+      ["Dangerous Job", "Safe Job"],
+      ["Childish", "Mature"],
+      ["Bad habit", "Good habit"],
+      ["Underpaid", "Overpaid"],
+      ["Boring", "Exciting"],
+      ["Useless major", "Useful major"],
+      ["Small talk", "Heavy topic"],
+      ["Niche fandom", "Mainstream fandom"],
+      ["Unpopular activity", "Popular activity"],
+      ["Nobody does it", "Everybody does it"],
+      ["Bad", "Good"],
+      ["Easy to use", "Difficult to use"],
+      ["Relaxing activity", "Stressful activity"],
+      ["Smells bad", "Smells good"],
+      ["Easy to spell", "Hard to spell"],
+      ["Easy subject", "Hard subject"],
+    ];
+
+    var chosenPair;
+
+    let guess = document.querySelector('input');
+    guess.addEventListener('input', function () {
+      console.log(guess.value);
+    });
+
+    document.querySelector('.button').addEventListener('click', async function () {
+      document.querySelector('.parent').classList.toggle('moved');
+      await sleep(1000);
+      const game = document.querySelector('.game');
+      game.style.display = 'block';
+      setTimeout(() => game.style.opacity = '1', 100);
+    });
+
+    function randomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    document.querySelector('.drawbutton').addEventListener('click', function () {
+      const wordPair = document.querySelector('.wordPair');
+      wordPair.style.transition = 'none';
+      wordPair.style.opacity = '0';
+      chosenPair = wordPairs[randomInt(0, wordPairs.length)];
+      wordPair.textContent = chosenPair[0] + " / " + chosenPair[1];
+      wordPair.getBoundingClientRect();
+      wordPair.style.transition = 'opacity 0.3s ease';
+      wordPair.style.opacity = '1';
+    });
+
+    function predict() {
+      fetch('/predict_route', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          left: chosenPair[0],
+          right: chosenPair[1],
+          guess: guess.value,
+        })
+      })
+        .then(res => res.json())
+        .then(data => {
+          console.log(data);
+          document.querySelector('.score').textContent = data.score;
+          document.querySelector('.score').getBoundingClientRect();
+          document.querySelector('.score').style.transition = 'opacity 0.3s ease';
+          document.querySelector('.score').style.opacity = '1';
         });
+    }
 
-        document.querySelector('.button').addEventListener('click', async function() {
-          document.querySelector('.parent').classList.toggle('moved');
-          await sleep(1000);
-          const game = document.querySelector('.game');
-          game.style.display = 'block';
-          setTimeout(() => game.style.opacity = '1', 100);
-        });
-        
-        function randomInt(min, max) {
-          return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
+  </script>
 
-        document.querySelector('.drawbutton').addEventListener('click', function() {
-          const wordPair = document.querySelector('.wordPair');
-          wordPair.style.transition = 'none';
-          wordPair.style.opacity = '0';
-          chosenPair = wordPairs[randomInt(0, wordPairs.length)];
-          wordPair.textContent = chosenPair[0] + " / " + chosenPair[1];
-          wordPair.getBoundingClientRect();
-          wordPair.style.transition = 'opacity 0.3s ease';
-          wordPair.style.opacity = '1';
-        });
-
-        function predict() {
-            fetch('/predict_route', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    left: chosenPair[0],
-                    right: chosenPair[1],
-                    guess: guess.value,
-                })
-            })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                document.querySelector('.score').textContent = data.score;
-                document.querySelector('.score').getBoundingClientRect();
-                document.querySelector('.score').style.transition = 'opacity 0.3s ease';
-                document.querySelector('.score').style.opacity = '1';
-            });
-        }
-
-    </script>
+ <script src="../static/js/wheel.js"></script>
 
 
 </body>

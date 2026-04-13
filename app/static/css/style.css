@@ -157,5 +157,5 @@ h3{
 }
 
 .parent.moved {
-  transform: translateX(-80%); /* adjust how far left you want */
+  transform: translateX(-100%); /* adjust how far left you want */
 }

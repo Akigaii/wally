@@ -1,0 +1,84 @@
+ #wheel-wrap {
+      width: 340px;
+    }
+ 
+    #wally {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+ 
+    #inner_score {
+      transform-origin: 328.18px 283.14px;
+      transform-box: view-box;
+    }
+ 
+    #dial {
+      transform-origin: 328.18px 283.14px;
+      transform-box: view-box;
+    }
+ 
+    .controls {
+      width: 340px;
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+ 
+    .ctrl-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+ 
+    .ctrl-row label {
+      font-size: 14px;
+      min-width: 80px;
+      color: #555;
+    }
+ 
+    .ctrl-row input[type=range] {
+      flex: 1;
+    }
+ 
+    .ctrl-row .val {
+      font-size: 14px;
+      font-weight: bold;
+      min-width: 36px;
+      text-align: right;
+    }
+ 
+    .score-display {
+      text-align: center;
+      margin: 0.5rem 0;
+    }
+ 
+    .score-display .num {
+      font-size: 32px;
+      font-weight: bold;
+    }
+ 
+    .score-display .lbl {
+      font-size: 13px;
+      color: #888;
+    }
+ 
+    .btn-row {
+      display: flex;
+      gap: 8px;
+    }
+ 
+    .btn-row button {
+      flex: 1;
+      padding: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background: white;
+    }
+ 
+    .btn-row button:hover {
+      background: #eee;
+    }
