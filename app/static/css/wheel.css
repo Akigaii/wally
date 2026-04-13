@@ -10,6 +10,8 @@
 
  
     .controls {
+      display: block;
+      position: absolute;
       width: 340px;
       margin-top: 1rem;
       display: flex;
@@ -72,4 +74,32 @@
  
     .btn-row button:hover {
       background: #eee;
+    }
+
+    .handle-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+ 
+    .handle-row label {
+      font-size: 14px;
+      min-width: 80px;
+      color: #555;
+    }
+ 
+    .handle-row input[type=range] {
+      flex: 1;
+    }
+ 
+    .handle-row .val {
+      font-size: 14px;
+      font-weight: bold;
+      min-width: 36px;
+      text-align: right;
+    }
+ 
+    .score-display {
+      text-align: center;
+      margin: 0.5rem 0;
     }
