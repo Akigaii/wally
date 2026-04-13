@@ -7,16 +7,7 @@
       height: auto;
       display: block;
     }
- 
-    #inner_score {
-      transform-origin: 328.18px 283.14px;
-      transform-box: view-box;
-    }
- 
-    #dial {
-      transform-origin: 328.18px 283.14px;
-      transform-box: view-box;
-    }
+
  
     .controls {
       width: 340px;

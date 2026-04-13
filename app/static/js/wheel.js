@@ -38,10 +38,10 @@ function animate(ts) {
     if (spinning) {
     spinDeg = (spinDeg + speed * 30 * dt) % 360;
     }
-    innerScore.style.transform = `rotate(${spinDeg}deg)`;
+    innerScore.setAttribute('transform', `rotate(${spinDeg}, 328.18, 283.14)`);
 
     currentAngle = lerp(currentAngle, targetAngle, Math.min(dt * 5, 1));
-    dial.style.transform = `rotate(${currentAngle}deg)`;
+    dial.setAttribute('transform', `rotate(${currentAngle}, 328.18, 283.14)`);
 
     requestAnimationFrame(animate);
 }
