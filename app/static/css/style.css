@@ -2,6 +2,7 @@
 
 body{
     background-color: rgb(18, 18, 27);
+    color: white;
 }
 
 h1{
@@ -157,5 +158,15 @@ h3{
 }
 
 .parent.moved {
-  transform: translateX(-100%); /* adjust how far left you want */
+  transform: translateX(-100%); 
+}
+
+.debugs {
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  width: 300px;
+  height: 150px;
+  background: rgb(39, 38, 38);
+  opacity: 50%;
 }

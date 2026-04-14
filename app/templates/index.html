@@ -24,17 +24,14 @@
       {% include 'partials/wheel.html' %}
       <h2 class="score"> . </h2>
       <h2 class="wordPair"> . </h2>
-      <h2> Please draw a word pair...</h3>
-        <button class="drawbutton"> Draw </button>
+      <!-- <h2> Please draw a word pair...</h3> -->
+        <button class="drawbutton"> Please draw a word pair... </button>
         <input type="text">
         <button onclick="predict()">Predict</button>
     </div>
   </div>
   
-  <div class="score-display">
-    <div class="num" id="score-num">50</div>
-    <div class="lbl">score</div>
-  </div>
+  <div class = "debugs">
   <div class="controls">
     <div class="ctrl-row">
       <label>Score</label>
@@ -54,6 +51,7 @@
       <label>handle</label>
       <input type="range" min="50" max="150" value="50" step="1" id="handle-slider">
       <span class="val" id="handle-val">0</span>
+    </div>
     </div>
   </div>
 

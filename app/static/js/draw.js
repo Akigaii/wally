@@ -87,6 +87,17 @@ const wordPairs = [
 ];
 
 document.querySelector('.drawbutton').addEventListener('click', async function () {
+
+    const score = document.querySelector('.score');
+    score.textContent = " ";
+    score.getBoundingClientRect();
+
+    const dial = document.getElementById('dial');
+    const ORIGIN = "328.18px 283.14px";
+    dial.style.transformOrigin = ORIGIN;
+    dial.style.transition = "transform 1s ease-in-out";
+    dial.style.transform = `rotate(0deg)`;
+    dial.getBoundingClientRect();
     
     const wordPair = document.querySelector('.wordPair');
     chosenPair = wordPairs[randomInt(0, wordPairs.length)];
@@ -95,9 +106,10 @@ document.querySelector('.drawbutton').addEventListener('click', async function (
     fadeIn(wordPair);
     fadeOut(wordPair);
     
-    await hideWheel(true);
+    hideWheel(true);
     await new Promise(resolve => setTimeout(resolve, 1000));
     await randomizeWheel();
     hideWheel(false);
+
 
 });
