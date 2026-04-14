@@ -11,14 +11,13 @@ const handle = document.getElementById('handle');
 const handleSlider = document.getElementById('handle-slider');
 const innerCover = document.getElementById('inner_cover');
 
-
 let currentAngle = 0;
 let targetDialAngle = 0;
 let handleAngle = 0;
 let targetHandleAngle = 0;
 let spinDeg = 0;
 let speed = 1;
-let spinning = true;
+let spinning = false;
 let lastTime = null;
 
 function scoreToAngle(s) {
