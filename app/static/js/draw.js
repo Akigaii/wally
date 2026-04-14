@@ -2,6 +2,10 @@ function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+function angleToScore(angle) {
+    return (angle + 90) / 180 * 100;
+}
+
 async function fadeIn(div) {
     div.getBoundingClientRect();
     div.style.transition = 'none';
@@ -38,7 +42,7 @@ async function randomizeWheel() {
     innerScore.getBoundingClientRect();
 
     innerScore.style.transformOrigin = ORIGIN;
-    innerScore.style.transition = "none";
+    innerScore.style.transition = "transform 0.1s ease-in-out";
     innerScore.style.transform = `rotate(${START_ANGLE}deg)`;
 
     innerScore.getBoundingClientRect();
@@ -49,6 +53,13 @@ async function randomizeWheel() {
 
     innerScore.style.transition = `transform ${delay}s ease-in-out`;
     innerScore.style.transform = `rotate(${START_ANGLE + validRange + numOfSpins}deg)`;
+
+    let trueScore = Math.round(angleToScore(validRange) * 100) / 100;
+
+    document.getElementById("true-score").textContent = `True Score: ${trueScore}`;
+    document.getElementById("blue-range").textContent = `Blue Range: ${trueScore - 3}-${trueScore + 3}`;
+    document.getElementById("orange-range").textContent = `Orange Range: ${trueScore - 9}-${trueScore + 9}`;
+    document.getElementById("yellow-range").textContent = `Yellow Range: ${trueScore - 15}-${trueScore + 15}`;
 
     await new Promise(resolve => setTimeout(resolve, delay * 1000));
 }

@@ -2,10 +2,6 @@ function scoreToAngle(score) {
     return -90 + (score / 100) * 180;
 }
 
-function trueScore(angle) {
-
-}
-
 
 
 async function predict() {
@@ -35,6 +31,8 @@ async function predict() {
     dial.style.transformOrigin = ORIGIN;
     dial.style.transition = "transform 1s ease-in-out";
     dial.style.transform = `rotate(${scoreToAngle(data.score)}deg)`;
+
+    document.getElementById("pred-score").textContent = `Predicted Score: ${data.score}`;
 
 }
 
