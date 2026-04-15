@@ -1,13 +1,13 @@
-function fadeIn(div) {
+function fadeIn(div, time) {
     div.getBoundingClientRect();
-    div.style.transition = 'none';
-    div.style.opacity = '0';
+    div.style.transition = `opacity ${time}s ease`;
+    div.style.opacity = '1';
 }
 
-function fadeOut(div) {
+function fadeOut(div, time) {
     div.getBoundingClientRect();
-    div.style.transition = 'opacity 0.3s ease';
-    div.style.opacity = '1';
+    div.style.transition = `opacity ${time}s ease`;
+    div.style.opacity = '0';
 }
 
 function hideWheel(hidden) {
@@ -17,11 +17,11 @@ function hideWheel(hidden) {
     innerCover.getBoundingClientRect();
     handle.getBoundingClientRect();
 
-    innerCover.style.transformOrigin = "328.18px 283.14px";
+    innerCover.style.transformOrigin = ORIGIN;
     innerCover.style.transition = "transform 1s ease-in-out";
     innerCover.style.transform = (hidden == true) ? "rotate(180deg)" : "rotate(0deg)";
 
-    handle.style.transformOrigin = "328.18px 283.14px";
+    handle.style.transformOrigin = ORIGIN;
     handle.style.transition = "transform 1s ease-in-out";
     handle.style.transform = (hidden == true) ? "rotate(180deg)" : "rotate(0deg)";
 }
@@ -29,17 +29,14 @@ function hideWheel(hidden) {
 async function randomizeWheel() {
     const innerScore = document.getElementById('inner_score');
 
-    innerScore.getBoundingClientRect();
-
     innerScore.style.transformOrigin = ORIGIN;
     innerScore.style.transition = "transform 0.1s ease-in-out";
     innerScore.style.transform = `rotate(${START_ANGLE}deg)`;
-
     innerScore.getBoundingClientRect();
 
     let delay = randomInt(2, 4);
     let validRange = randomInt(-80, 80);
-    let numOfSpins = 360 * randomInt(1, 4);
+    let numOfSpins = 360 * randomInt(1  , 4);
 
     innerScore.style.transition = `transform ${delay}s ease-in-out`;
     innerScore.style.transform = `rotate(${START_ANGLE + validRange + numOfSpins}deg)`;
@@ -64,43 +61,43 @@ async function randomizeWheel() {
 
 document.querySelector('.draw-button').addEventListener('click', async function () {
 
+    // Clear the score header.
     const score = document.querySelector('.score');
     score.textContent = "&nbsp";
     score.getBoundingClientRect();
 
+    // Reset the dial to middle.
     const dial = document.getElementById('dial');
     dial.style.transformOrigin = ORIGIN;
     dial.style.transition = "transform 1s ease-in-out";
     dial.style.transform = `rotate(0deg)`;
     dial.getBoundingClientRect();
 
+    // Make draw button disappear.
     const drawButton = document.querySelector('.draw-button');
-    drawButton.style.transition = "opacity 1s ease-in-out";
-    drawButton.style.opacity = "0%";
+    fadeOut(drawButton, 1);
     drawButton.disabled = true;
-    drawButton.getBoundingClientRect();
 
-    const input = document.querySelector('.input-text');
-    input.style.transition = "opacity 1s ease-in-out";
-    input.style.opacity = "100%";
-    input.getBoundingClientRect();
-
-    const predict  = document.querySelector('.predict-button');
-    predict.style.transition = "opacity 1s ease-in-out";
-    predict.style.opacity = "100%";
-    predict.getBoundingClientRect();
-
+    // Generate a random word pair.
     const wordPair = document.querySelector('.wordPair');
     chosenPair = WORD_PAIRS[randomInt(0, WORD_PAIRS.length - 1)];
     wordPair.textContent = chosenPair[0] + " / " + chosenPair[1];
+    fadeIn(wordPair, 0.3);
+    await sleep(1000);
 
-    fadeIn(wordPair);
-    fadeOut(wordPair);
-    
+    // Randomize the wheel.
     hideWheel(true);
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await sleep(1000);
     await randomizeWheel();
     hideWheel(false);
+
+    // Make input text appear.
+    const input = document.querySelector('.input-text');
+    fadeIn(input, 1);
+
+    // Make predict button appear.
+    const predict  = document.querySelector('.predict-button');
+    fadeIn(predict, 1);
 
 });
 
