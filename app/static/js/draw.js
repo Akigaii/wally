@@ -1,16 +1,16 @@
-async function fadeIn(div) {
+function fadeIn(div) {
     div.getBoundingClientRect();
     div.style.transition = 'none';
     div.style.opacity = '0';
 }
 
-async function fadeOut(div) {
+function fadeOut(div) {
     div.getBoundingClientRect();
     div.style.transition = 'opacity 0.3s ease';
     div.style.opacity = '1';
 }
 
-async function hideWheel(hidden) {
+function hideWheel(hidden) {
     const handle = document.getElementById('handle');
     const innerCover = document.getElementById('inner_cover');
    
@@ -28,8 +28,6 @@ async function hideWheel(hidden) {
 
 async function randomizeWheel() {
     const innerScore = document.getElementById('inner_score');
-    const ORIGIN = "328.18px 283.14px";
-    const START_ANGLE = -42.25;
 
     innerScore.getBoundingClientRect();
 
@@ -46,12 +44,19 @@ async function randomizeWheel() {
     innerScore.style.transition = `transform ${delay}s ease-in-out`;
     innerScore.style.transform = `rotate(${START_ANGLE + validRange + numOfSpins}deg)`;
 
-    let trueScore = +angleToScore(validRange).toFixed(2);
+    trueScore = +angleToScore(validRange).toFixed(2);
+
+    blueRange[0] = trueScore - 3;
+    blueRange[1] = trueScore + 3;
+    orangeRange[0] = trueScore - 9;
+    orangeRange[1] = trueScore + 9;
+    yellowRange[0] = trueScore - 15;
+    yellowRange[1] = trueScore + 15;
 
     document.getElementById("true-score").textContent = `True Score: ${trueScore}`;
-    document.getElementById("blue-range").textContent = `Blue Range: ${trueScore - 3}-${trueScore + 3}`;
-    document.getElementById("orange-range").textContent = `Orange Range: ${trueScore - 9}-${trueScore + 9}`;
-    document.getElementById("yellow-range").textContent = `Yellow Range: ${trueScore - 15}-${trueScore + 15}`;
+    document.getElementById("blue-range").textContent = `Blue Range: ${blueRange[0]}-${blueRange[1]}`;
+    document.getElementById("orange-range").textContent = `Orange Range: ${orangeRange[0]}-${orangeRange[1]}`;
+    document.getElementById("yellow-range").textContent = `Yellow Range: ${yellowRange[0]}-${yellowRange[1]}`;
 
     await new Promise(resolve => setTimeout(resolve, delay * 1000));
 }

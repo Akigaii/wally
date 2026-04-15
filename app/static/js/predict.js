@@ -12,12 +12,6 @@ async function predict() {
     const data = await res.json();
     console.log(data);
 
-    const scoreEl = document.querySelector('.score');
-    scoreEl.textContent = data.score;
-    scoreEl.getBoundingClientRect()
-    scoreEl.style.transition = 'opacity 0.3s ease';
-    scoreEl.style.opacity = '1';
-
     const dial = document.getElementById('dial');
     dial.getBoundingClientRect();
     dial.style.transformOrigin = ORIGIN;
@@ -25,6 +19,10 @@ async function predict() {
     dial.style.transform = `rotate(${scoreToAngle(data.score)}deg)`;
 
     document.getElementById("pred-score").textContent = `Predicted Score: ${data.score}`;
+    const score = document.querySelector('.score');
+    score.getBoundingClientRect()
+    score.style.transition = 'opacity 0.3s ease-in-out';
+    score.style.opacity = '1';
 
 }
 

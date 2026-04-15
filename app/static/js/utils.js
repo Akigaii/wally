@@ -16,6 +16,7 @@ function angleToScore(angle) {
 
 const ORIGIN = "328.18px 283.14px";
 const ORIGIN_SVG = "328.18, 283.14"; 
+const START_ANGLE = -42.25; 
 const WORD_PAIRS = [
     ["Bad", "Good"],
     ["Cold", "Hot"],
@@ -55,3 +56,8 @@ document.addEventListener("keydown", (event) => {
         debugs.style.display = debugs.style.display === 'none' ? 'block' : 'none';
     }
 });
+
+let trueScore = 50;
+let blueRange = [50 - 3, 50 + 3];
+let orangeRange = [50 - 9, 50 + 9];
+let yellowRange = [50 - 15, 50 + 15];
