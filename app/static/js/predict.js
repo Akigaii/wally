@@ -1,9 +1,3 @@
-function scoreToAngle(score) {
-    return -90 + (score / 100) * 180;
-}
-
-
-
 async function predict() {
     const res = await fetch('/predict_route', {
         method: 'POST',
@@ -17,8 +11,6 @@ async function predict() {
 
     const data = await res.json();
     console.log(data);
-
-    const ORIGIN = "328.18px 283.14px";
 
     const scoreEl = document.querySelector('.score');
     scoreEl.textContent = data.score;

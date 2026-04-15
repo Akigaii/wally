@@ -161,12 +161,26 @@ h3{
 }
 
 .debugs {
+  display: none;
   position: absolute;
-  /* display: inline-block; */
   top: 300px;
   left: 0px;
   width: 300px;
   height: 3000px;
   background: rgb(39, 38, 38);
   opacity: 50%;
+}
+
+.draw-button {
+  width: 100px;
+}
+
+.predict-button {
+  display: block;
+  opacity: 0%;
+}
+
+.input-text {
+  display: block;
+  opacity: 0%;
 }

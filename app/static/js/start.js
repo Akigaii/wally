@@ -1,5 +1,3 @@
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-
 document.querySelector('.button').addEventListener('click', async function () {
     document.querySelector('.parent').classList.toggle('moved');
     await sleep(1000);

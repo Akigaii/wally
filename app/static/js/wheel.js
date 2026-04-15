@@ -20,9 +20,6 @@ let speed = 1;
 let spinning = false;
 let lastTime = null;
 
-function scoreToAngle(s) {
-    return -90 + (s / 100) * 180;
-}
 
 function setDialScore(s) {
     targetDialAngle = scoreToAngle(s);

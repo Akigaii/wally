@@ -22,56 +22,55 @@
   <div class="game">
     <div class="parent">
       {% include 'partials/wheel.html' %}
-      <h2 class="score"> . </h2>
-      <h2 class="wordPair"> . </h2>
-      <!-- <h2> Please draw a word pair...</h3> -->
-        <button class="drawbutton"> Please draw a word pair... </button>
-        <input type="text">
-        <button onclick="predict()">Predict</button>
+      <h2 class="score"> &nbsp </h2>
+      <h2 class="wordPair"> &nbsp </h2>
+        <button class="draw-button"> Please draw a word pair... </button>
+        <input class="input-text" type="text">
+        <button class="predict-button" onclick="predict()">Predict</button>
     </div>
   </div>
   
-  <div class = "debugs">
-  <div class="score-display">
-    <div class="num" id="score-num">50</div>
-    <div class="lbl">score</div>
-  </div>
-  <div class="controls">
-    <div class="ctrl-row">
-      <label>Score</label>
-      <input type="range" min="0" max="100" value="50" step="1" id="score-slider">
-      <span class="val" id="score-val">50</span>
+  <div class="debugs">
+    <div class="score-display">
+      <div class="num" id="score-num">50</div>
+      <div class="lbl">score</div>
     </div>
-    <div class="ctrl-row">
-      <label>Spin speed</label>
-      <input type="range" min="0" max="5" value="1" step="0.5" id="speed-slider">
-      <span class="val" id="speed-val">1x</span>
-    </div>
-    <div class="btn-row">
-      <button id="btn-rand">Random score</button>
-      <button id="btn-stop">Pause spin</button>
-    </div>
-    <div class="handle-row">
-      <label>handle</label>
-      <input type="range" min="50" max="150" value="50" step="1" id="handle-slider">
-      <span class="val" id="handle-val">0</span>
-    </div>
-    <div class = "diagnostics">
-      <p id = "pred-score"> Predicted Score: 50</p>
-      <p id = "true-score"> True Score: 73</p>
-      <p id = "blue-range"> Blue Range: 70-76</p>
-      <p id = "orange-range"> Orange Range: 64-82</p>
-      <p id = "yellow-range"> Yellow Range: 58-88</p>
-
-
-    </div>
+    <div class="controls">
+      <div class="ctrl-row">
+        <label>Score</label>
+        <input type="range" min="0" max="100" value="50" step="1" id="score-slider">
+        <span class="val" id="score-val">50</span>
+      </div>
+      <div class="ctrl-row">
+        <label>Spin speed</label>
+        <input type="range" min="0" max="5" value="1" step="0.5" id="speed-slider">
+        <span class="val" id="speed-val">1x</span>
+      </div>
+      <div class="btn-row">
+        <button id="btn-rand">Random score</button>
+        <button id="btn-stop">Pause spin</button>
+      </div>
+      <div class="handle-row">
+        <label>handle</label>
+        <input type="range" min="50" max="150" value="50" step="1" id="handle-slider">
+        <span class="val" id="handle-val">0</span>
+      </div>
+      <div class="diagnostics">
+        <p id="pred-score"> Predicted Score: 50</p>
+        <p id="true-score"> True Score: 73</p>
+        <p id="blue-range"> Blue Range: 70-76</p>
+        <p id="orange-range"> Orange Range: 64-82</p>
+        <p id="yellow-range"> Yellow Range: 58-88</p>
+      </div>
     </div>
   </div>
 
+ <script src="../static/js/utils.js"></script>
  <script src="../static/js/start.js"></script>
  <script src="../static/js/draw.js"></script>
  <script src="../static/js/predict.js"></script>
  <script src="../static/js/wheel.js"></script>
+
 </body>
 
 </html>

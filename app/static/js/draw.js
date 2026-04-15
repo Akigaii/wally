@@ -1,11 +1,3 @@
-function randomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-function angleToScore(angle) {
-    return (angle + 90) / 180 * 100;
-}
-
 async function fadeIn(div) {
     div.getBoundingClientRect();
     div.style.transition = 'none';
@@ -54,7 +46,7 @@ async function randomizeWheel() {
     innerScore.style.transition = `transform ${delay}s ease-in-out`;
     innerScore.style.transform = `rotate(${START_ANGLE + validRange + numOfSpins}deg)`;
 
-    let trueScore = Math.round(angleToScore(validRange) * 100) / 100;
+    let trueScore = +angleToScore(validRange).toFixed(2);
 
     document.getElementById("true-score").textContent = `True Score: ${trueScore}`;
     document.getElementById("blue-range").textContent = `Blue Range: ${trueScore - 3}-${trueScore + 3}`;
@@ -64,54 +56,37 @@ async function randomizeWheel() {
     await new Promise(resolve => setTimeout(resolve, delay * 1000));
 }
 
-const wordPairs = [
-    ["Bad", "Good"],
-    ["Cold", "Hot"],
-    ["Dark", "Light"],
-    ["Tiny", "Huge"],
-    ["Soft", "Hard"],
-    ["Square", "Round"],
-    ["Snack", "Meal"],
-    ["Boring", "Exciting"],
-    ["Bad habit", "Good habit"],
-    ["Childish", "Mature"],
-    ["Colorless", "Colorful"],
-    ["Dangerous Job", "Safe Job"],
-    ["Easy to spell", "Hard to spell"],
-    ["Easy to use", "Difficult to use"],
-    ["Easy subject", "Hard subject"],
-    ["Happens slowly", "Happens suddenly"],
-    ["Hygenic", "Unhygenic"],
-    ["Low calorie", "High calorie"],
-    ["Mental activity", "Physical activity"],
-    ["Messy food", "Clean food"],
-    ["Niche fandom", "Mainstream fandom"],
-    ["Nobody does it", "Everybody does it"],
-    ["Quiet place", "Loud place"],
-    ["Relaxing activity", "Stressful activity"],
-    ["Smells bad", "Smells good"],
-    ["Small talk", "Heavy topic"],
-    ["Temporary", "Permanent"],
-    ["Underpaid", "Overpaid"],
-    ["Unpopular activity", "Popular activity"],
-    ["Useless major", "Useful major"],
-];
 
-document.querySelector('.drawbutton').addEventListener('click', async function () {
+document.querySelector('.draw-button').addEventListener('click', async function () {
 
     const score = document.querySelector('.score');
-    score.textContent = " ";
+    score.textContent = "&nbsp";
     score.getBoundingClientRect();
 
     const dial = document.getElementById('dial');
-    const ORIGIN = "328.18px 283.14px";
     dial.style.transformOrigin = ORIGIN;
     dial.style.transition = "transform 1s ease-in-out";
     dial.style.transform = `rotate(0deg)`;
     dial.getBoundingClientRect();
-    
+
+    const drawButton = document.querySelector('.draw-button');
+    drawButton.style.transition = "opacity 1s ease-in-out";
+    drawButton.style.opacity = "0%";
+    drawButton.disabled = true;
+    drawButton.getBoundingClientRect();
+
+    const input = document.querySelector('.input-text');
+    input.style.transition = "opacity 1s ease-in-out";
+    input.style.opacity = "100%";
+    input.getBoundingClientRect();
+
+    const predict  = document.querySelector('.predict-button');
+    predict.style.transition = "opacity 1s ease-in-out";
+    predict.style.opacity = "100%";
+    predict.getBoundingClientRect();
+
     const wordPair = document.querySelector('.wordPair');
-    chosenPair = wordPairs[randomInt(0, wordPairs.length)];
+    chosenPair = WORD_PAIRS[randomInt(0, WORD_PAIRS.length - 1)];
     wordPair.textContent = chosenPair[0] + " / " + chosenPair[1];
 
     fadeIn(wordPair);
@@ -122,5 +97,5 @@ document.querySelector('.drawbutton').addEventListener('click', async function (
     await randomizeWheel();
     hideWheel(false);
 
-
 });
+
