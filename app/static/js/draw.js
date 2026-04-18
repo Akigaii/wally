@@ -39,12 +39,12 @@ async function randomizeWheel() {
 
     // Calculate true scores based on range positions.
     trueScore = +angleToScore(validRange).toFixed(2);
-    blueRange[0]   = trueScore - 3;
-    blueRange[1]   = trueScore + 3;
-    orangeRange[0] = trueScore - 9;
-    orangeRange[1] = trueScore + 9;
-    yellowRange[0] = trueScore - 15;
-    yellowRange[1] = trueScore + 15;
+    blueRange[0]   = trueScore - 3.3;
+    blueRange[1]   = trueScore + 3.3;
+    orangeRange[0] = trueScore - 9.6;
+    orangeRange[1] = trueScore + 9.6;
+    yellowRange[0] = trueScore - 15.6;
+    yellowRange[1] = trueScore + 15.6;
 
     // Update the debug panel.
     document.getElementById("true-score").textContent   = `True Score: ${trueScore}`;
@@ -77,10 +77,7 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     chosenPair = WORD_PAIRS[randomInt(0, WORD_PAIRS.length - 1)];
     wordPair.textContent = chosenPair[0] + " / " + chosenPair[1];
     fadeIn(wordPair, 0.3);
-
-    // Unveil, randomize, then hide the wheel.
     await sleep(2000);
-    // hideWheel(true);
 
     // Reset inner score position to middle.
     innerScore.style.transformOrigin = ORIGIN;
@@ -88,7 +85,7 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     innerScore.style.transform = `rotate(${START_ANGLE}deg)`;
 
     // Spin the wheel randomly.
-    await sleep(1000);
+    await sleep(1500);
     await randomizeWheel();
 
     // Show correct score, then hide again.

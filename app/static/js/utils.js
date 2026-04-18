@@ -58,9 +58,9 @@ document.addEventListener("keydown", (event) => {
 });
 
 let trueScore = 50;
-let blueRange = [50 - 3, 50 + 3];
-let orangeRange = [50 - 9, 50 + 9];
-let yellowRange = [50 - 15, 50 + 15];
+let blueRange = [50 - 3.2, 50 + 3.2];
+let orangeRange = [50 - 9.6, 50 + 9.6];
+let yellowRange = [50 - 15.6, 50 + 15.6];
 
 const innerScore = document.getElementById('inner_score');
 const dial = document.getElementById('dial');

@@ -9,8 +9,8 @@ let lastTime = null;
 
 function setDialScore(s) {
     targetDialAngle = scoreToAngle(s);
-    scoreVal.textContent = s;
-    scoreNum.textContent = s;
+    scoreVal.textContent = s.toFixed(1);
+    scoreNum.textContent = s.toFixed(1);
     scoreSlider.value = s;
 }
 
@@ -41,6 +41,8 @@ function animate(ts) {
     requestAnimationFrame(animate);
 }
 
+scoreSlider.step = 0.01;
+
 scoreSlider.addEventListener('input', () => setDialScore(Number(scoreSlider.value)));
 
 speedSlider.addEventListener('input', () => {
@@ -51,7 +53,7 @@ speedSlider.addEventListener('input', () => {
 handleSlider.addEventListener('input', () => setHandleScore(Number(handleSlider.value)));
 
 btnRand.addEventListener('click', () => {
-    const s = Math.round(Math.random() * 100);
+    const s = Math.round(Math.random() * 1000) / 10;
     setDialScore(s);
 });
 

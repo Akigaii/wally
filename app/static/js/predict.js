@@ -22,9 +22,9 @@ async function predict() {
     await sleep(1000);
 
     // Determines if dial is within a score-range, displays points accordingly.
-    if       (data.score >= blueRange[0]   && data.score <= blueRange[1]  )  { score.textContent = "+3"; }
-    else if  (data.score >= orangeRange[0] && data.score <= orangeRange[1])  { score.textContent = "+2"; }
-    else if  (data.score >= yellowRange[0] && data.score <= yellowRange[1])  { score.textContent = "+1"; }
+    if       (data.score >= blueRange[0]   && data.score <= blueRange[1]  )  { score.textContent = "+4"; }
+    else if  (data.score >= orangeRange[0] && data.score <= orangeRange[1])  { score.textContent = "+3"; }
+    else if  (data.score >= yellowRange[0] && data.score <= yellowRange[1])  { score.textContent = "+2"; }
     else     { score.textContent = "+0"; }
 
 
