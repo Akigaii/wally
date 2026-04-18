@@ -27,17 +27,10 @@ function hideWheel(hidden) {
 
 async function randomizeWheel() {
 
-    // Smoothly reset inner score back to default position.
-    innerScore.getBoundingClientRect();
-    innerScore.style.transformOrigin = ORIGIN;
-    innerScore.style.transition = "transform 0.1s ease-in-out";
-    innerScore.style.transform = `rotate(${START_ANGLE}deg)`;
-
     // Spin the wheel randomly.
     let delay      = randomInt(2, 4);
     let validRange = randomInt(-80, 80);
     let numOfSpins = 360 * randomInt(1, 4);
-    await sleep(200);
     
     innerScore.style.transition = `transform ${delay}s ease-in-out`;
     innerScore.style.transform = `rotate(${START_ANGLE + validRange + numOfSpins}deg)`;
@@ -64,6 +57,8 @@ async function randomizeWheel() {
 // Whenever you press the draw button.
 document.querySelector('.draw-button').addEventListener('click', async function () {
 
+    hideWheel(true);
+
     // Clear the score header.
     score.innerHTML = "&nbsp;";
     score.getBoundingClientRect();
@@ -84,18 +79,30 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     fadeIn(wordPair, 0.3);
 
     // Unveil, randomize, then hide the wheel.
-    await sleep(1000);
-    hideWheel(true);
+    await sleep(2000);
+    // hideWheel(true);
 
+    // Reset inner score position to middle.
+    innerScore.style.transformOrigin = ORIGIN;
+    innerScore.style.transition = "transform 1s ease-in-out";
+    innerScore.style.transform = `rotate(${START_ANGLE}deg)`;
+
+    // Spin the wheel randomly.
     await sleep(1000);
     await randomizeWheel();
+
+    // Show correct score, then hide again.
     hideWheel(false);
     await sleep(5000);
     hideWheel(true);
 
     // Make input text and predict button appear.
+    input.value = '';
     fadeIn(input, 1);
+    input.disabled = false;
     fadeIn(predictButton, 1);
+    predictButton.disabled = false;
+
 
 });
 
