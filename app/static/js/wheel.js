@@ -1,16 +1,3 @@
-const innerScore = document.getElementById('inner_score');
-const dial = document.getElementById('dial');
-const scoreSlider = document.getElementById('score-slider');
-const speedSlider = document.getElementById('speed-slider');
-const scoreVal = document.getElementById('score-val');
-const speedVal = document.getElementById('speed-val');
-const scoreNum = document.getElementById('score-num');
-const btnRand = document.getElementById('btn-rand');
-const btnStop = document.getElementById('btn-stop');
-const handle = document.getElementById('handle');
-const handleSlider = document.getElementById('handle-slider');
-const innerCover = document.getElementById('inner_cover');
-
 let currentAngle = 0;
 let targetDialAngle = 0;
 let handleAngle = 0;
@@ -19,7 +6,6 @@ let spinDeg = 0;
 let speed = 1;
 let spinning = false;
 let lastTime = null;
-
 
 function setDialScore(s) {
     targetDialAngle = scoreToAngle(s);

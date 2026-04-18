@@ -1,0 +1,1499 @@
+anchor_left (0),anchor_right (100),clue,target,response_list,response_mean,nathan kim,dp,category,difference
+Cold,Hot,Room temperature,52,"50, 50",50,,,Objective,2
+Cold,Hot,Warm bath,63,"64, 72",68,,,Objective,5
+Cold,Hot,Light jacket weather,40,"42, 40",41,,,Objective,1
+Cold,Hot,Fresh coffee,92,"80, 74",77,,,Objective,15
+Cold,Hot,Sauna,78,"85, 83",84,,,Objective,6
+Cold,Hot,Summer afternoon,73,"67, 71",69,,,Objective,4
+Cold,Hot,Warm soup,67,"65, 70",67.5,,,Objective,0.5
+Cold,Hot,Heated blanket,67,"73, 76",74.5,82,,Objective,7.5
+Cold,Hot,Snowy sidewalk,22,"34, 38",36,,,Objective,14
+Cold,Hot,Ice pack,37,"26, 29",27.5,,,Objective,9.5
+Cold,Hot,Spring day,49,"61, 51",56,,,Objective,7
+Cold,Hot,Boiling water,88,"83, 92",87.5,,,Objective,0.5
+Cold,Hot,Fresh baked bread,67,"77, 78",77.5,,,Objective,10.5
+Cold,Hot,Sun warmed rock,62,"72, 67",69.5,,,Objective,7.5
+Cold,Hot,Frozen pizza,18,"29, 39",34,,,Objective,16
+Cold,Hot,Refrigerator air,25,"33, 48",40.5,,,Objective,15.5
+Cold,Hot,Coffee left out,65,"44, 52",48,35,,Objective,17
+Cold,Hot,Cold soda can,24,"38, 37",37.5,,,Objective,13.5
+Cold,Hot,Icy swimming pool,37,"29, 35",32,,,Objective,5
+Cold,Hot,Glacier,10,"11, 2",6.5,,,Objective,3.5
+Cold,Hot,Liquid nitrogen,4,"6, 0",3,,,Objective,1
+Cold,Hot,Absolute zero,0,"0, 0",0,,,Objective,0
+Cold,Hot,Warm hoodie,67,"73, 70",71.5,,,Objective,4.5
+Cold,Hot,Hot shower,84,"77, 81",79,,,Objective,5
+Cold,Hot,Antarctica,7,"9, 0",4.5,,,Objective,2.5
+Cold,Hot,The sun,100,"99, 100",99.5,,,Objective,0.5
+Cold,Hot,Arctic winter,8,"5, 1",3,,,Objective,5
+Cold,Hot,Freezer burn,30,"4, 8",6,,,Objective,24
+Cold,Hot,Ice cube,19,"13, 11",12,,,Objective,7
+Cold,Hot,Lava,88,"91, 99",95,,,Objective,7
+Cold,Hot,Deep space,4,"11, 4",7.5,,,Objective,3.5
+Cold,Hot,Ice bath,36,"18, 16",17,,,Objective,19
+Cold,Hot,Fresh pizza,83,"70, 77",73.5,,,Objective,9.5
+Cold,Hot,Molten metal,93,"94, 99",96.5,,,Objective,3.5
+Cold,Hot,Warm tea,66,"72, 60",66,,,Objective,0
+Cold,Hot,Slushy drink,24,"24, 30",27,,,Objective,3
+Cold,Hot,Mild autumn day,48,"45, 43",44,,,Objective,4
+Cold,Hot,Freezer air,28,"28, 24",26,,,Objective,2
+Cold,Hot,Cool basement,48,"32, 38",35,,,Objective,13
+Cold,Hot,Warm sand,62,"68, 61",64.5,,,Objective,2.5
+Cold,Hot,Campfire,88,"78, 80",79,,,Objective,9
+Cold,Hot,Ice cream,28,"23, 29",26,,,Objective,2
+Cold,Hot,Frozen lake,18,"18, 19",18.5,,,Objective,0.5
+Cold,Hot,Pluto,4,"9, 0",4.5,,,Objective,0.5
+Cold,Hot,Warm room,55,"73, 55",64,,,Objective,9
+Cold,Hot,Preheating oven,87,"77, 61",69,,,Objective,18
+Cold,Hot,Heated car seat,58,"73, 63",68,,,Objective,10
+Cold,Hot,Volcano,95,"91, 99",95,,,Objective,0
+Cold,Hot,Popsicle,28,"19, 27",23,,,Objective,5
+Cold,Hot,Steaming ramen,77,"73, 79",76,,,Objective,1
+Dark,Light,Moonlight,72,"66, 62",64,,,Objective,8
+Dark,Light,Gray cloud,13,"42, 32",37,,,Objective,24
+Dark,Light,Candlelight,50,"74, 63",68.5,,,Objective,18.5
+Dark,Light,Shadow,29,"3, 12",7.5,,,Objective,21.5
+Dark,Light,Dim hallway,53,"29, 20",24.5,,,Objective,28.5
+Dark,Light,Overcast sky,56,"40, 31",35.5,,,Objective,20.5
+Dark,Light,Black coffee,52,"11, 22",16.5,,,Objective,35.5
+Dark,Light,Flashlight,66,"94, 90",92,,,Objective,26
+Dark,Light,Night sky,34,"22, 32",27,,,Objective,7
+Dark,Light,Bright office,64,"68, 66",67,,,Objective,3
+Dark,Light,Daylight window,84,"72, 61",66.5,,,Objective,17.5
+Dark,Light,Bright lamp,82,"77, 74",75.5,,,Objective,6.5
+Dark,Light,Streetlight,17,"73, 68",70.5,,,Objective,53.5
+Dark,Light,Lit hallway,78,"68, 65",66.5,,,Objective,11.5
+Dark,Light,Pitch black,1,"0, 1",0.5,,,Objective,0.5
+Dark,Light,Ink,5,"7, 4",5.5,,,Objective,0.5
+Dark,Light,Storm clouds,46,"23, 38",30.5,,,Objective,15.5
+Dark,Light,Spotlight,91,"80, 88",84,,,Objective,7
+Dark,Light,Dim room,31,"34, 40",37,,,Objective,6
+Dark,Light,Computer screen,28,"73, 66",69.5,,,Objective,41.5
+Dark,Light,Direct sunlight,100,"97, 92",94.5,,,Objective,5.5
+Dark,Light,Candlelit room,40,"56, 27",41.5,,,Objective,1.5
+Dark,Light,Camera flash,92,"77, 89",83,,,Objective,9
+Dark,Light,Early dawn,21,"65, 51",58,,,Objective,37
+Dark,Light,Bright stars,77,"70, 91",80.5,,,Objective,3.5
+Dark,Light,Noon sunlight,96,"79, 58",68.5,,,Objective,27.5
+Dark,Light,Backlit screen,98,"72, 61",66.5,,,Objective,31.5
+Dark,Light,Overcast noon,36,"70, 42",56,,,Objective,20
+Dark,Light,Movie theater,20,"18, 33",25.5,,,Objective,5.5
+Dark,Light,LED panel,80,"75, 90",82.5,,,Objective,2.5
+Dark,Light,Reading lamp,41,"65, 59",62,,,Objective,21
+Dark,Light,Well-lit room,67,"73, 63",68,,,Objective,1
+Dark,Light,Shadowy alley,5,"11, 21",16,16,,Objective,11
+Dark,Light,Dim sunset,28,"35, 39",37,,,Objective,9
+Dark,Light,Cavern,13,"17, 28",22.5,,,Objective,9.5
+Dark,Light,Bedside lamp,57,"43, 42",42.5,,,Objective,14.5
+Dark,Light,Night road,35,"29, 34",31.5,,,Objective,3.5
+Dark,Light,Coal,10,"7, 13",10,,,Objective,0
+Dark,Light,Soft lamp,45,"45, 49",47,,,Objective,2
+Dark,Light,Campfire glow,77,"77, 59",68,,,Objective,9
+Dark,Light,Fog,10,"18, 13",15.5,,,Objective,5.5
+Dark,Light,Backyard at night,54,"23, 58",40.5,,,Objective,13.5
+Dark,Light,Neon sign,76,"75, 71",73,,,Objective,3
+Dark,Light,Glow stick,87,"74, 60",67,,,Objective,20
+Dark,Light,Stadium lights,90,"83, 90",86.5,,,Objective,3.5
+Dark,Light,Mariana's trench,8,"3, 2",2.5,,,Objective,5.5
+Dark,Light,Dense fog,14,"10, 17",13.5,,,Objective,0.5
+Dark,Light,Deep space,0,"0, 12",6,,,Objective,6
+Dark,Light,Lava lamp,70,"75, 62",68.5,,,Objective,1.5
+Dark,Light,Obsidian,12,"8, 9",8.5,,,Objective,3.5
+Quiet place,Loud place,Arcade,61,"79, 77",78,,,Objective,17
+Quiet place,Loud place,Garden,25,"12, 21",16.5,,,Objective,8.5
+Quiet place,Loud place,Air horn,93,"97, 92",94.5,,,Objective,1.5
+Quiet place,Loud place,Office,36,"52, 10",31,,,Objective,5
+Quiet place,Loud place,Study hall,23,"21, 10",15.5,,,Objective,7.5
+Quiet place,Loud place,Airport terminal,59,"71, 66",68.5,,,Objective,9.5
+Quiet place,Loud place,Padded cell,3,"5, 4",4.5,,,Objective,1.5
+Quiet place,Loud place,Car race,83,"84, 93",88.5,,,Objective,5.5
+Quiet place,Loud place,Waiting room,26,"22, 20",21,,,Objective,5
+Quiet place,Loud place,Reading room,14,"29, 8",18.5,,,Objective,4.5
+Quiet place,Loud place,Explosion,96,"98, 100",99,,,Objective,3
+Quiet place,Loud place,Rock concert,77,"90, 95",92.5,,,Objective,15.5
+Quiet place,Loud place,Isolation chamber,0,"1, 1",1,,,Objective,1
+Quiet place,Loud place,Rural field,18,"15, 7",11,,,Objective,7
+Quiet place,Loud place,Gym,60,"77, 81",79,,,Objective,19
+Quiet place,Loud place,Busy café,47,"63, 79",71,,,Objective,24
+Quiet place,Loud place,Convention hall,55,"74, 86",80,,,Objective,25
+Quiet place,Loud place,Suburban street,31,"43, 48",45.5,,,Objective,14.5
+Quiet place,Loud place,Concert lobby,70,"73, 59",66,,,Objective,4
+Quiet place,Loud place,Sushi omakase,24,"20, 23",21.5,,,Objective,2.5
+Quiet place,Loud place,Beach,13,"23, 55",39,,,Objective,26
+Quiet place,Loud place,Nightclub,76,"74, 89",81.5,,,Objective,5.5
+Quiet place,Loud place,Basketball game,69,"79, 80",79.5,,,Objective,10.5
+Quiet place,Loud place,Nightclub lobby,57,"68, 50",59,,,Objective,2
+Quiet place,Loud place,Office hallway,51,"23, 12",17.5,,,Objective,33.5
+Quiet place,Loud place,City park,45,"39, 63",51,,,Objective,6
+Quiet place,Loud place,Empty museum,14,"17, 5",11,,,Objective,3
+Quiet place,Loud place,Fireworks,89,"76, 90",83,,,Objective,6
+Quiet place,Loud place,Sports bar,48,"78, 87",82.5,,,Objective,34.5
+Quiet place,Loud place,Construction site,84,"63, 87",75,,,Objective,9
+Quiet place,Loud place,Loud crowd,86,"72, 85",78.5,,,Objective,7.5
+Quiet place,Loud place,Mall,39,"63, 63",63,,,Objective,24
+Quiet place,Loud place,Jackhammer,86,"82, 89",85.5,,,Objective,0.5
+Quiet place,Loud place,Loud party,71,"75, 88",81.5,,,Objective,10.5
+Quiet place,Loud place,Quiet café,31,"12, 13",12.5,,,Objective,18.5
+Quiet place,Loud place,Yoga studio,20,"20, 39",29.5,,,Objective,9.5
+Quiet place,Loud place,Street market,47,"70, 68",69,,,Objective,22
+Quiet place,Loud place,Airport gate,42,"66, 66",66,,,Objective,24
+Quiet place,Loud place,Dance club,82,"81, 87",84,,,Objective,2
+Quiet place,Loud place,Street festival,66,"79, 78",78.5,,,Objective,12.5
+Quiet place,Loud place,Library,10,"21, 9",15,,,Objective,5
+Quiet place,Loud place,Fighter jet,92,"90, 97",93.5,,,Objective,1.5
+Quiet place,Loud place,Subway platform,63,"85, 89",87,,,Objective,24
+Quiet place,Loud place,Train station,53,"70, 83",76.5,,,Objective,23.5
+Quiet place,Loud place,Soundproof room,0,"4, 0",2,,,Objective,2
+Quiet place,Loud place,Crowded bar,56,"82, 87",84.5,,,Objective,28.5
+Quiet place,Loud place,Thunderclap,98,"67, 70",68.5,,,Objective,29.5
+Quiet place,Loud place,Cathedral,10,"34, 40",37,14,,Objective,27
+Quiet place,Loud place,Restaurant,41,"66, 50",58,,,Objective,17
+Quiet place,Loud place,Bedroom,16,"32, 20",26,,,Objective,10
+Colorless,Colorful,Butterfly garden,77,87,87,,,Objective,10
+Colorless,Colorful,Bollywood film,73,79,79,90,,Objective,6
+Colorless,Colorful,Crayon box,82,90,90,,,Objective,8
+Colorless,Colorful,Grayscale photo,6,5,5,,,Objective,1
+Colorless,Colorful,Abstract painting,71,86,86,,,Objective,15
+Colorless,Colorful,Pencil sketch,14,27,27,,,Objective,13
+Colorless,Colorful,Sunset,31,78,78,,,Objective,47
+Colorless,Colorful,Disco ball,98,73,73,,,Objective,25
+Colorless,Colorful,Pastel drawing,26,68,68,,,Objective,42
+Colorless,Colorful,Parrot,55,84,84,,,Objective,29
+Colorless,Colorful,Rainbow,65,96,96,,,Objective,31
+Colorless,Colorful,Sand,19,27,27,,,Objective,8
+Colorless,Colorful,Paint explosion,95,97,97,,,Objective,2
+Colorless,Colorful,Stained glass,48,83,83,,,Objective,35
+Colorless,Colorful,Neon lights,71,83,83,,,Objective,12
+Colorless,Colorful,Spring garden,35,73,73,,,Objective,38
+Colorless,Colorful,Wildflowers,42,69,69,,,Objective,27
+Colorless,Colorful,Ash,7,15,15,,,Objective,8
+Colorless,Colorful,Tropical fruit,82,74,74,,,Objective,8
+Colorless,Colorful,Beige wall,20,21,21,,,Objective,1
+Colorless,Colorful,Kaleidoscope,60,70,70,,,Objective,10
+Colorless,Colorful,Carnival,63,76,76,,,Objective,13
+Colorless,Colorful,Aurora borealis,100,77,77,,,Objective,23
+Colorless,Colorful,Autumn leaves,32,63,63,,,Objective,31
+Colorless,Colorful,Watercolor,28,68,68,,,Objective,40
+Colorless,Colorful,Tie-dye,67,85,85,,,Objective,18
+Colorless,Colorful,Colored powder,95,81,81,,,Objective,14
+Colorless,Colorful,Silver,13,30,30,,,Objective,17
+Colorless,Colorful,Holi festival,75,76,76,,,Objective,1
+Colorless,Colorful,Confetti,65,73,73,,,Objective,8
+Colorless,Colorful,Prism,97,80,80,,,Objective,17
+Colorless,Colorful,Pop art,85,73,73,,,Objective,12
+Colorless,Colorful,Peacock,61,81,81,,,Objective,20
+Colorless,Colorful,Neon carnival,94,82,82,,,Objective,12
+Colorless,Colorful,Shadow,6,0,0,,,Objective,6
+Colorless,Colorful,X-ray,2,11,11,,,Objective,9
+Colorless,Colorful,Flower market,77,74,74,,,Objective,3
+Colorless,Colorful,Coral reef,72,70,70,,,Objective,2
+Colorless,Colorful,Newspaper,3,25,25,,,Objective,22
+Colorless,Colorful,Concrete wall,7,20,20,,,Objective,13
+Colorless,Colorful,Fog,10,19,19,,,Objective,9
+Colorless,Colorful,Tan,20,27,27,,,Objective,7
+Colorless,Colorful,Chalk drawing,16,54,54,,,Objective,38
+Colorless,Colorful,Mural,67,69,69,,,Objective,2
+Colorless,Colorful,Fireworks,63,86,86,,,Objective,23
+Colorless,Colorful,Storm cloud,11,22,22,,,Objective,11
+Colorless,Colorful,Psychedelic visions,91,80,80,,,Objective,11
+Colorless,Colorful,Tropical fish,47,74,74,,,Objective,27
+Colorless,Colorful,Mosaic,55,79,79,,,Objective,24
+Colorless,Colorful,Festival flags,71,74,74,,,Objective,3
+Soft,Hard,Tempered glass,96,83,83,,,Objective,13
+Soft,Hard,Shoe sole,45,73,73,,,Objective,28
+Soft,Hard,Pillow,14,13,13,,,Objective,1
+Soft,Hard,Rebar,97,85,85,,,Objective,12
+Soft,Hard,Hockey puck,60,76,76,,,Objective,16
+Soft,Hard,Felt,30,23,23,,,Objective,7
+Soft,Hard,Hard cheese,40,55,55,,,Objective,15
+Soft,Hard,Play-Doh,27,21,21,,,Objective,6
+Soft,Hard,Hardwood floor,65,75,75,,,Objective,10
+Soft,Hard,Diamond plate,92,99,99,,,Objective,7
+Soft,Hard,Diamond,100,100,100,,,Objective,0
+Soft,Hard,Bone,66,87,87,,,Objective,21
+Soft,Hard,Dense rubber,68,56,56,,,Objective,12
+Soft,Hard,Ripe banana,33,26,26,,,Objective,7
+Soft,Hard,Solid iron,97,95,95,,,Objective,2
+Soft,Hard,Soft cheese,27,30,30,,,Objective,3
+Soft,Hard,Solid oak,68,84,84,,,Objective,16
+Soft,Hard,Wool,13,21,21,,,Objective,8
+Soft,Hard,Compressed cork,61,63,63,,,Objective,2
+Soft,Hard,Solid steel,85,92,92,,,Objective,7
+Soft,Hard,Marble slab,86,93,93,,,Objective,7
+Soft,Hard,Granite,83,90,90,,,Objective,7
+Soft,Hard,Dry sand,38,26,26,,,Objective,12
+Soft,Hard,Sponge,22,32,32,,,Objective,10
+Soft,Hard,Steel rod,78,86,86,,,Objective,8
+Soft,Hard,Cotton candy,0,16,16,,,Objective,16
+Soft,Hard,Leather,38,64,64,,,Objective,26
+Soft,Hard,Packed dirt,48,59,59,,,Objective,11
+Soft,Hard,Tire rubber,48,61,61,,,Objective,13
+Soft,Hard,Rubber,30,42,42,,,Objective,12
+Soft,Hard,Titanium bar,93,90,90,,,Objective,3
+Soft,Hard,Cloud,13,13,13,,,Objective,0
+Soft,Hard,Feather,6,16,16,,,Objective,10
+Soft,Hard,Anvil,97,89,89,,,Objective,8
+Soft,Hard,Cast iron,75,88,88,,,Objective,13
+Soft,Hard,Memory foam,17,21,21,,,Objective,4
+Soft,Hard,Thick cardboard,56,57,57,,,Objective,1
+Soft,Hard,Ice cream scoop,44,77,77,,,Objective,33
+Soft,Hard,Modelling clay,36,42,42,,,Objective,6
+Soft,Hard,Thick plastic,67,49,49,,,Objective,18
+Soft,Hard,Thick glass,76,70,70,,,Objective,6
+Soft,Hard,Concrete block,96,86,86,,,Objective,10
+Soft,Hard,Marshmallow,6,25,25,,,Objective,19
+Soft,Hard,Puffy jacket,26,34,34,,,Objective,8
+Soft,Hard,Bread dough,26,36,36,,,Objective,10
+Soft,Hard,Foam rubber,23,21,21,,,Objective,2
+Soft,Hard,Softwood,37,66,66,,,Objective,29
+Soft,Hard,Dense foam,49,40,40,,,Objective,9
+Soft,Hard,Frozen meat,74,77,77,,,Objective,3
+Soft,Hard,Soft plastic,43,29,29,,,Objective,14
+Low calorie,High calorie,Wheat bread,42,55,55,,,Objective,13
+Low calorie,High calorie,Burger,59,75,75,,,Objective,16
+Low calorie,High calorie,Bell pepper,10,13,13,,,Objective,3
+Low calorie,High calorie,Steamed fish,25,21,21,,,Objective,4
+Low calorie,High calorie,Brown rice,36,46,46,,,Objective,10
+Low calorie,High calorie,Cheesecake,65,78,78,,,Objective,13
+Low calorie,High calorie,Carrot,19,7,7,,,Objective,12
+Low calorie,High calorie,Deep dish pizza,76,84,84,,,Objective,8
+Low calorie,High calorie,Loaded nachos,71,80,80,,,Objective,9
+Low calorie,High calorie,Grilled chicken,33,29,29,,,Objective,4
+Low calorie,High calorie,Grapefruit,20,16,16,,,Objective,4
+Low calorie,High calorie,Dark chocolate,54,43,43,,,Objective,11
+Low calorie,High calorie,Cream cake,95,79,79,,,Objective,16
+Low calorie,High calorie,Milkshake,62,87,87,,,Objective,25
+Low calorie,High calorie,Loaded milkshake,100,94,94,,,Objective,6
+Low calorie,High calorie,Steak,46,60,60,,,Objective,14
+Low calorie,High calorie,Ice cream,67,75,75,,,Objective,8
+Low calorie,High calorie,Cheese,49,64,64,,,Objective,15
+Low calorie,High calorie,Plain baked potato,43,51,51,,,Objective,8
+Low calorie,High calorie,French fries,61,80,80,,,Objective,19
+Low calorie,High calorie,Mushroom,22,20,20,,,Objective,2
+Low calorie,High calorie,Granola bar,43,51,51,,,Objective,8
+Low calorie,High calorie,Salmon,50,55,55,,,Objective,5
+Low calorie,High calorie,Broth,4,17,17,,,Objective,13
+Low calorie,High calorie,Donut,67,79,79,,,Objective,12
+Low calorie,High calorie,Mac and cheese,61,83,83,,,Objective,22
+Low calorie,High calorie,Boiled egg,22,30,30,,,Objective,8
+Low calorie,High calorie,Peanut butter,52,70,70,,,Objective,18
+Low calorie,High calorie,Pasta,45,73,73,,,Objective,28
+Low calorie,High calorie,Tomato,15,15,15,,,Objective,0
+Low calorie,High calorie,Celery,0,5,5,,,Objective,5
+Low calorie,High calorie,Low-fat yogurt,23,30,30,,,Objective,7
+Low calorie,High calorie,Avocado,48,64,64,,,Objective,16
+Low calorie,High calorie,Lettuce,3,4,4,,,Objective,1
+Low calorie,High calorie,Banana,39,10,10,,,Objective,29
+Low calorie,High calorie,Cucumber,1,7,7,,,Objective,6
+Low calorie,High calorie,Chocolate cake,67,90,90,,,Objective,23
+Low calorie,High calorie,Whole milk,40,74,74,,,Objective,34
+Low calorie,High calorie,Deep-fried butter,96,100,100,,,Objective,4
+Low calorie,High calorie,Strawberry,11,11,11,,,Objective,0
+Low calorie,High calorie,Skim milk,33,22,22,,,Objective,11
+Low calorie,High calorie,Brownie,70,82,82,,,Objective,12
+Low calorie,High calorie,Oatmeal,26,39,39,,,Objective,13
+Low calorie,High calorie,Apple,11,13,13,,,Objective,2
+Low calorie,High calorie,Fried chicken,61,88,88,,,Objective,27
+Low calorie,High calorie,Butter,81,83,83,,,Objective,2
+Low calorie,High calorie,Bacon cheeseburger,78,89,89,,,Objective,11
+Low calorie,High calorie,Cottage cheese,35,24,24,,,Objective,11
+Low calorie,High calorie,Lard,91,92,92,,,Objective,1
+Low calorie,High calorie,Pizza slice,58,71,71,,,Objective,13
+Hygenic,Unhygenic,Sewage leak,98,93,93,,,Objective,5
+Hygenic,Unhygenic,Communal bowl,76,83,83,,,Objective,7
+Hygenic,Unhygenic,Wet garbage bag,77,90,90,,,Objective,13
+Hygenic,Unhygenic,Amusement ride,63,71,71,,,Objective,8
+Hygenic,Unhygenic,Dirty laundry,76,76,76,,,Objective,0
+Hygenic,Unhygenic,Gas pump,50,71,71,,,Objective,21
+Hygenic,Unhygenic,Hand sanitizer,14,5,5,,,Objective,9
+Hygenic,Unhygenic,Compost pile,81,82,82,,,Objective,1
+Hygenic,Unhygenic,Week-old dish,67,79,79,,,Objective,12
+Hygenic,Unhygenic,Gym equipment,37,66,66,,,Objective,29
+Hygenic,Unhygenic,ATM keypad,50,72,72,,,Objective,22
+Hygenic,Unhygenic,Roadkill,87,95,95,,,Objective,8
+Hygenic,Unhygenic,Subway pole,46,78,78,,,Objective,32
+Hygenic,Unhygenic,Hospital room,7,10,10,,,Objective,3
+Hygenic,Unhygenic,Clean room,1,22,22,,,Objective,21
+Hygenic,Unhygenic,Scrubbed hands,17,20,20,,,Objective,3
+Hygenic,Unhygenic,Operating room,0,3,3,,,Objective,3
+Hygenic,Unhygenic,Keyboard,41,69,69,,,Objective,28
+Hygenic,Unhygenic,Shopping cart,51,74,74,,,Objective,23
+Hygenic,Unhygenic,Unwashed produce,56,43,43,,,Objective,13
+Hygenic,Unhygenic,Shared towel,61,70,70,,,Objective,9
+Hygenic,Unhygenic,Port-a-potty,86,85,85,,,Objective,1
+Hygenic,Unhygenic,Fast food counter,62,67,67,,,Objective,5
+Hygenic,Unhygenic,Trash can lid,73,80,80,,,Objective,7
+Hygenic,Unhygenic,Washed produce,22,22,22,,,Objective,0
+Hygenic,Unhygenic,Clean bathroom,26,29,29,,,Objective,3
+Hygenic,Unhygenic,Flossing teeth,22,16,16,,,Objective,6
+Hygenic,Unhygenic,New toothbrush,18,20,20,,,Objective,2
+Hygenic,Unhygenic,Office desk,33,35,35,,,Objective,2
+Hygenic,Unhygenic,Overflowing trash,84,86,86,,,Objective,2
+Hygenic,Unhygenic,Clean kitchen,19,24,24,,,Objective,5
+Hygenic,Unhygenic,Restaurant menu,52,53,53,,,Objective,1
+Hygenic,Unhygenic,Dirty sink,66,72,72,,,Objective,6
+Hygenic,Unhygenic,Freshly sanitized,7,15,15,,,Objective,8
+Hygenic,Unhygenic,Moldy bread,73,98,98,,,Objective,25
+Hygenic,Unhygenic,Fresh laundry,30,14,14,,,Objective,16
+Hygenic,Unhygenic,Shared pen,33,30,30,,,Objective,3
+Hygenic,Unhygenic,Door handle,40,72,72,,,Objective,32
+Hygenic,Unhygenic,Dental office,3,14,14,,,Objective,11
+Hygenic,Unhygenic,Clogged drain,76,87,87,,,Objective,11
+Hygenic,Unhygenic,Dollar bill,39,82,82,,,Objective,43
+Hygenic,Unhygenic,Public restroom,37,79,79,,,Objective,42
+Hygenic,Unhygenic,Day-old dishes,32,75,75,,,Objective,43
+Hygenic,Unhygenic,Dumpster,91,85,85,,,Objective,6
+Hygenic,Unhygenic,Sealed food,18,26,26,,,Objective,8
+Hygenic,Unhygenic,Sewer drain,89,86,86,,,Objective,3
+Hygenic,Unhygenic,Swept floor,30,47,47,,,Objective,17
+Hygenic,Unhygenic,Open sewer,98,93,93,,,Objective,5
+Hygenic,Unhygenic,Used sponge,51,79,79,,,Objective,28
+Hygenic,Unhygenic,Gym locker room,58,88,88,,,Objective,30
+Happens slowly,Happens suddenly,School semester,47,65,65,,,Objective,18
+Happens slowly,Happens suddenly,Tree growth,5,11,11,,,Objective,6
+Happens slowly,Happens suddenly,Mountain formation,6,3,3,,,Objective,3
+Happens slowly,Happens suddenly,Cat jump,67,90,90,,,Objective,23
+Happens slowly,Happens suddenly,Wound healing,21,32,32,,,Objective,11
+Happens slowly,Happens suddenly,Car alarm,87,96,96,,,Objective,9
+Happens slowly,Happens suddenly,Hair growth,17,29,29,,,Objective,12
+Happens slowly,Happens suddenly,Ball drop,79,85,85,,,Objective,6
+Happens slowly,Happens suddenly,Stomachache,38,32,32,,,Objective,6
+Happens slowly,Happens suddenly,Spilled drink,75,84,84,,,Objective,9
+Happens slowly,Happens suddenly,Boiling water,41,39,39,,,Objective,2
+Happens slowly,Happens suddenly,Construction,21,29,29,,,Objective,8
+Happens slowly,Happens suddenly,Nail growth,19,33,33,,,Objective,14
+Happens slowly,Happens suddenly,Geological erosion,0,10,10,,,Objective,10
+Happens slowly,Happens suddenly,Weather change,38,58,58,,,Objective,20
+Happens slowly,Happens suddenly,Pottery drying,30,39,39,,,Objective,9
+Happens slowly,Happens suddenly,Bread rising,31,61,61,,,Objective,30
+Happens slowly,Happens suddenly,Reputation building,21,30,30,,,Objective,9
+Happens slowly,Happens suddenly,Bus arrival,44,41,41,,,Objective,3
+Happens slowly,Happens suddenly,Clap of thunder,89,84,84,,,Objective,5
+Happens slowly,Happens suddenly,Alarm buzzing,87,91,91,,,Objective,4
+Happens slowly,Happens suddenly,Door slam,58,94,94,,,Objective,36
+Happens slowly,Happens suddenly,Aging,16,14,14,,,Objective,2
+Happens slowly,Happens suddenly,Airbag deploy,94,99,99,,,Objective,5
+Happens slowly,Happens suddenly,Seasonal change,34,52,52,,,Objective,18
+Happens slowly,Happens suddenly,Explosion,99,100,100,,,Objective,1
+Happens slowly,Happens suddenly,Rainstorm,44,32,32,,,Objective,12
+Happens slowly,Happens suddenly,Text ping,48,85,85,,,Objective,37
+Happens slowly,Happens suddenly,Glacier melt,3,21,21,,,Objective,18
+Happens slowly,Happens suddenly,Sneeze,72,89,89,,,Objective,17
+Happens slowly,Happens suddenly,Loud knock,65,84,84,,,Objective,19
+Happens slowly,Happens suddenly,Star formation,2,2,2,,,Objective,0
+Happens slowly,Happens suddenly,Bullet impact,99,98,98,,,Objective,1
+Happens slowly,Happens suddenly,Wave crash,49,69,69,,,Objective,20
+Happens slowly,Happens suddenly,Flower blooming,33,25,25,,,Objective,8
+Happens slowly,Happens suddenly,Stumble,59,73,73,,,Objective,14
+Happens slowly,Happens suddenly,Evolution,2,4,4,,,Objective,2
+Happens slowly,Happens suddenly,Learning to read,23,13,13,,,Objective,10
+Happens slowly,Happens suddenly,Career growth,21,24,24,,,Objective,3
+Happens slowly,Happens suddenly,Gust of wind,62,79,79,,,Objective,17
+Happens slowly,Happens suddenly,Rusting,12,20,20,,,Objective,8
+Happens slowly,Happens suddenly,Slap,95,83,83,,,Objective,12
+Happens slowly,Happens suddenly,Gunshot,89,95,95,,,Objective,6
+Happens slowly,Happens suddenly,Mood change,44,70,70,,,Objective,26
+Happens slowly,Happens suddenly,Continental drift,1,12,12,,,Objective,11
+Happens slowly,Happens suddenly,Firecracker,81,89,89,,,Objective,8
+Happens slowly,Happens suddenly,Dog reaction,49,81,81,,,Objective,32
+Happens slowly,Happens suddenly,Sunrise,37,32,32,,,Objective,5
+Happens slowly,Happens suddenly,Camera flash,99,87,87,,,Objective,12
+Happens slowly,Happens suddenly,Tire blowout,83,83,83,,,Objective,0
+Temporary,Permanent,Apartment ownership,58,50,50,,,Objective,8
+Temporary,Permanent,Birth certificate,85,100,100,,,Objective,15
+Temporary,Permanent,Campfire,17,31,31,,,Objective,14
+Temporary,Permanent,DNA,84,100,100,,,Objective,16
+Temporary,Permanent,Holiday decor,30,34,34,,,Objective,4
+Temporary,Permanent,Passport,62,70,70,,,Objective,8
+Temporary,Permanent,National border,86,74,74,,,Objective,12
+Temporary,Permanent,Trend,31,21,21,,,Objective,10
+Temporary,Permanent,Soap bubble,2,2,2,,,Objective,0
+Temporary,Permanent,Flower arrangement,20,26,26,,,Objective,6
+Temporary,Permanent,Stone monument,91,82,82,,,Objective,9
+Temporary,Permanent,Gym session,42,39,39,,,Objective,3
+Temporary,Permanent,Fashion trend,46,23,23,,,Objective,23
+Temporary,Permanent,Mood,29,19,19,,,Objective,10
+Temporary,Permanent,Driver's license,55,41,41,,,Objective,14
+Temporary,Permanent,Beach umbrella,27,19,19,,,Objective,8
+Temporary,Permanent,Contract job,36,30,30,,,Objective,6
+Temporary,Permanent,Blood type,81,100,100,,,Objective,19
+Temporary,Permanent,Hotel room,19,23,23,,,Objective,4
+Temporary,Permanent,Pop-up shop,30,11,11,,,Objective,19
+Temporary,Permanent,Ice sculpture,8,16,16,,,Objective,8
+Temporary,Permanent,Scar,60,79,79,,,Objective,19
+Temporary,Permanent,Bandage,43,25,25,,,Objective,18
+Temporary,Permanent,Criminal record,84,75,75,,,Objective,9
+Temporary,Permanent,Chalk drawing,11,29,29,,,Objective,18
+Temporary,Permanent,Death,100,100,100,,,Objective,0
+Temporary,Permanent,Tooth filling,55,49,49,,,Objective,6
+Temporary,Permanent,Houseplant,47,53,53,,,Objective,6
+Temporary,Permanent,Sand castle,5,24,24,,,Objective,19
+Temporary,Permanent,Candle flame,19,29,29,,,Objective,10
+Temporary,Permanent,Relationship,50,50,50,,,Objective,0
+Temporary,Permanent,Legal record,60,73,73,,,Objective,13
+Temporary,Permanent,Phone case,47,49,49,,,Objective,2
+Temporary,Permanent,Eye color,78,95,95,,,Objective,17
+Temporary,Permanent,Geological layer,88,90,90,,,Objective,2
+Temporary,Permanent,Season,37,25,25,,,Objective,12
+Temporary,Permanent,Car,50,48,48,,,Objective,2
+Temporary,Permanent,Name,74,88,88,,,Objective,14
+Temporary,Permanent,Brand reputation,69,79,79,,,Objective,10
+Temporary,Permanent,Petroglyph,92,80,80,,,Objective,12
+Temporary,Permanent,Mountain range,86,90,90,,,Objective,4
+Temporary,Permanent,Fossil,90,87,87,,,Objective,3
+Temporary,Permanent,Marriage,53,79,79,,,Objective,26
+Temporary,Permanent,Job title,50,66,66,,,Objective,16
+Temporary,Permanent,Citizenship,64,79,79,,,Objective,15
+Temporary,Permanent,Concert,19,14,14,,,Objective,5
+Temporary,Permanent,Social media post,56,33,33,,,Objective,23
+Temporary,Permanent,Diamond,99,93,93,,,Objective,6
+Temporary,Permanent,Temp tattoo,24,38,38,,,Objective,14
+Temporary,Permanent,Black eye,48,39,39,,,Objective,9
+Mental activity,Physical activity,Drawing,28,45,45,,,Objective,17
+Mental activity,Physical activity,Football,79,80,80,,,Objective,1
+Mental activity,Physical activity,Chess,18,18,18,,,Objective,0
+Mental activity,Physical activity,Hiking,51,85,85,,,Objective,34
+Mental activity,Physical activity,Marathon,92,90,90,,,Objective,2
+Mental activity,Physical activity,Gardening,55,48,48,,,Objective,7
+Mental activity,Physical activity,Gymnastics,77,83,83,,,Objective,6
+Mental activity,Physical activity,Triathlon,92,79,79,,,Objective,13
+Mental activity,Physical activity,Yoga,39,58,58,,,Objective,19
+Mental activity,Physical activity,Playing piano,32,39,39,,,Objective,7
+Mental activity,Physical activity,Coding,31,22,22,,,Objective,9
+Mental activity,Physical activity,Sprinting,86,90,90,,,Objective,4
+Mental activity,Physical activity,Meditation,10,5,5,,,Objective,5
+Mental activity,Physical activity,Golf,70,63,63,,,Objective,7
+Mental activity,Physical activity,Philosophy,3,1,1,,,Objective,2
+Mental activity,Physical activity,Bodybuilding,93,100,100,,,Objective,7
+Mental activity,Physical activity,Volleyball,72,85,85,,,Objective,13
+Mental activity,Physical activity,Writing,28,30,30,,,Objective,2
+Mental activity,Physical activity,Boxing,88,76,76,,,Objective,12
+Mental activity,Physical activity,Hypnosis,12,11,11,,,Objective,1
+Mental activity,Physical activity,Military drill,99,92,92,,,Objective,7
+Mental activity,Physical activity,Crossword,18,19,19,,,Objective,1
+Mental activity,Physical activity,Rugby,81,83,83,,,Objective,2
+Mental activity,Physical activity,Creative visualization,12,7,7,,,Objective,5
+Mental activity,Physical activity,Studying,24,17,17,,,Objective,7
+Mental activity,Physical activity,Strategy game,21,27,27,,,Objective,6
+Mental activity,Physical activity,Puzzles,17,29,29,,,Objective,12
+Mental activity,Physical activity,Ironman race,97,80,80,,,Objective,17
+Mental activity,Physical activity,Weightlifting,86,89,89,,,Objective,3
+Mental activity,Physical activity,Dreaming,0,3,3,,,Objective,3
+Mental activity,Physical activity,Cycling,59,82,82,,,Objective,23
+Mental activity,Physical activity,CrossFit,91,89,89,,,Objective,2
+Mental activity,Physical activity,Walking,47,68,68,,,Objective,21
+Mental activity,Physical activity,Rowing,76,77,77,,,Objective,1
+Mental activity,Physical activity,Basketball,68,74,74,,,Objective,6
+Mental activity,Physical activity,Light stretching,38,54,54,,,Objective,16
+Mental activity,Physical activity,Rock climbing,77,63,63,,,Objective,14
+Mental activity,Physical activity,Olympic lifting,93,92,92,,,Objective,1
+Mental activity,Physical activity,Tennis,73,78,78,,,Objective,5
+Mental activity,Physical activity,Prayer,12,14,14,,,Objective,2
+Mental activity,Physical activity,Language learning,22,13,13,,,Objective,9
+Mental activity,Physical activity,Dancing,62,53,53,,,Objective,9
+Mental activity,Physical activity,Casual swimming,47,59,59,,,Objective,12
+Mental activity,Physical activity,Wrestling,88,73,73,,,Objective,15
+Mental activity,Physical activity,Journaling,11,20,20,,,Objective,9
+Mental activity,Physical activity,Daydreaming,32,14,14,,,Objective,18
+Mental activity,Physical activity,Martial arts,75,74,74,,,Objective,1
+Mental activity,Physical activity,Soccer,68,77,77,,,Objective,9
+Mental activity,Physical activity,Deep reading,15,16,16,,,Objective,1
+Mental activity,Physical activity,Memory training,24,12,12,,,Objective,12
+Square,Round,Tile floors,27,11,11,,,Objective,16
+Square,Round,Blueberry,95,79,79,,,Objective,16
+Square,Round,Door,28,34,34,,,Objective,6
+Square,Round,Steering wheel,67,85,85,,,Objective,18
+Square,Round,Oval mirror,83,79,79,,,Objective,4
+Square,Round,Hexagon,56,50,50,,,Objective,6
+Square,Round,Tortilla,71,90,90,,,Objective,19
+Square,Round,Manhole cover,63,90,90,,,Objective,27
+Square,Round,Cutting board,23,21,21,,,Objective,2
+Square,Round,Egg,85,78,78,,,Objective,7
+Square,Round,Grape,91,85,85,,,Objective,6
+Square,Round,Laptop,37,28,28,,,Objective,9
+Square,Round,Photo frame,20,32,32,,,Objective,12
+Square,Round,TV screen,21,20,20,,,Objective,1
+Square,Round,Pearl,94,98,98,,,Objective,4
+Square,Round,Brick wall,10,15,15,,,Objective,5
+Square,Round,Ball,99,86,86,,,Objective,13
+Square,Round,Chessboard,1,15,15,,,Objective,14
+Square,Round,Bubble,98,91,91,,,Objective,7
+Square,Round,Diamond shape,50,45,45,,,Objective,5
+Square,Round,Index card,34,20,20,,,Objective,14
+Square,Round,Moon,99,86,86,,,Objective,13
+Square,Round,Book cover,12,16,16,,,Objective,4
+Square,Round,Rubik's cube,5,5,5,,,Objective,0
+Square,Round,Pie,69,79,79,,,Objective,10
+Square,Round,Pea,88,84,84,,,Objective,4
+Square,Round,Clock face,66,72,72,,,Objective,6
+Square,Round,Hexagonal tile,62,45,45,,,Objective,17
+Square,Round,Wheel,71,82,82,,,Objective,11
+Square,Round,Lego brick,16,20,20,,,Objective,4
+Square,Round,Pillow,36,41,41,,,Objective,5
+Square,Round,Grid paper,0,14,14,,,Objective,14
+Square,Round,Balloon,86,87,87,,,Objective,1
+Square,Round,Frisbee,70,70,70,,,Objective,0
+Square,Round,Donut,87,75,75,,,Objective,12
+Square,Round,Cardboard box,14,23,23,,,Objective,9
+Square,Round,Sticky note,26,7,7,,,Objective,19
+Square,Round,CD disc,73,89,89,,,Objective,16
+Square,Round,Windowpane,11,28,28,,,Objective,17
+Square,Round,Basketball court,41,36,36,,,Objective,5
+Square,Round,Placemat,27,43,43,,,Objective,16
+Square,Round,Ring,71,90,90,,,Objective,19
+Square,Round,Bowl,77,86,86,,,Objective,9
+Square,Round,Marble,89,92,92,,,Objective,3
+Square,Round,Soap bubble,99,90,90,,,Objective,9
+Square,Round,Cherry,92,85,85,,,Objective,7
+Square,Round,Notebook,31,24,24,,,Objective,7
+Square,Round,Smartphone screen,13,29,29,,,Objective,16
+Square,Round,Serving tray,46,35,35,,,Objective,11
+Square,Round,Plate,81,74,74,,,Objective,7
+Snack,Meal,Full breakfast,76,92,92,,,Objective,16
+Snack,Meal,Roast chicken,64,89,89,,,Objective,25
+Snack,Meal,Sunday roast,87,93,93,,,Objective,6
+Snack,Meal,Apple slices,17,15,15,,,Objective,2
+Snack,Meal,Grilled cheese,43,45,45,,,Objective,2
+Snack,Meal,Large sandwich,47,70,70,,,Objective,23
+Snack,Meal,Yogurt,33,31,31,,,Objective,2
+Snack,Meal,Cup noodles,41,40,40,,,Objective,1
+Snack,Meal,Spaghetti,71,75,75,,,Objective,4
+Snack,Meal,Mint,0,1,1,,,Objective,1
+Snack,Meal,Small salad,40,19,19,,,Objective,21
+Snack,Meal,Celery sticks,19,10,10,,,Objective,9
+Snack,Meal,Chili bowl,54,74,74,,,Objective,20
+Snack,Meal,Granola bar,16,35,35,,,Objective,19
+Snack,Meal,Tasting menu,90,51,51,,,Objective,39
+Snack,Meal,Veggie wrap,40,39,39,,,Objective,1
+Snack,Meal,Hard-boiled egg,33,30,30,,,Objective,3
+Snack,Meal,Five-course dinner,95,99,99,,,Objective,4
+Snack,Meal,Chicken wrap,48,62,62,,,Objective,14
+Snack,Meal,Wedding feast,96,94,94,,,Objective,2
+Snack,Meal,Fried rice,44,72,72,,,Objective,28
+Snack,Meal,Turkey dinner,81,89,89,,,Objective,8
+Snack,Meal,Soup,43,50,50,,,Objective,7
+Snack,Meal,Pretzel,8,39,39,,,Objective,31
+Snack,Meal,Raisins,12,11,11,,,Objective,1
+Snack,Meal,Stir fry,52,73,73,,,Objective,21
+Snack,Meal,Single grape,7,3,3,,,Objective,4
+Snack,Meal,Breath strip,4,1,1,,,Objective,3
+Snack,Meal,Trail mix,26,37,37,,,Objective,11
+Snack,Meal,Pasta bowl,50,74,74,,,Objective,24
+Snack,Meal,Smoothie,33,44,44,,,Objective,11
+Snack,Meal,Pork chop,73,73,73,,,Objective,0
+Snack,Meal,Protein bar,29,43,43,,,Objective,14
+Snack,Meal,Baby carrots,10,7,7,,,Objective,3
+Snack,Meal,Banana,20,17,17,,,Objective,3
+Snack,Meal,Grilled salmon,69,79,79,,,Objective,10
+Snack,Meal,Cracker,4,9,9,,,Objective,5
+Snack,Meal,Lamb roast,80,84,84,,,Objective,4
+Snack,Meal,Salad bowl,45,55,55,,,Objective,10
+Snack,Meal,Cheese cube,6,8,8,,,Objective,2
+Snack,Meal,Gyro wrap,380,76,76,,,Objective,304
+Snack,Meal,Peanuts,9,19,19,,,Objective,10
+Snack,Meal,Rice cake,11,14,14,,,Objective,3
+Snack,Meal,Fruit cup,33,14,14,,,Objective,19
+Snack,Meal,Mac and cheese,44,66,66,,,Objective,22
+Snack,Meal,String cheese,21,17,17,,,Objective,4
+Snack,Meal,Thanksgiving plate,85,94,94,,,Objective,9
+Snack,Meal,Prime rib,84,90,90,,,Objective,6
+Snack,Meal,Avocado toast,40,51,51,,,Objective,11
+Snack,Meal,Burrito,44,71,71,,,Objective,27
+Tiny,Huge,Oil rig,69,76,76,,,Objective,7
+Tiny,Huge,House,53,72,72,,,Objective,19
+Tiny,Huge,Refrigerator,35,55,55,,,Objective,20
+Tiny,Huge,Mountain,73,88,88,,,Objective,15
+Tiny,Huge,Pinhead,13,4,4,,,Objective,9
+Tiny,Huge,Key,20,11,11,,,Objective,9
+Tiny,Huge,Glacier,79,83,83,,,Objective,4
+Tiny,Huge,Supercluster,99,100,100,,,Objective,1
+Tiny,Huge,Brick,29,12,12,,,Objective,17
+Tiny,Huge,Oil tanker,57,72,72,,,Objective,15
+Tiny,Huge,Ant,10,9,9,,,Objective,1
+Tiny,Huge,Backpack,32,15,15,,,Objective,17
+Tiny,Huge,Moon,85,83,83,,,Objective,2
+Tiny,Huge,Space shuttle,67,79,79,,,Objective,12
+Tiny,Huge,Wind turbine,64,83,83,,,Objective,19
+Tiny,Huge,Sesame seed,12,6,6,,,Objective,6
+Tiny,Huge,Neutron star,89,100,100,,,Objective,11
+Tiny,Huge,Sedan,57,63,63,,,Objective,6
+Tiny,Huge,Island,75,74,74,,,Objective,1
+Tiny,Huge,Notebook,27,18,18,,,Objective,9
+Tiny,Huge,Semi truck,56,76,76,,,Objective,20
+Tiny,Huge,Ocean,80,83,83,,,Objective,3
+Tiny,Huge,Fingernail,17,11,11,,,Objective,6
+Tiny,Huge,Coin,18,13,13,,,Objective,5
+Tiny,Huge,Gas giant,86,99,99,,,Objective,13
+Tiny,Huge,Shopping cart,33,20,20,,,Objective,13
+Tiny,Huge,Postage stamp,23,9,9,,,Objective,14
+Tiny,Huge,Volcano,76,86,86,,,Objective,10
+Tiny,Huge,Aircraft carrier,66,82,82,,,Objective,16
+Tiny,Huge,Star,88,96,96,,,Objective,8
+Tiny,Huge,Grain of sand,5,1,1,,,Objective,4
+Tiny,Huge,Nebula,95,98,98,,,Objective,3
+Tiny,Huge,Atom,0,0,0,,,Objective,0
+Tiny,Huge,Flea,15,4,4,,,Objective,11
+Tiny,Huge,Continent,81,93,93,,,Objective,12
+Tiny,Huge,Dust mite,10,3,3,,,Objective,7
+Tiny,Huge,Observable universe,99,97,97,,,Objective,2
+Tiny,Huge,SUV,44,69,69,,,Objective,25
+Tiny,Huge,USB drive,25,15,15,,,Objective,10
+Tiny,Huge,Stadium,65,82,82,,,Objective,17
+Tiny,Huge,Yacht,77,74,74,,,Objective,3
+Tiny,Huge,Solar system,92,99,99,,,Objective,7
+Tiny,Huge,Planet,81,90,90,,,Objective,9
+Tiny,Huge,Skyscraper,62,79,79,,,Objective,17
+Tiny,Huge,National park,79,72,72,,,Objective,7
+Tiny,Huge,Galaxy cluster,97,99,99,,,Objective,2
+Tiny,Huge,Black hole,98,100,100,,,Objective,2
+Tiny,Huge,Container ship,56,69,69,,,Objective,13
+Tiny,Huge,Phone,25,17,17,,,Objective,8
+Tiny,Huge,Cargo ship,71,68,68,,,Objective,3
+Messy food,Clean food,Fried chicken,59,23,23,,,Objective,36
+Messy food,Clean food,Celery sticks,96,96,96,,,Objective,0
+Messy food,Clean food,Chips,31,26,26,,,Objective,5
+Messy food,Clean food,Stir fry rice,57,53,53,,,Objective,4
+Messy food,Clean food,Pizza slice,32,40,40,,,Objective,8
+Messy food,Clean food,Corn on the cob,21,29,29,,,Objective,8
+Messy food,Clean food,Messy burger,9,9,9,,,Objective,0
+Messy food,Clean food,Sliced fruit,73,89,89,,,Objective,16
+Messy food,Clean food,Pasta with sauce,45,49,49,,,Objective,4
+Messy food,Clean food,Taco,13,46,46,,,Objective,33
+Messy food,Clean food,Noodle soup,34,42,42,,,Objective,8
+Messy food,Clean food,Ramen,25,37,37,,,Objective,12
+Messy food,Clean food,Toast,78,65,65,,,Objective,13
+Messy food,Clean food,Salad bowl,69,74,74,,,Objective,5
+Messy food,Clean food,Carrot stick,88,94,94,,,Objective,6
+Messy food,Clean food,Sushi roll,70,73,73,,,Objective,3
+Messy food,Clean food,Sandwich wrap,68,64,64,,,Objective,4
+Messy food,Clean food,Lasagna,47,18,18,,,Objective,29
+Messy food,Clean food,Protein bar,91,80,80,,,Objective,11
+Messy food,Clean food,Sloppy joe,3,6,6,,,Objective,3
+Messy food,Clean food,Sliced turkey,64,74,74,,,Objective,10
+Messy food,Clean food,Burrito bowl,61,55,55,,,Objective,6
+Messy food,Clean food,Granola bar,84,76,76,,,Objective,8
+Messy food,Clean food,Soup in a cup,74,60,60,,,Objective,14
+Messy food,Clean food,Hot wings,10,9,9,,,Objective,1
+Messy food,Clean food,Cashews,94,86,86,,,Objective,8
+Messy food,Clean food,Chili dog,11,8,8,,,Objective,3
+Messy food,Clean food,Dripping ice cream,17,5,5,,,Objective,12
+Messy food,Clean food,Pulled pork sandwich,3,14,14,,,Objective,11
+Messy food,Clean food,Grape,87,90,90,,,Objective,3
+Messy food,Clean food,Mint,98,99,99,,,Objective,1
+Messy food,Clean food,Fondue,13,15,15,,,Objective,2
+Messy food,Clean food,Bento box,66,71,71,,,Objective,5
+Messy food,Clean food,Loaded nachos,21,19,19,,,Objective,2
+Messy food,Clean food,Syrup pancakes,38,25,25,,,Objective,13
+Messy food,Clean food,Cotton candy,18,24,24,,,Objective,6
+Messy food,Clean food,BBQ sandwich,23,5,5,,,Objective,18
+Messy food,Clean food,Crab legs,5,14,14,,,Objective,9
+Messy food,Clean food,Apple slice,84,90,90,,,Objective,6
+Messy food,Clean food,Hard-boiled egg,76,85,85,,,Objective,9
+Messy food,Clean food,Sushi burrito,37,33,33,,,Objective,4
+Messy food,Clean food,Lobster,7,44,44,,,Objective,37
+Messy food,Clean food,Cheese and crackers,78,69,69,,,Objective,9
+Messy food,Clean food,Shawarma,37,25,25,,,Objective,12
+Messy food,Clean food,Burrito,22,20,20,,,Objective,2
+Messy food,Clean food,Gyro wrap,14,29,29,,,Objective,15
+Messy food,Clean food,Banana split,18,25,25,,,Objective,7
+Messy food,Clean food,Ribs,4,1,1,,,Objective,3
+Messy food,Clean food,Grilled fish,61,66,66,,,Objective,5
+Messy food,Clean food,Bagel,79,70,70,,,Objective,9
+Dangerous Job,Safe Job,Taxi driver,45,60,60,,,Objective,15
+Dangerous Job,Safe Job,Coal miner,11,9,9,,,Objective,2
+Dangerous Job,Safe Job,Technical writer,82,88,88,,,Objective,6
+Dangerous Job,Safe Job,Fighter pilot,8,6,6,,,Objective,2
+Dangerous Job,Safe Job,Barista,90,88,88,,,Objective,2
+Dangerous Job,Safe Job,Librarian,87,99,99,,,Objective,12
+Dangerous Job,Safe Job,Nurse,30,43,43,,,Objective,13
+Dangerous Job,Safe Job,Construction worker,25,19,19,,,Objective,6
+Dangerous Job,Safe Job,Deep sea diver,15,18,18,,,Objective,3
+Dangerous Job,Safe Job,Combat soldier,12,7,7,,,Objective,5
+Dangerous Job,Safe Job,Copy editor,82,93,93,,,Objective,11
+Dangerous Job,Safe Job,Test pilot,8,10,10,,,Objective,2
+Dangerous Job,Safe Job,Data scientist,73,97,97,,,Objective,24
+Dangerous Job,Safe Job,Jazz musician,90,95,95,,,Objective,5
+Dangerous Job,Safe Job,Police officer,28,13,13,,,Objective,15
+Dangerous Job,Safe Job,Underwater welder,12,8,8,,,Objective,4
+Dangerous Job,Safe Job,Software developer,66,94,94,,,Objective,28
+Dangerous Job,Safe Job,Pest control,39,80,80,,,Objective,41
+Dangerous Job,Safe Job,Real estate agent,90,94,94,,,Objective,4
+Dangerous Job,Safe Job,Pharmacist,73,78,78,,,Objective,5
+Dangerous Job,Safe Job,Online instructor,91,96,96,,,Objective,5
+Dangerous Job,Safe Job,Mail carrier,47,69,69,,,Objective,22
+Dangerous Job,Safe Job,Retail worker,53,83,83,,,Objective,30
+Dangerous Job,Safe Job,Web designer,84,97,97,,,Objective,13
+Dangerous Job,Safe Job,Marketing analyst,78,86,86,,,Objective,8
+Dangerous Job,Safe Job,Bartender,66,62,62,,,Objective,4
+Dangerous Job,Safe Job,Data entry clerk,98,89,89,,,Objective,9
+Dangerous Job,Safe Job,Accountant,64,84,84,,,Objective,20
+Dangerous Job,Safe Job,Marine biologist,26,46,46,,,Objective,20
+Dangerous Job,Safe Job,Security guard,39,15,15,,,Objective,24
+Dangerous Job,Safe Job,Window washer,9,33,33,,,Objective,24
+Dangerous Job,Safe Job,Chef,52,50,50,,,Objective,2
+Dangerous Job,Safe Job,Journalist,52,64,64,,,Objective,12
+Dangerous Job,Safe Job,Remote worker,90,100,100,,,Objective,10
+Dangerous Job,Safe Job,Research analyst,79,70,70,,,Objective,9
+Dangerous Job,Safe Job,Deep sea diver,5,19,19,,,Objective,14
+Dangerous Job,Safe Job,Nurse,49,35,35,,,Objective,14
+Dangerous Job,Safe Job,Financial analyst,65,89,89,,,Objective,24
+Dangerous Job,Safe Job,Wildfire fighter,11,30,30,,,Objective,19
+Dangerous Job,Safe Job,Lumberjack,13,27,27,,,Objective,14
+Dangerous Job,Safe Job,Physical therapist,47,78,78,,,Objective,31
+Dangerous Job,Safe Job,Electrical lineman,20,18,18,,,Objective,2
+Dangerous Job,Safe Job,Mechanic,54,32,32,,,Objective,22
+Dangerous Job,Safe Job,Social worker,46,88,88,,,Objective,42
+Dangerous Job,Safe Job,Roofer,17,43,43,,,Objective,26
+Dangerous Job,Safe Job,HR professional,78,90,90,,,Objective,12
+Dangerous Job,Safe Job,Office manager,75,90,90,,,Objective,15
+Dangerous Job,Safe Job,Yoga instructor,83,87,87,,,Objective,4
+Dangerous Job,Safe Job,Paramedic,32,34,34,,,Objective,2
+Dangerous Job,Safe Job,Oil rig worker,22,11,11,,,Objective,11
+Childish,Mature,Tantrum,0,8,8,,,Subjective,8
+Childish,Mature,Candy addiction,26,21,21,,,Subjective,5
+Childish,Mature,Side hustle,44,70,70,,,Subjective,26
+Childish,Mature,Silly prank,11,32,32,,,Subjective,21
+Childish,Mature,Therapy,52,88,88,,,Subjective,36
+Childish,Mature,Stock investing,94,88,88,,,Subjective,6
+Childish,Mature,Binge watching,40,56,56,,,Subjective,16
+Childish,Mature,Sucking thumb,3,1,1,,,Subjective,2
+Childish,Mature,Mentoring others,68,93,93,,,Subjective,25
+Childish,Mature,Toy car,6,17,17,,,Subjective,11
+Childish,Mature,Career investment,66,88,88,,,Subjective,22
+Childish,Mature,Long-term relationship,63,90,90,,,Subjective,27
+Childish,Mature,Will writing,91,91,91,,,Subjective,0
+Childish,Mature,Pacifier,2,3,3,,,Subjective,1
+Childish,Mature,Kids TV,17,10,10,,,Subjective,7
+Childish,Mature,Playground,14,25,25,,,Subjective,11
+Childish,Mature,College parties,35,48,48,,,Subjective,13
+Childish,Mature,Stuffed animal,6,40,40,,,Subjective,34
+Childish,Mature,Financial planning,57,88,88,,,Subjective,31
+Childish,Mature,Weak apology,41,15,15,,,Subjective,26
+Childish,Mature,Teen drama,29,34,34,,,Subjective,5
+Childish,Mature,Finger painting,12,29,29,,,Subjective,17
+Childish,Mature,Drooling,6,4,4,,,Subjective,2
+Childish,Mature,Wisdom sharing,91,88,88,,,Subjective,3
+Childish,Mature,Life insurance,84,95,95,,,Subjective,11
+Childish,Mature,Ghosting,35,32,32,,,Subjective,3
+Childish,Mature,Forgiving,92,86,86,,,Subjective,6
+Childish,Mature,Playing pretend,20,13,13,,,Subjective,7
+Childish,Mature,Skipping class,31,25,25,,,Subjective,6
+Childish,Mature,Gaming all day,28,22,22,,,Subjective,6
+Childish,Mature,Slumber party,17,40,40,,,Subjective,23
+Childish,Mature,Marriage,62,90,90,,,Subjective,28
+Childish,Mature,Casual dating,43,73,73,,,Subjective,30
+Childish,Mature,Voting,55,83,83,,,Subjective,28
+Childish,Mature,Estate planning,70,86,86,,,Subjective,16
+Childish,Mature,Legacy thinking,78,89,89,,,Subjective,11
+Childish,Mature,Imaginary friend,5,17,17,,,Subjective,12
+Childish,Mature,Sippy cup,2,9,9,,,Subjective,7
+Childish,Mature,Career planning,52,84,84,,,Subjective,32
+Childish,Mature,Budgeting attempt,47,77,77,,,Subjective,30
+Childish,Mature,Impulse spending,32,30,30,,,Subjective,2
+Childish,Mature,Diapers,2,0,0,,,Subjective,2
+Childish,Mature,Philanthropy,85,90,90,,,Subjective,5
+Childish,Mature,Crayon wall art,5,21,21,,,Subjective,16
+Childish,Mature,Home ownership,62,98,98,,,Subjective,36
+Childish,Mature,Cartoon obsession,8,18,18,,,Subjective,10
+Childish,Mature,Long-term investing,78,87,87,,,Subjective,9
+Childish,Mature,Retirement planning,93,88,88,,,Subjective,5
+Childish,Mature,Generational wealth,98,92,92,,,Subjective,6
+Childish,Mature,Peer pressure,42,27,27,,,Subjective,15
+Bad habit,Good habit,Regular checkups,78,92,92,,,Subjective,14
+Bad habit,Good habit,Nail biting,22,32,32,,,Subjective,10
+Bad habit,Good habit,Drug use,6,11,11,,,Subjective,5
+Bad habit,Good habit,Junk food occasionally,38,45,45,,,Subjective,7
+Bad habit,Good habit,Raging,11,19,19,,,Subjective,8
+Bad habit,Good habit,Cooking at home,60,80,80,,,Subjective,20
+Bad habit,Good habit,Social media addiction,20,14,14,,,Subjective,6
+Bad habit,Good habit,Hitting snooze,39,33,33,,,Subjective,6
+Bad habit,Good habit,Caffeine dependence,36,20,20,,,Subjective,16
+Bad habit,Good habit,Skipping exercise,37,38,38,,,Subjective,1
+Bad habit,Good habit,Daily exercise,68,90,90,,,Subjective,22
+Bad habit,Good habit,Daily stretching,82,85,85,,,Subjective,3
+Bad habit,Good habit,Oversleeping,24,34,34,,,Subjective,10
+Bad habit,Good habit,Stress eating,28,27,27,,,Subjective,1
+Bad habit,Good habit,Staying hydrated,52,93,93,,,Subjective,41
+Bad habit,Good habit,Meal prepping,70,78,78,,,Subjective,8
+Bad habit,Good habit,Sleep deprivation,9,15,15,,,Subjective,6
+Bad habit,Good habit,Mindless scrolling,26,19,19,,,Subjective,7
+Bad habit,Good habit,Procrastinating,24,21,21,,,Subjective,3
+Bad habit,Good habit,Chain smoking,2,3,3,,,Subjective,1
+Bad habit,Good habit,Regular socializing,64,70,70,,,Subjective,6
+Bad habit,Good habit,Excessive gaming,22,32,32,,,Subjective,10
+Bad habit,Good habit,Consistent workouts,86,83,83,,,Subjective,3
+Bad habit,Good habit,Binge junk food,6,11,11,,,Subjective,5
+Bad habit,Good habit,Learning a skill,59,82,82,,,Subjective,23
+Bad habit,Good habit,Irregular sleep,31,22,22,,,Subjective,9
+Bad habit,Good habit,Journaling,56,73,73,,,Subjective,17
+Bad habit,Good habit,Consistent sleep,76,87,87,,,Subjective,11
+Bad habit,Good habit,Messy workspace,37,35,35,,,Subjective,2
+Bad habit,Good habit,Gratitude practice,60,77,77,,,Subjective,17
+Bad habit,Good habit,Learning daily,96,77,77,,,Subjective,19
+Bad habit,Good habit,Regular sleep,50,95,95,,,Subjective,45
+Bad habit,Good habit,Regular saving,96,83,83,,,Subjective,13
+Bad habit,Good habit,Healthy diet,91,93,93,,,Subjective,2
+Bad habit,Good habit,Light stretching,44,78,78,,,Subjective,34
+Bad habit,Good habit,Morning routine,63,84,84,,,Subjective,21
+Bad habit,Good habit,Budgeting,68,79,79,,,Subjective,11
+Bad habit,Good habit,Consistent reading,61,67,67,,,Subjective,6
+Bad habit,Good habit,Meditation,75,69,69,,,Subjective,6
+Bad habit,Good habit,Daily mindfulness,96,73,73,,,Subjective,23
+Bad habit,Good habit,Limiting screen time,63,77,77,,,Subjective,14
+Bad habit,Good habit,Daily vitamins,67,50,50,,,Subjective,17
+Bad habit,Good habit,Heavy drinking,3,7,7,,,Subjective,4
+Bad habit,Good habit,Impulse buying,18,15,15,,,Subjective,3
+Bad habit,Good habit,Skipping meals,24,22,22,,,Subjective,2
+Bad habit,Good habit,Cold showers,76,68,68,,,Subjective,8
+Bad habit,Good habit,Flossing,72,70,70,,,Subjective,2
+Bad habit,Good habit,Short walks,58,65,65,,,Subjective,7
+Bad habit,Good habit,Reading at night,48,51,51,,,Subjective,3
+Bad habit,Good habit,Constant complaining,24,13,13,,,Subjective,11
+Underpaid,Overpaid,Grocery cashier,15,22,22,,,Subjective,7
+Underpaid,Overpaid,Hedge fund manager,77,83,83,,,Subjective,6
+Underpaid,Overpaid,Motivational speaker,94,73,73,,,Subjective,21
+Underpaid,Overpaid,Retail associate,15,24,24,,,Subjective,9
+Underpaid,Overpaid,Farm laborer,0,23,23,,,Subjective,23
+Underpaid,Overpaid,Insurance CEO,100,100,100,,,Subjective,0
+Underpaid,Overpaid,Bartender,53,48,48,,,Subjective,5
+Underpaid,Overpaid,Lawyer,61,80,80,,,Subjective,19
+Underpaid,Overpaid,Tech billionaire,84,99,99,,,Subjective,15
+Underpaid,Overpaid,Accountant,48,50,50,,,Subjective,2
+Underpaid,Overpaid,Preschool teacher,31,25,25,,,Subjective,6
+Underpaid,Overpaid,Crypto bro,99,100,100,,,Subjective,1
+Underpaid,Overpaid,Music producer,78,90,90,,,Subjective,12
+Underpaid,Overpaid,School teacher,39,21,21,,,Subjective,18
+Underpaid,Overpaid,Influencer,86,87,87,,,Subjective,1
+Underpaid,Overpaid,Fine dining waiter,67,70,70,,,Subjective,3
+Underpaid,Overpaid,Government worker,49,63,63,,,Subjective,14
+Underpaid,Overpaid,School bus driver,22,21,21,,,Subjective,1
+Underpaid,Overpaid,Library aide,22,18,18,,,Subjective,4
+Underpaid,Overpaid,Tenured professor,32,39,39,,,Subjective,7
+Underpaid,Overpaid,Childcare worker,9,21,21,,,Subjective,12
+Underpaid,Overpaid,Top YouTuber,81,97,97,,,Subjective,16
+Underpaid,Overpaid,Social worker,34,23,23,,,Subjective,11
+Underpaid,Overpaid,Delivery driver,17,13,13,,,Subjective,4
+Underpaid,Overpaid,Housemaid,19,15,15,,,Subjective,4
+Underpaid,Overpaid,Tech executive,75,80,80,,,Subjective,5
+Underpaid,Overpaid,Police officer,38,43,43,,,Subjective,5
+Underpaid,Overpaid,Professional golfer,80,85,85,,,Subjective,5
+Underpaid,Overpaid,Landscaper,22,33,33,,,Subjective,11
+Underpaid,Overpaid,Postal worker,27,29,29,,,Subjective,2
+Underpaid,Overpaid,Surgeon,67,79,79,,,Subjective,12
+Underpaid,Overpaid,Marketing manager,60,66,66,,,Subjective,6
+Underpaid,Overpaid,Dentist,60,83,83,,,Subjective,23
+Underpaid,Overpaid,Fast food worker,0,18,18,,,Subjective,18
+Underpaid,Overpaid,Finance manager,61,73,73,,,Subjective,12
+Underpaid,Overpaid,NFL Player,93,96,96,,,Subjective,3
+Underpaid,Overpaid,Firefighter,34,40,40,,,Subjective,6
+Underpaid,Overpaid,Janitor,10,15,15,,,Subjective,5
+Underpaid,Overpaid,Judge,87,92,92,,,Subjective,5
+Underpaid,Overpaid,Warehouse worker,16,24,24,,,Subjective,8
+Underpaid,Overpaid,Sports agent,75,85,85,,,Subjective,10
+Underpaid,Overpaid,Chiropractor,479,74,74,,,Subjective,405
+Underpaid,Overpaid,Dishwasher,12,18,18,,,Subjective,6
+Underpaid,Overpaid,Reality TV star,93,96,96,,,Subjective,3
+Underpaid,Overpaid,Celebrity chef,79,98,98,,,Subjective,19
+Underpaid,Overpaid,Professional athlete,77,97,97,,,Subjective,20
+Underpaid,Overpaid,TV personality,79,95,95,,,Subjective,16
+Underpaid,Overpaid,Movie star,79,97,97,,,Subjective,18
+Underpaid,Overpaid,Customer service,28,12,12,,,Subjective,16
+Underpaid,Overpaid,Bouncer,47,39,39,,,Subjective,8
+Boring,Exciting,Watching grass grow,26,4,4,,,Subjective,22
+Boring,Exciting,Movie night,44,72,72,,,Subjective,28
+Boring,Exciting,Crazy night out,92,96,96,,,Subjective,4
+Boring,Exciting,DMV line,5,1,1,,,Subjective,4
+Boring,Exciting,Concert,83,85,85,,,Subjective,2
+Boring,Exciting,Waiting room,1,11,11,,,Subjective,10
+Boring,Exciting,Road trip,52,70,70,,,Subjective,18
+Boring,Exciting,Standing in line,10,14,14,,,Subjective,4
+Boring,Exciting,Watching videos,70,66,66,,,Subjective,4
+Boring,Exciting,Volcano hike,96,65,65,,,Subjective,31
+Boring,Exciting,Skydiving,77,90,90,,,Subjective,13
+Boring,Exciting,Long commute,6,23,23,,,Subjective,17
+Boring,Exciting,Sorting junk mail,21,39,39,,,Subjective,18
+Boring,Exciting,Watching paint dry,10,1,1,,,Subjective,9
+Boring,Exciting,Filing paperwork,19,17,17,,,Subjective,2
+Boring,Exciting,Folding laundry,32,20,20,,,Subjective,12
+Boring,Exciting,Museum visit,41,43,43,,,Subjective,2
+Boring,Exciting,Camping trip,56,69,69,,,Subjective,13
+Boring,Exciting,Theme park,62,73,73,,,Subjective,11
+Boring,Exciting,Terms of service,35,3,3,,,Subjective,32
+Boring,Exciting,Championship game,94,75,75,,,Subjective,19
+Boring,Exciting,Bungee jumping,86,95,95,,,Subjective,9
+Boring,Exciting,Power walking,40,30,30,,,Subjective,10
+Boring,Exciting,Grand prix,94,88,88,,,Subjective,6
+Boring,Exciting,Stand-up show,65,69,69,,,Subjective,4
+Boring,Exciting,Doomscrolling,55,50,50,,,Subjective,5
+Boring,Exciting,Tax filing,7,11,11,,,Subjective,4
+Boring,Exciting,Attending lecture,32,48,48,,,Subjective,16
+Boring,Exciting,Comedy show,56,61,61,,,Subjective,5
+Boring,Exciting,Wingsuit flying,99,89,89,,,Subjective,10
+Boring,Exciting,Spam emails,7,18,18,,,Subjective,11
+Boring,Exciting,Office job,22,29,29,,,Subjective,7
+Boring,Exciting,World Cup final,99,78,78,,,Subjective,21
+Boring,Exciting,Casual hiking,40,70,70,,,Subjective,30
+Boring,Exciting,Mountain climbing,79,69,69,,,Subjective,10
+Boring,Exciting,On hold,30,6,6,,,Subjective,24
+Boring,Exciting,Paragliding,84,88,88,,,Subjective,4
+Boring,Exciting,Sports game,58,76,76,,,Subjective,18
+Boring,Exciting,Skiing,80,78,78,,,Subjective,2
+Boring,Exciting,Lunch break,38,42,42,,,Subjective,4
+Boring,Exciting,Board game night,40,78,78,,,Subjective,38
+Boring,Exciting,Carnival,48,83,83,,,Subjective,35
+Boring,Exciting,Improv class,59,63,63,,,Subjective,4
+Boring,Exciting,Bar hopping,80,74,74,,,Subjective,6
+Boring,Exciting,Rage room,80,82,82,,,Subjective,2
+Boring,Exciting,Traffic jam,29,12,12,,,Subjective,17
+Boring,Exciting,First date,67,85,85,,,Subjective,18
+Boring,Exciting,Shark diving,98,80,80,,,Subjective,18
+Boring,Exciting,Escape room,46,77,77,,,Subjective,31
+Boring,Exciting,Sitting in elevator,8,13,13,,,Subjective,5
+Useless major,Useful major,Political science,36,40,40,,,Subjective,4
+Useless major,Useful major,Dropped out,2,0,0,,,Subjective,2
+Useless major,Useful major,Computer science,79,85,85,,,Subjective,6
+Useless major,Useful major,Film studies,23,13,13,,,Subjective,10
+Useless major,Useful major,Statistics,77,86,86,,,Subjective,9
+Useless major,Useful major,Education,66,74,74,,,Subjective,8
+Useless major,Useful major,International relations,43,53,53,,,Subjective,10
+Useless major,Useful major,Comparative literature,19,27,27,,,Subjective,8
+Useless major,Useful major,Biochemistry,61,79,79,,,Subjective,18
+Useless major,Useful major,Environmental studies,47,43,43,,,Subjective,4
+Useless major,Useful major,Public health,61,62,62,,,Subjective,1
+Useless major,Useful major,Pharmacy,85,79,79,,,Subjective,6
+Useless major,Useful major,Healthcare admin,69,75,75,,,Subjective,6
+Useless major,Useful major,Philosophy,33,65,65,,,Subjective,32
+Useless major,Useful major,Fine arts,24,32,32,,,Subjective,8
+Useless major,Useful major,Mechanical engineering,77,79,79,,,Subjective,2
+Useless major,Useful major,Art history,13,28,28,,,Subjective,15
+Useless major,Useful major,Medieval history,12,3,3,,,Subjective,9
+Useless major,Useful major,Communications,37,57,57,,,Subjective,20
+Useless major,Useful major,Pilates,17,10,10,,,Subjective,7
+Useless major,Useful major,Basket weaving,7,10,10,,,Subjective,3
+Useless major,Useful major,Data analytics,64,89,89,,,Subjective,25
+Useless major,Useful major,Folklore,23,15,15,,,Subjective,8
+Useless major,Useful major,Linguistics,35,44,44,,,Subjective,9
+Useless major,Useful major,Civil engineering,73,88,88,,,Subjective,15
+Useless major,Useful major,Music theory,31,40,40,,,Subjective,9
+Useless major,Useful major,Software engineering,80,82,82,,,Subjective,2
+Useless major,Useful major,Marketing,57,78,78,,,Subjective,21
+Useless major,Useful major,Journalism,38,55,55,,,Subjective,17
+Useless major,Useful major,Law,88,73,73,,,Subjective,15
+Useless major,Useful major,Sociology,35,33,33,,,Subjective,2
+Useless major,Useful major,Photography,32,33,33,,,Subjective,1
+Useless major,Useful major,Supply chain,69,69,69,,,Subjective,0
+Useless major,Useful major,Public policy,47,28,28,,,Subjective,19
+Useless major,Useful major,Nursing,83,90,90,,,Subjective,7
+Useless major,Useful major,Social work,66,35,35,,,Subjective,31
+Useless major,Useful major,Information systems,62,85,85,,,Subjective,23
+Useless major,Useful major,Religious studies,34,30,30,,,Subjective,4
+Useless major,Useful major,Theater performance,28,30,30,,,Subjective,2
+Useless major,Useful major,Physical therapy,85,45,45,,,Subjective,40
+Useless major,Useful major,Kinesiology,65,51,51,,,Subjective,14
+Useless major,Useful major,Cultural anthropology,35,23,23,,,Subjective,12
+Useless major,Useful major,Psychology,43,77,77,,,Subjective,34
+Useless major,Useful major,Medicine,86,92,92,,,Subjective,6
+Useless major,Useful major,Classical studies,22,24,24,,,Subjective,2
+Useless major,Useful major,Interpretive dance,1,19,19,,,Subjective,18
+Useless major,Useful major,Accounting,68,70,70,,,Subjective,2
+Useless major,Useful major,Pre-med,86,83,83,,,Subjective,3
+Useless major,Useful major,Biomedical engineering,95,90,90,,,Subjective,5
+Useless major,Useful major,Electrical engineering,71,87,87,,,Subjective,16
+Small talk,Heavy topic,Moral dilemmas,55,63,63,,,Subjective,8
+Small talk,Heavy topic,Euthanasia,79,77,77,,,Subjective,2
+Small talk,Heavy topic,Breakup,47,84,84,,,Subjective,37
+Small talk,Heavy topic,Nice weather,2,10,10,,,Subjective,8
+Small talk,Heavy topic,Childhood memories,36,33,33,,,Subjective,3
+Small talk,Heavy topic,Racial justice,98,94,94,,,Subjective,4
+Small talk,Heavy topic,Workout routine,13,20,20,,,Subjective,7
+Small talk,Heavy topic,Seen any shows,20,11,11,,,Subjective,9
+Small talk,Heavy topic,Coffee order,21,5,5,,,Subjective,16
+Small talk,Heavy topic,Political views,62,90,90,,,Subjective,28
+Small talk,Heavy topic,Weekend plans,14,15,15,,,Subjective,1
+Small talk,Heavy topic,Death of a child,92,100,100,,,Subjective,8
+Small talk,Heavy topic,Job change,41,63,63,,,Subjective,22
+Small talk,Heavy topic,Sports score,14,11,11,,,Subjective,3
+Small talk,Heavy topic,Diet,58,49,49,,,Subjective,9
+Small talk,Heavy topic,Afterlife,95,79,79,,,Subjective,16
+Small talk,Heavy topic,Terminal diagnosis,90,90,90,,,Subjective,0
+Small talk,Heavy topic,Abortion rights,79,85,85,,,Subjective,6
+Small talk,Heavy topic,Career dreams,31,42,42,,,Subjective,11
+Small talk,Heavy topic,Dating life,32,69,69,,,Subjective,37
+Small talk,Heavy topic,Any trips coming,24,33,33,,,Subjective,9
+Small talk,Heavy topic,Family dynamics,39,61,61,,,Subjective,22
+Small talk,Heavy topic,Life goals,34,53,53,,,Subjective,19
+Small talk,Heavy topic,Holiday plans,27,23,23,,,Subjective,4
+Small talk,Heavy topic,Lunch plans,22,21,21,,,Subjective,1
+Small talk,Heavy topic,Climate anxiety,55,77,77,,,Subjective,22
+Small talk,Heavy topic,Purpose of existence,95,88,88,,,Subjective,7
+Small talk,Heavy topic,Genocide,88,95,95,,,Subjective,7
+Small talk,Heavy topic,How was your day,18,25,25,,,Subjective,7
+Small talk,Heavy topic,Parenting styles,39,54,54,,,Subjective,15
+Small talk,Heavy topic,Life regrets,55,90,90,,,Subjective,35
+Small talk,Heavy topic,Mental health crisis,80,97,97,,,Subjective,17
+Small talk,Heavy topic,Suicide,83,100,100,,,Subjective,17
+Small talk,Heavy topic,Wealth inequality,66,70,70,,,Subjective,4
+Small talk,Heavy topic,War and peace,77,80,80,,,Subjective,3
+Small talk,Heavy topic,Major life choices,38,72,72,,,Subjective,34
+Small talk,Heavy topic,Work frustrations,31,49,49,,,Subjective,18
+Small talk,Heavy topic,Local events,27,27,27,,,Subjective,0
+Small talk,Heavy topic,Religious beliefs,49,68,68,,,Subjective,19
+Small talk,Heavy topic,Immigration,72,88,88,,,Subjective,16
+Small talk,Heavy topic,Traffic today,9,13,13,,,Subjective,4
+Small talk,Heavy topic,Like your shirt,3,7,7,,,Subjective,4
+Small talk,Heavy topic,Favorite movie,24,13,13,,,Subjective,11
+Small talk,Heavy topic,Grief,41,88,88,,,Subjective,47
+Small talk,Heavy topic,Dream vacation,29,14,14,,,Subjective,15
+Small talk,Heavy topic,Capital punishment,78,90,90,,,Subjective,12
+Small talk,Heavy topic,Favorite foods,21,18,18,,,Subjective,3
+Small talk,Heavy topic,Meaning of life,93,83,83,,,Subjective,10
+Small talk,Heavy topic,End of life,75,89,89,,,Subjective,14
+Small talk,Heavy topic,Work going well,26,21,21,,,Subjective,5
+Niche fandom,Mainstream fandom,K-pop,78,83,83,,,Subjective,5
+Niche fandom,Mainstream fandom,UFC,67,70,70,,,Subjective,3
+Niche fandom,Mainstream fandom,Pop music,81,78,78,,,Subjective,3
+Niche fandom,Mainstream fandom,Soccer,17,93,93,,,Subjective,76
+Niche fandom,Mainstream fandom,Horror films,56,69,69,,,Subjective,13
+Niche fandom,Mainstream fandom,Furry art,5,10,10,,,Subjective,5
+Niche fandom,Mainstream fandom,Netflix shows,88,76,76,,,Subjective,12
+Niche fandom,Mainstream fandom,Pickleball,69,65,65,,,Subjective,4
+Niche fandom,Mainstream fandom,Sci-fi shows,48,53,53,,,Subjective,5
+Niche fandom,Mainstream fandom,Gaming,92,95,95,,,Subjective,3
+Niche fandom,Mainstream fandom,Soccer,96,95,95,,,Subjective,1
+Niche fandom,Mainstream fandom,Indie films,34,51,51,,,Subjective,17
+Niche fandom,Mainstream fandom,Taylor Swift,93,88,88,,,Subjective,5
+Niche fandom,Mainstream fandom,Stock market,63,57,57,,,Subjective,6
+Niche fandom,Mainstream fandom,Harry Potter,63,55,55,,,Subjective,8
+Niche fandom,Mainstream fandom,Cosplay,26,32,32,,,Subjective,6
+Niche fandom,Mainstream fandom,NFL,85,93,93,,,Subjective,8
+Niche fandom,Mainstream fandom,Podcasts,45,64,64,,,Subjective,19
+Niche fandom,Mainstream fandom,K-pop,78,85,85,,,Subjective,7
+Niche fandom,Mainstream fandom,Superhero films,71,75,75,,,Subjective,4
+Niche fandom,Mainstream fandom,Knitting,23,35,35,,,Subjective,12
+Niche fandom,Mainstream fandom,Rock music,61,68,68,,,Subjective,7
+Niche fandom,Mainstream fandom,Board games,70,75,75,,,Subjective,5
+Niche fandom,Mainstream fandom,E-sports,23,33,33,,,Subjective,10
+Niche fandom,Mainstream fandom,Documentaries,50,45,45,,,Subjective,5
+Niche fandom,Mainstream fandom,Celebrity gossip,75,60,60,,,Subjective,15
+Niche fandom,Mainstream fandom,Anime,65,70,70,,,Subjective,5
+Niche fandom,Mainstream fandom,Basketball,83,85,85,,,Subjective,2
+Niche fandom,Mainstream fandom,Car meets,43,55,55,,,Subjective,12
+Niche fandom,Mainstream fandom,Star Wars,67,68,68,,,Subjective,1
+Niche fandom,Mainstream fandom,LARP,6,15,15,,,Subjective,9
+Niche fandom,Mainstream fandom,Reality TV,73,70,70,,,Subjective,3
+Niche fandom,Mainstream fandom,Hockey,64,66,66,,,Subjective,2
+Niche fandom,Mainstream fandom,True crime,58,59,59,,,Subjective,1
+Niche fandom,Mainstream fandom,Hollywood films,91,73,73,,,Subjective,18
+Niche fandom,Mainstream fandom,Comic books,36,70,70,,,Subjective,34
+Niche fandom,Mainstream fandom,Disney,87,84,84,,,Subjective,3
+Niche fandom,Mainstream fandom,Speedrunning,15,32,32,,,Subjective,17
+Niche fandom,Mainstream fandom,Music concerts,77,90,90,,,Subjective,13
+Niche fandom,Mainstream fandom,Puppet theater,11,20,20,,,Subjective,9
+Niche fandom,Mainstream fandom,Pro wrestling,38,35,35,,,Subjective,3
+Niche fandom,Mainstream fandom,Olympics,89,55,55,,,Subjective,34
+Niche fandom,Mainstream fandom,Card gaming,23,67,67,,,Subjective,44
+Niche fandom,Mainstream fandom,Cooking shows,65,60,60,,,Subjective,5
+Niche fandom,Mainstream fandom,Health and fitness,73,80,80,,,Subjective,7
+Niche fandom,Mainstream fandom,Pokemon,675,70,70,,,Subjective,605
+Niche fandom,Mainstream fandom,Marvel,79,80,80,,,Subjective,1
+Niche fandom,Mainstream fandom,Pop culture,76,79,79,,,Subjective,3
+Niche fandom,Mainstream fandom,NBA,80,86,86,,,Subjective,6
+Unpopular activity,Popular activity,Fantasy novels,43,90,90,,,Subjective,47
+Unpopular activity,Popular activity,Beekeeping,15,5,5,,,Subjective,10
+Unpopular activity,Popular activity,Web browsing,91,95,95,,,Subjective,4
+Unpopular activity,Popular activity,Log rolling,8,11,11,,,Subjective,3
+Unpopular activity,Popular activity,Cooking,72,78,78,,,Subjective,6
+Unpopular activity,Popular activity,Falconry,7,3,3,,,Subjective,4
+Unpopular activity,Popular activity,TV watching,90,88,88,,,Subjective,2
+Unpopular activity,Popular activity,Blacksmithing,12,14,14,,,Subjective,2
+Unpopular activity,Popular activity,Hiking,52,73,73,,,Subjective,21
+Unpopular activity,Popular activity,Sword swallowing,4,11,11,,,Subjective,7
+Unpopular activity,Popular activity,Social media,93,88,88,,,Subjective,5
+Unpopular activity,Popular activity,Diving,33,28,28,,,Subjective,5
+Unpopular activity,Popular activity,Cycling,50,53,53,,,Subjective,3
+Unpopular activity,Popular activity,Cheese rolling,3,8,8,,,Subjective,5
+Unpopular activity,Popular activity,Gardening,55,66,66,,,Subjective,11
+Unpopular activity,Popular activity,Wingsuit flying,8,10,10,,,Subjective,2
+Unpopular activity,Popular activity,Reading,65,70,70,,,Subjective,5
+Unpopular activity,Popular activity,Snail racing,5,4,4,,,Subjective,1
+Unpopular activity,Popular activity,Phone scrolling,95,98,98,,,Subjective,3
+Unpopular activity,Popular activity,Archery,22,65,65,,,Subjective,43
+Unpopular activity,Popular activity,Shopping,75,89,89,,,Subjective,14
+Unpopular activity,Popular activity,Taxidermy,9,21,21,,,Subjective,12
+Unpopular activity,Popular activity,Music listening,88,95,95,,,Subjective,7
+Unpopular activity,Popular activity,Yodeling,6,15,15,,,Subjective,9
+Unpopular activity,Popular activity,Swimming,60,69,69,,,Subjective,9
+Unpopular activity,Popular activity,Glassblowing,10,24,24,,,Subjective,14
+Unpopular activity,Popular activity,Driving,82,89,89,,,Subjective,7
+Unpopular activity,Popular activity,Cave diving,4,26,26,,,Subjective,22
+Unpopular activity,Popular activity,Jogging,57,66,66,,,Subjective,9
+Unpopular activity,Popular activity,Wrestling,54,59,59,,,Subjective,5
+Unpopular activity,Popular activity,Socializing,78,84,84,,,Subjective,6
+Unpopular activity,Popular activity,Skydiving,43,40,40,,,Subjective,3
+Unpopular activity,Popular activity,Exercising,62,78,78,,,Subjective,16
+Unpopular activity,Popular activity,Rodeo riding,16,32,32,,,Subjective,16
+Unpopular activity,Popular activity,Dining out,80,75,75,,,Subjective,5
+Unpopular activity,Popular activity,Knitting,35,42,42,,,Subjective,7
+Unpopular activity,Popular activity,Gaming,70,90,90,,,Subjective,20
+Unpopular activity,Popular activity,Bagpiping,11,22,22,,,Subjective,11
+Unpopular activity,Popular activity,Camping,45,65,65,,,Subjective,20
+Unpopular activity,Popular activity,Jousting,2,18,18,,,Subjective,16
+Unpopular activity,Popular activity,Painting,44,68,68,,,Subjective,24
+Unpopular activity,Popular activity,Ferret racing,6,2,2,,,Subjective,4
+Unpopular activity,Popular activity,Rock climbing,77,88,88,,,Subjective,11
+Unpopular activity,Popular activity,Ice sculpting,13,17,17,,,Subjective,4
+Unpopular activity,Popular activity,Meditation,40,45,45,,,Subjective,5
+Unpopular activity,Popular activity,Stargazing,25,40,40,,,Subjective,15
+Unpopular activity,Popular activity,Sleeping,98,100,100,,,Subjective,2
+Unpopular activity,Popular activity,Birdwatching,28,49,49,,,Subjective,21
+Unpopular activity,Popular activity,Yoga,42,54,54,,,Subjective,12
+Nobody does it,Everybody does it,Buying VHS,11,6,6,,,Subjective,5
+Nobody does it,Everybody does it,Going to dentist,51,76,76,,,Subjective,25
+Nobody does it,Everybody does it,Using a dictionary,28,33,33,,,Subjective,5
+Nobody does it,Everybody does it,Social media,63,75,75,,,Subjective,12
+Nobody does it,Everybody does it,Using WiFi,69,80,80,,,Subjective,11
+Nobody does it,Everybody does it,Drives,77,70,70,,,Subjective,7
+Nobody does it,Everybody does it,Using a smartphone,66,87,87,,,Subjective,21
+Nobody does it,Everybody does it,Drinking water,76,97,97,,,Subjective,21
+Nobody does it,Everybody does it,Owning a watch,32,43,43,,,Subjective,11
+Nobody does it,Everybody does it,Online shopping,68,83,83,,,Subjective,15
+Nobody does it,Everybody does it,Writing fax letters,6,23,23,,,Subjective,17
+Nobody does it,Everybody does it,Listening to music,64,90,90,,,Subjective,26
+Nobody does it,Everybody does it,Watching online video,94,87,87,,,Subjective,7
+Nobody does it,Everybody does it,Going to Blockbuster,10,1,1,,,Subjective,9
+Nobody does it,Everybody does it,Watching YouTube,63,88,88,,,Subjective,25
+Nobody does it,Everybody does it,Aging,99,100,100,,,Subjective,1
+Nobody does it,Everybody does it,Board games,53,60,60,,,Subjective,7
+Nobody does it,Everybody does it,Dying,99,100,100,,,Subjective,1
+Nobody does it,Everybody does it,Using GPS,52,80,80,,,Subjective,28
+Nobody does it,Everybody does it,Owning a smartphone,41,82,82,,,Subjective,41
+Nobody does it,Everybody does it,Feeling pain,98,99,99,,,Subjective,1
+Nobody does it,Everybody does it,Watching Netflix,51,62,62,,,Subjective,11
+Nobody does it,Everybody does it,Snoring,56,50,50,,,Subjective,6
+,Everybody does it,Tips waiter,59,65,65,,,Subjective,6
+Nobody does it,Everybody does it,Paging someone,7,8,8,,,Subjective,1
+Nobody does it,Everybody does it,Buying encyclopedias,9,13,13,,,Subjective,4
+Nobody does it,Everybody does it,Checking email,66,70,70,,,Subjective,4
+Nobody does it,Everybody does it,Drinking coffee,52,67,67,,,Subjective,15
+Nobody does it,Everybody does it,Sleeps in class,10,15,15,,,Subjective,5
+Nobody does it,Everybody does it,Sleeping,87,100,100,,,Subjective,13
+Nobody does it,Everybody does it,Regularly drinks,23,19,19,,,Subjective,4
+Nobody does it,Everybody does it,Watching TV,73,77,77,,,Subjective,4
+Nobody does it,Everybody does it,Licking subway poles,3,3,3,,,Subjective,0
+Nobody does it,Everybody does it,Mailing checks,11,53,53,,,Subjective,42
+Nobody does it,Everybody does it,Using email,91,74,74,,,Subjective,17
+Nobody does it,Everybody does it,Ambidextrous,3,1,1,,,Subjective,2
+Nobody does it,Everybody does it,Watching live TV,27,31,31,,,Subjective,4
+Nobody does it,Everybody does it,Reading physical maps,19,20,20,,,Subjective,1
+Nobody does it,Everybody does it,Owning a pet,32,66,66,,,Subjective,34
+Nobody does it,Everybody does it,Texting,61,86,86,,,Subjective,25
+Nobody does it,Everybody does it,Eating food,88,97,97,,,Subjective,9
+Nobody does it,Everybody does it,Using Google,58,90,90,,,Subjective,32
+Nobody does it,Everybody does it,Eating glass,0,2,2,,,Subjective,2
+Nobody does it,Everybody does it,Wearing shoes,83,80,80,,,Subjective,3
+Nobody does it,Everybody does it,Writing letters,21,40,40,,,Subjective,19
+Nobody does it,Everybody does it,Only uses cash,34,34,34,,,Subjective,0
+Nobody does it,Everybody does it,Using search engine,92,93,93,,,Subjective,1
+Nobody does it,Everybody does it,Cooking from scratch,28,34,34,,,Subjective,6
+Nobody does it,Everybody does it,Reading newspapers,28,28,28,,,Subjective,0
+Nobody does it,Everybody does it,Social media profile,40,75,75,,,Subjective,35
+Bad,Good,Adopting a pet,63,77,77,,,Subjective,14
+Bad,Good,Arson,12,11,11,,,Subjective,1
+Bad,Good,Forgetting birthdays,34,23,23,,,Subjective,11
+Bad,Good,Selfless heroism,100,90,90,,,Subjective,10
+Bad,Good,Donating blood,61,84,84,,,Subjective,23
+Bad,Good,Road rage,19,21,21,,,Subjective,2
+Bad,Good,Not tipping,,40,40,,,Subjective,40
+Bad,Good,Ignoring a friend,30,36,36,,,Subjective,6
+Bad,Good,Tutoring kids,67,68,68,,,Subjective,1
+Bad,Good,Feeding homeless,72,85,85,,,Subjective,13
+Bad,Good,Protecting refugees,94,80,80,,,Subjective,14
+Bad,Good,Saving species,99,84,84,,,Subjective,15
+Bad,Good,Ending world hunger,90,100,100,,,Subjective,10
+Bad,Good,World peace,99,100,100,,,Subjective,1
+Bad,Good,Cutting in line,34,33,33,,,Subjective,1
+Bad,Good,Holding the door,39,63,63,,,Subjective,24
+Bad,Good,Mentoring youth,73,74,74,,,Subjective,1
+Bad,Good,Organ donation,69,85,85,,,Subjective,16
+Bad,Good,Saving a life,84,95,95,,,Subjective,11
+Bad,Good,Volunteer work,58,78,78,,,Subjective,20
+Bad,Good,Cheating on test,35,30,30,,,Subjective,5
+Bad,Good,Peace treaty,91,90,90,,,Subjective,1
+Bad,Good,Helping with bags,40,70,70,,,Subjective,30
+Bad,Good,Community service,76,75,75,,,Subjective,1
+Bad,Good,Assault,14,20,20,,,Subjective,6
+Bad,Good,Sacrificing for others,93,87,87,,,Subjective,6
+Bad,Good,Vandalism,18,32,32,,,Subjective,14
+Bad,Good,Curing disease,91,92,92,,,Subjective,1
+Bad,Good,Torture,1,6,6,,,Subjective,5
+Bad,Good,Lying,18,35,35,,,Subjective,17
+Bad,Good,White lie,38,49,49,,,Subjective,11
+Bad,Good,Cheating on spouse,19,11,11,,,Subjective,8
+Bad,Good,Defending someone,61,86,86,,,Subjective,25
+Bad,Good,Disaster relief,78,83,83,,,Subjective,5
+Bad,Good,Thoughtless gift,36,49,49,,,Subjective,13
+Bad,Good,Fostering children,70,90,90,,,Subjective,20
+Bad,Good,Ending poverty,96,97,97,,,Subjective,1
+Bad,Good,Theft,14,25,25,,,Subjective,11
+Bad,Good,Returning a wallet,50,82,82,,,Subjective,32
+Bad,Good,Teaching for free,76,85,85,,,Subjective,9
+Bad,Good,Bullying,18,22,22,,,Subjective,4
+Bad,Good,Child abuse,10,4,4,,,Subjective,6
+Bad,Good,Being late,34,39,39,,,Subjective,5
+Bad,Good,Genocide,0,1,1,,,Subjective,1
+Bad,Good,Being rude,21,20,20,,,Subjective,1
+Bad,Good,Serial murder,10,3,3,,,Subjective,7
+Bad,Good,Helping a stranger,53,76,76,,,Subjective,23
+Bad,Good,Gossiping,18,34,34,,,Subjective,16
+Bad,Good,Breaking promises,26,29,29,,,Subjective,3
+Bad,Good,Planting trees,67,68,68,,,Subjective,1
+Easy to use,Difficult to use,Nuclear reactor,97,99,99,,,Subjective,2
+Easy to use,Difficult to use,Light switch,2,11,11,,,Subjective,9
+Easy to use,Difficult to use,Chopsticks,45,53,53,,,Subjective,8
+Easy to use,Difficult to use,TV remote,8,32,32,,,Subjective,24
+Easy to use,Difficult to use,Soldering iron,62,83,83,,,Subjective,21
+Easy to use,Difficult to use,Elevator,4,25,25,,,Subjective,21
+Easy to use,Difficult to use,Espresso machine,55,60,60,,,Subjective,5
+Easy to use,Difficult to use,Calculator,12,35,35,,,Subjective,23
+Easy to use,Difficult to use,Oven,40,34,34,,,Subjective,6
+Easy to use,Difficult to use,Microwave,7,35,35,,,Subjective,28
+Easy to use,Difficult to use,Flight simulator,94,87,87,,,Subjective,7
+Easy to use,Difficult to use,Stapler,3,29,29,,,Subjective,26
+Easy to use,Difficult to use,Keyboard,56,50,50,,,Subjective,6
+Easy to use,Difficult to use,Sticky note,9,14,14,,,Subjective,5
+Easy to use,Difficult to use,Band saw,72,70,70,,,Subjective,2
+Easy to use,Difficult to use,Scissors,15,21,21,,,Subjective,6
+Easy to use,Difficult to use,Defibrillator,78,83,83,,,Subjective,5
+Easy to use,Difficult to use,Pencil,2,10,10,,,Subjective,8
+Easy to use,Difficult to use,Segway,48,61,61,,,Subjective,13
+Easy to use,Difficult to use,Doorknob,3,5,5,,,Subjective,2
+Easy to use,Difficult to use,Welding torch,83,73,73,,,Subjective,10
+Easy to use,Difficult to use,Blender,10,41,41,,,Subjective,31
+Easy to use,Difficult to use,Rifle,70,78,78,,,Subjective,8
+Easy to use,Difficult to use,Clothes iron,48,56,56,,,Subjective,8
+Easy to use,Difficult to use,Skateboard,67,59,59,,,Subjective,8
+Easy to use,Difficult to use,Snowboard,73,74,74,,,Subjective,1
+Easy to use,Difficult to use,Piano,75,77,77,,,Subjective,2
+Easy to use,Difficult to use,Ballpoint pen,1,6,6,,,Subjective,5
+Easy to use,Difficult to use,Pottery wheel,52,63,63,,,Subjective,11
+Easy to use,Difficult to use,iPhone,14,21,21,,,Subjective,7
+Easy to use,Difficult to use,Manual car,14,19,19,,,Subjective,5
+Easy to use,Difficult to use,Vending machine,5,23,23,,,Subjective,18
+Easy to use,Difficult to use,Skis,70,68,68,,,Subjective,2
+Easy to use,Difficult to use,Paper clip,1,19,19,,,Subjective,18
+Easy to use,Difficult to use,Air fryer,16,30,30,,,Subjective,14
+Easy to use,Difficult to use,Subway system,62,56,56,,,Subjective,6
+Easy to use,Difficult to use,Garage door,6,10,10,,,Subjective,4
+Easy to use,Difficult to use,Pipe organ,80,73,73,,,Subjective,7
+Easy to use,Difficult to use,Outdoor grill,73,65,65,,,Subjective,8
+Easy to use,Difficult to use,Particle accelerator,99,99,99,,,Subjective,0
+Easy to use,Difficult to use,Bicycle,18,43,43,,,Subjective,25
+Easy to use,Difficult to use,ChatGPT,5,9,9,,,Subjective,4
+Easy to use,Difficult to use,Padlock,12,63,63,,,Subjective,51
+Easy to use,Difficult to use,Oscilloscope,85,90,90,,,Subjective,5
+Easy to use,Difficult to use,Staple remover,4,30,30,,,Subjective,26
+Easy to use,Difficult to use,Tableau software,73,63,63,,,Subjective,10
+Easy to use,Difficult to use,Chapstick,2,6,6,,,Subjective,4
+Easy to use,Difficult to use,Soldering station,77,,#VALUE!,,,Subjective,#VALUE!
+Easy to use,Difficult to use,Google search,9,4,4,,,Subjective,5
+Easy to use,Difficult to use,,,,#VALUE!,,,Subjective,#VALUE!
+Relaxing activity,Stressful activity,Moving homes,61,80,80,,,Subjective,19
+Relaxing activity,Stressful activity,Exam week,62,90,90,,,Subjective,28
+Relaxing activity,Stressful activity,Performance review,58,78,78,,,Subjective,20
+Relaxing activity,Stressful activity,Gardening,26,34,34,,,Subjective,8
+Relaxing activity,Stressful activity,Medical diagnosis,87,85,85,,,Subjective,2
+Relaxing activity,Stressful activity,IRS audit,96,83,83,,,Subjective,13
+Relaxing activity,Stressful activity,Stargazing,13,23,23,,,Subjective,10
+Relaxing activity,Stressful activity,Bubble bath,11,19,19,,,Subjective,8
+Relaxing activity,Stressful activity,Laying off employees,92,79,79,,,Subjective,13
+Relaxing activity,Stressful activity,Emergency surgery,99,93,93,,,Subjective,6
+Relaxing activity,Stressful activity,Running for a flight,87,85,85,,,Subjective,2
+Relaxing activity,Stressful activity,Listening to music,17,20,20,,,Subjective,3
+Relaxing activity,Stressful activity,Birdwatching,28,18,18,,,Subjective,10
+Relaxing activity,Stressful activity,Public speaking,91,68,68,,,Subjective,23
+Relaxing activity,Stressful activity,Tax deadline,74,65,65,,,Subjective,9
+Relaxing activity,Stressful activity,Online shopping,43,29,29,,,Subjective,14
+Relaxing activity,Stressful activity,Job interview,78,68,68,,,Subjective,10
+Relaxing activity,Stressful activity,Car accident,87,83,83,,,Subjective,4
+Relaxing activity,Stressful activity,Meditation,9,20,20,,,Subjective,11
+Relaxing activity,Stressful activity,Gentle yoga,11,27,27,,,Subjective,16
+Relaxing activity,Stressful activity,Napping,1,6,6,,,Subjective,5
+Relaxing activity,Stressful activity,Coloring book,36,19,19,,,Subjective,17
+Relaxing activity,Stressful activity,Simple cooking,29,37,37,,,Subjective,8
+Relaxing activity,Stressful activity,Casual board game,35,28,28,,,Subjective,7
+Relaxing activity,Stressful activity,Interview prep,57,38,38,,,Subjective,19
+Relaxing activity,Stressful activity,New recipe,43,44,44,,,Subjective,1
+Relaxing activity,Stressful activity,Hostage negotiation,100,100,100,,,Subjective,0
+Relaxing activity,Stressful activity,Organizing closet,43,40,40,,,Subjective,3
+Relaxing activity,Stressful activity,Life-or-death decision,100,97,97,,,Subjective,3
+Relaxing activity,Stressful activity,Natural disaster,99,90,90,,,Subjective,9
+Relaxing activity,Stressful activity,First date,78,75,75,,,Subjective,3
+Relaxing activity,Stressful activity,Journaling,25,32,32,,,Subjective,7
+Relaxing activity,Stressful activity,Meal planning,53,29,29,,,Subjective,24
+Relaxing activity,Stressful activity,Long meeting,55,46,46,,,Subjective,9
+Relaxing activity,Stressful activity,Giving a speech,55,77,77,,,Subjective,22
+Relaxing activity,Stressful activity,Legal dispute,94,81,81,,,Subjective,13
+Relaxing activity,Stressful activity,Socializing,41,21,21,,,Subjective,20
+Relaxing activity,Stressful activity,Divorce proceedings,98,90,90,,,Subjective,8
+Relaxing activity,Stressful activity,Casual swimming,32,23,23,,,Subjective,9
+Relaxing activity,Stressful activity,Light cycling,32,34,34,,,Subjective,2
+Relaxing activity,Stressful activity,Running late,74,68,68,,,Subjective,6
+Relaxing activity,Stressful activity,Reading fiction,13,21,21,,,Subjective,8
+Relaxing activity,Stressful activity,Nature walk,18,14,14,,,Subjective,4
+Relaxing activity,Stressful activity,Light stretching,21,15,15,,,Subjective,6
+Relaxing activity,Stressful activity,Commuting,50,42,42,,,Subjective,8
+Relaxing activity,Stressful activity,Grocery shopping,49,39,39,,,Subjective,10
+Relaxing activity,Stressful activity,Afternoon nap,32,25,25,,,Subjective,7
+Relaxing activity,Stressful activity,Light cleaning,45,39,39,,,Subjective,6
+Relaxing activity,Stressful activity,Watching a movie,31,20,20,,,Subjective,11
+Relaxing activity,Stressful activity,Learning new skill,50,50,50,,,Subjective,0
+Smells bad,Smells good,Stale locker,31,20,20,,,Subjective,11
+Smells bad,Smells good,Dry herbs,55,65,65,,,Subjective,10
+Smells bad,Smells good,Open sewer,0,10,10,,,Subjective,10
+Smells bad,Smells good,Body odor,21,16,16,,,Subjective,5
+Smells bad,Smells good,Rose garden,90,72,72,,,Subjective,18
+Smells bad,Smells good,Warm bread,67,70,70,,,Subjective,3
+Smells bad,Smells good,Clean air,41,65,65,,,Subjective,24
+Smells bad,Smells good,Rotten eggs,3,5,5,,,Subjective,2
+Smells bad,Smells good,Fresh flowers,98,73,73,,,Subjective,25
+Smells bad,Smells good,Clean linen,53,76,76,,,Subjective,23
+Smells bad,Smells good,Someone's fart,23,19,19,,,Subjective,4
+Smells bad,Smells good,Cinnamon,67,66,66,,,Subjective,1
+Smells bad,Smells good,Vanilla,67,73,73,,,Subjective,6
+Smells bad,Smells good,Clean clothes,66,70,70,,,Subjective,4
+Smells bad,Smells good,Week-old garbage,7,9,9,,,Subjective,2
+Smells bad,Smells good,Locker room sweat,23,11,11,,,Subjective,12
+Smells bad,Smells good,Fresh mint,61,71,71,,,Subjective,10
+Smells bad,Smells good,Lavender,72,76,76,,,Subjective,4
+Smells bad,Smells good,Soap,84,89,89,,,Subjective,5
+Smells bad,Smells good,Rain on pavement,44,31,31,,,Subjective,13
+Smells bad,Smells good,Cigarette smoke,13,19,19,,,Subjective,6
+Smells bad,Smells good,Eucalyptus,59,74,74,,,Subjective,15
+Smells bad,Smells good,Fresh strawberries,95,85,85,,,Subjective,10
+Smells bad,Smells good,Skunk spray,6,9,9,,,Subjective,3
+Smells bad,Smells good,Nothing,50,50,50,,,Subjective,0
+Smells bad,Smells good,Morning air,44,61,61,,,Subjective,17
+Smells bad,Smells good,Sea breeze,45,70,70,,,Subjective,25
+Smells bad,Smells good,Damp basement,35,20,20,,,Subjective,15
+Smells bad,Smells good,Coffee brewing,71,72,72,,,Subjective,1
+Smells bad,Smells good,Old cheese,25,7,7,,,Subjective,18
+Smells bad,Smells good,Fresh-cut wood,47,65,65,,,Subjective,18
+Smells bad,Smells good,Orange slices,69,74,74,,,Subjective,5
+Smells bad,Smells good,Scented candle,75,67,67,,,Subjective,8
+Smells bad,Smells good,Fresh pizza,81,76,76,,,Subjective,5
+Smells bad,Smells good,Sizzling fajitas,73,81,81,,,Subjective,8
+Smells bad,Smells good,Hospitals,55,60,60,,,Subjective,5
+Smells bad,Smells good,Old sneakers,37,10,10,,,Subjective,27
+Smells bad,Smells good,Cedar wood,56,68,68,,,Subjective,12
+Smells bad,Smells good,Dirty laundry,19,18,18,,,Subjective,1
+Smells bad,Smells good,Wet dog,10,16,16,,,Subjective,6
+Smells bad,Smells good,Fresh cookies,81,80,80,,,Subjective,1
+Smells bad,Smells good,Deodorant,44,76,76,,,Subjective,32
+Smells bad,Smells good,Bacon cooking,75,72,72,,,Subjective,3
+Smells bad,Smells good,Fresh sneakers,67,69,69,,,Subjective,2
+Smells bad,Smells good,Pine forest,59,71,71,,,Subjective,12
+Smells bad,Smells good,New car,80,85,85,,,Subjective,5
+Smells bad,Smells good,Sour milk,8,2,2,,,Subjective,6
+Smells bad,Smells good,Peach,70,74,74,,,Subjective,4
+Smells bad,Smells good,Garlic butter,79,82,82,,,Subjective,3
+Smells bad,Smells good,Chocolate,74,85,85,,,Subjective,11
+Easy to spell,Hard to spell,Tomorrow,73,61,61,,,Subjective,12
+Easy to spell,Hard to spell,Train,22,32,32,,,Subjective,10
+Easy to spell,Hard to spell,Receive,74,74,74,,,Subjective,0
+Easy to spell,Hard to spell,Cake,14,15,15,,,Subjective,1
+Easy to spell,Hard to spell,Ball,10,13,13,,,Subjective,3
+Easy to spell,Hard to spell,Frog,18,14,14,,,Subjective,4
+Easy to spell,Hard to spell,School,21,25,25,,,Subjective,4
+Easy to spell,Hard to spell,February,84,71,71,,,Subjective,13
+Easy to spell,Hard to spell,Hat,2,6,6,,,Subjective,4
+Easy to spell,Hard to spell,Chair,41,15,15,,,Subjective,26
+Easy to spell,Hard to spell,River,40,39,39,,,Subjective,1
+Easy to spell,Hard to spell,Questionnaire,90,80,80,,,Subjective,10
+Easy to spell,Hard to spell,Flower,43,35,35,,,Subjective,8
+Easy to spell,Hard to spell,Science,65,49,49,,,Subjective,16
+Easy to spell,Hard to spell,Star,18,16,16,,,Subjective,2
+Easy to spell,Hard to spell,Conscientious,96,79,79,,,Subjective,17
+Easy to spell,Hard to spell,Successful,81,73,73,,,Subjective,8
+Easy to spell,Hard to spell,Happy,41,20,20,,,Subjective,21
+Easy to spell,Hard to spell,Jump,9,18,18,,,Subjective,9
+Easy to spell,Hard to spell,Milk,15,13,13,,,Subjective,2
+Easy to spell,Hard to spell,Book,12,14,14,,,Subjective,2
+Easy to spell,Hard to spell,Play,10,15,15,,,Subjective,5
+Easy to spell,Hard to spell,Measure,71,27,27,,,Subjective,44
+Easy to spell,Hard to spell,Millennium,89,78,78,,,Subjective,11
+Easy to spell,Hard to spell,Watch,47,49,49,,,Subjective,2
+Easy to spell,Hard to spell,Laughter,57,66,66,,,Subjective,9
+Easy to spell,Hard to spell,Sleep,47,30,30,,,Subjective,17
+Easy to spell,Hard to spell,Kitchen,57,57,57,,,Subjective,0
+Easy to spell,Hard to spell,Cat,0,6,6,,,Subjective,6
+Easy to spell,Hard to spell,Problem,65,57,57,,,Subjective,8
+Easy to spell,Hard to spell,System,52,53,53,,,Subjective,1
+Easy to spell,Hard to spell,Accommodate,95,83,83,,,Subjective,12
+Easy to spell,Hard to spell,Study,38,42,42,,,Subjective,4
+Easy to spell,Hard to spell,Dog,1,4,4,,,Subjective,3
+Easy to spell,Hard to spell,Bureaucracy,86,93,93,,,Subjective,7
+Easy to spell,Hard to spell,Mischievous,94,88,88,,,Subjective,6
+Easy to spell,Hard to spell,Rain,11,17,17,,,Subjective,6
+Easy to spell,Hard to spell,Clown,23,28,28,,,Subjective,5
+Easy to spell,Hard to spell,Light,37,26,26,,,Subjective,11
+Easy to spell,Hard to spell,Chrysanthemum,97,90,90,,,Subjective,7
+Easy to spell,Hard to spell,Fire,13,13,13,,,Subjective,0
+Easy to spell,Hard to spell,Run,3,9,9,,,Subjective,6
+Easy to spell,Hard to spell,Definitely,82,86,86,,,Subjective,4
+Easy to spell,Hard to spell,Bridge,52,26,26,,,Subjective,26
+Easy to spell,Hard to spell,Fish,8,14,14,,,Subjective,6
+Easy to spell,Hard to spell,Blue,17,14,14,,,Subjective,3
+Easy to spell,Hard to spell,Tree,13,10,10,,,Subjective,3
+Easy to spell,Hard to spell,About,36,25,25,,,Subjective,11
+Easy to spell,Hard to spell,Necessary,72,74,74,,,Subjective,2
+Easy to spell,Hard to spell,Mediterranean,88,89,89,,,Subjective,1
+Easy subject,Hard subject,Basic reading,11,15,15,,,Subjective,4
+Easy subject,Hard subject,Spelling words,13,16,16,,,Subjective,3
+Easy subject,Hard subject,Simple art,13,15,15,,,Subjective,2
+Easy subject,Hard subject,Real analysis,80,90,90,,,Subjective,10
+Easy subject,Hard subject,Biochemistry,68,85,85,,,Subjective,17
+Easy subject,Hard subject,Intro psychology,38,35,35,,,Subjective,3
+Easy subject,Hard subject,Statistics,56,46,46,,,Subjective,10
+Easy subject,Hard subject,General chemistry,50,53,53,,,Subjective,3
+Easy subject,Hard subject,Show and tell,10,7,7,,,Subjective,3
+Easy subject,Hard subject,Abstract algebra,87,91,91,,,Subjective,4
+Easy subject,Hard subject,Linear algebra,65,83,83,,,Subjective,18
+Easy subject,Hard subject,Story time,8,9,9,,,Subjective,1
+Easy subject,Hard subject,Basic geography,28,23,23,,,Subjective,5
+Easy subject,Hard subject,Quantum mechanics,86,100,100,,,Subjective,14
+Easy subject,Hard subject,Pre-calculus,48,76,76,,,Subjective,28
+Easy subject,Hard subject,Life skills,28,21,21,,,Subjective,7
+Easy subject,Hard subject,Discrete math,62,82,82,,,Subjective,20
+Easy subject,Hard subject,Ethics,40,34,34,,,Subjective,6
+Easy subject,Hard subject,Anatomy,59,79,79,,,Subjective,20
+Easy subject,Hard subject,Cooking class,28,41,41,,,Subjective,13
+Easy subject,Hard subject,Finger painting,5,19,19,,,Subjective,14
+Easy subject,Hard subject,Intro computer science,30,23,23,,,Subjective,7
+Easy subject,Hard subject,Topology,83,84,84,,,Subjective,1
+Easy subject,Hard subject,Algebraic topology,99,89,89,,,Subjective,10
+Easy subject,Hard subject,Organic chemistry,77,82,82,,,Subjective,5
+Easy subject,Hard subject,Environmental science,32,33,33,,,Subjective,1
+Easy subject,Hard subject,Measure theory,97,76,76,,,Subjective,21
+Easy subject,Hard subject,Coloring,1,19,19,,,Subjective,18
+Easy subject,Hard subject,Differential equations,76,84,84,,,Subjective,8
+Easy subject,Hard subject,Creative writing,30,28,28,,,Subjective,2
+Easy subject,Hard subject,Basic economics,36,36,36,,,Subjective,0
+Easy subject,Hard subject,Business studies,37,32,32,,,Subjective,5
+Easy subject,Hard subject,Basic math,16,18,18,,,Subjective,2
+Easy subject,Hard subject,Neuroscience,73,93,93,,,Subjective,20
+Easy subject,Hard subject,Intro sociology,39,32,32,,,Subjective,7
+Easy subject,Hard subject,Media literacy,35,30,30,,,Subjective,5
+Easy subject,Hard subject,Complex analysis,81,93,93,,,Subjective,12
+Easy subject,Hard subject,Economics,61,46,46,,,Subjective,15
+Easy subject,Hard subject,Geometry,33,39,39,,,Subjective,6
+Easy subject,Hard subject,Physical education,15,30,30,,,Subjective,15
+Easy subject,Hard subject,Advanced physics,70,90,90,,,Subjective,20
+Easy subject,Hard subject,Health class,34,15,15,,,Subjective,19
+Easy subject,Hard subject,World history,33,41,41,,,Subjective,8
+Easy subject,Hard subject,Molecular biology,76,93,93,,,Subjective,17
+Easy subject,Hard subject,Liqiuid dynamics,87,92,92,,,Subjective,5
+Easy subject,Hard subject,Theoretical physics,88,87,87,,,Subjective,1
+Easy subject,Hard subject,String theory,90,97,97,,,Subjective,7
+Easy subject,Hard subject,General biology,47,45,45,,,Subjective,2
+Easy subject,Hard subject,Genetics,70,76,76,,,Subjective,6
+Easy subject,Hard subject,Calculus,62,70,70,,,Subjective,8
