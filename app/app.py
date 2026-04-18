@@ -10,13 +10,18 @@ def home():
 
 @app.route("/predict_route", methods=["POST"])
 def predict_route():
+    
     data = request.get_json()
 
     left = data.get('left')
     right = data.get('right')
     guess = data.get('guess')
+    print(data)
+    print(guess)
+    print(left)
+    print(right)
     
-    if guess == "":
+    if not guess:
         sassyWally = ["are you gonna guess something?",
                       "i can't really guess much with that...",
                       "did you mean to type something?",

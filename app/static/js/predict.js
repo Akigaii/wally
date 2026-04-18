@@ -1,5 +1,10 @@
 async function predict() {
 
+    // Clear the score header.
+    score.getBoundingClientRect();
+    score.innerHTML = "&nbsp";
+    score.style.opacity = '0';
+
     // Feed anchor pair and input word into Wally.
     const res = await fetch('/predict_route', {
         method: 'POST',
@@ -13,6 +18,13 @@ async function predict() {
 
     // Wally's prediction.
     const data = await res.json();
+    if (typeof data.score !== 'number') {
+        score.getBoundingClientRect();
+        score.textContent = data.score;
+        score.style.transition = 'opacity 0.3s ease-in-out';
+        score.style.opacity = '1';
+        return;
+    }
 
     // Set dial based on predicted score.
     dial.getBoundingClientRect();
@@ -27,10 +39,9 @@ async function predict() {
     else if  (data.score >= yellowRange[0] && data.score <= yellowRange[1])  { score.textContent = "+2"; }
     else     { score.textContent = "+0"; }
 
-
     // Show points based off guess to user.
     hideWheel(false);
-    await sleep(2000);
+    await sleep(1000);
     score.getBoundingClientRect();
     score.style.transition = 'opacity 0.3s ease-in-out';
     score.style.opacity = '1';

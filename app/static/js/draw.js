@@ -11,7 +11,6 @@ function fadeOut(div, time) {
 }
 
 function hideWheel(hidden) {
-
     innerCover.getBoundingClientRect();
     handle.getBoundingClientRect();
 
@@ -29,16 +28,16 @@ async function randomizeWheel() {
 
     // Spin the wheel randomly.
     let delay      = randomInt(2, 4);
-    let validRange = randomInt(-80, 80);
+    let trueScore  = randomInt(-80, 80); // Showable range.
     let numOfSpins = 360 * randomInt(1, 4);
     
     innerScore.style.transition = `transform ${delay}s ease-in-out`;
-    innerScore.style.transform = `rotate(${START_ANGLE + validRange + numOfSpins}deg)`;
-    console.log(START_ANGLE + validRange + numOfSpins);
+    innerScore.style.transform = `rotate(${START_ANGLE + trueScore + numOfSpins}deg)`;
+    console.log(START_ANGLE + trueScore + numOfSpins);
     await sleep(delay * 1000);
 
     // Calculate true scores based on range positions.
-    trueScore = +angleToScore(validRange).toFixed(2);
+    trueScore = +angleToScore(trueScore).toFixed(2);
     blueRange[0]   = trueScore - 3.3;
     blueRange[1]   = trueScore + 3.3;
     orangeRange[0] = trueScore - 9.6;
@@ -60,14 +59,15 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     hideWheel(true);
 
     // Clear the score header.
-    score.innerHTML = "&nbsp;";
     score.getBoundingClientRect();
+    score.innerHTML = "&nbsp";
+    score.style.opacity = '0';
 
     // Reset the dial to middle.
+    dial.getBoundingClientRect();
     dial.style.transformOrigin = ORIGIN;
     dial.style.transition = "transform 1s ease-in-out";
     dial.style.transform = `rotate(0deg)`;
-    dial.getBoundingClientRect();
 
     // Make draw button disappear.
     fadeOut(drawButton, 1);
@@ -99,7 +99,6 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     input.disabled = false;
     fadeIn(predictButton, 1);
     predictButton.disabled = false;
-
 
 });
 
