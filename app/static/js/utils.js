@@ -78,7 +78,8 @@ const innerCover = document.getElementById('inner_cover');
 const drawButton = document.querySelector('.draw-button');
 const wordPair = document.querySelector('.wordPair');
 const input = document.querySelector('.input-text');
-const predictButton = document.querySelector('.predict-button');
+const submitArrow = document.querySelector('.submit-arrow');
+const inputWrapper = document.querySelector('.input-wrapper');
 
 
 

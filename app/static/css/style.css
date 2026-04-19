@@ -172,7 +172,28 @@ h3{
 }
 
 .draw-button {
-  width: 100px;
+  border-radius: .25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: .2s .1s;
+  background-image: linear-gradient(90deg,#211f1f,#665ddf);
+  border: 0 solid;
+  overflow: hidden;
+}
+
+.draw-button:hover {
+  cursor: pointer;
+  transition: all .3s ease-in;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .predict-button {
@@ -180,7 +201,55 @@ h3{
   opacity: 0%;
 }
 
+.input-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  opacity: 0;
+}
+
 .input-text {
-  display: block;
-  opacity: 0%;
+  border-radius: .25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 40px;
+  color: #fff;
+  height: 40px;
+  min-width: 200px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: .2s .1s;
+  background-image: linear-gradient(90deg, #211f1f, #665ddf);
+  border: 0 solid;
+  outline: none;
+  /* opacity: 0; */
+}
+
+.input-text::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-text:focus {
+  transition: all .3s ease-in;
+  padding-left: 30px;
+}
+
+.submit-arrow {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  /* opacity: 0; */
+}
+
+.submit-arrow:hover {
+  color: #fff;
+  transform: translateX(3px);
 }

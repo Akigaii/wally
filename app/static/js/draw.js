@@ -56,11 +56,14 @@ async function randomizeWheel() {
 // Whenever you press the draw button.
 document.querySelector('.draw-button').addEventListener('click', async function () {
 
+    // Stop idle spin during the draw sequence.
+    await stopIdleSpin(1000);
     hideWheel(true);
 
     // Clear the score header.
     score.getBoundingClientRect();
     score.innerHTML = "&nbsp";
+    score.style.color = "#c0c0c0";
     score.style.opacity = '0';
 
     // Reset the dial to middle.
@@ -94,11 +97,12 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     hideWheel(true);
 
     // Make input text and predict button appear.
+    fadeIn(inputWrapper);
     input.value = '';
-    fadeIn(input, 1);
+    // fadeIn(input, 1);
     input.disabled = false;
-    fadeIn(predictButton, 1);
-    predictButton.disabled = false;
+    // fadeIn(predictButton, 1);
+    submitArrow.disabled = false;
 
 });
 

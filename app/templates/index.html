@@ -25,8 +25,11 @@
       <h2 class="score"> &nbsp </h2>
       <h2 class="wordPair"> &nbsp </h2>
         <button class="draw-button"> Please draw a word pair... </button>
-        <input class="input-text" type="text">
-        <button class="predict-button" onclick="predict()">Predict</button>
+        <div class="input-wrapper">
+          <input class="input-text" type="text" placeholder="Enter your clue here...">
+          <button class="submit-arrow" onclick="predict()"> > </button>
+      </div>
+
     </div>
   </div>
   
@@ -66,10 +69,10 @@
   </div>
 
  <script src="../static/js/utils.js"></script>
+ <script src="../static/js/wheel.js"></script>
  <script src="../static/js/start.js"></script>
  <script src="../static/js/draw.js"></script>
  <script src="../static/js/predict.js"></script>
- <script src="../static/js/wheel.js"></script>
 
 </body>
 

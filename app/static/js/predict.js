@@ -34,10 +34,22 @@ async function predict() {
     await sleep(1000);
 
     // Determines if dial is within a score-range, displays points accordingly.
-    if       (data.score >= blueRange[0]   && data.score <= blueRange[1]  )  { score.textContent = "+4"; }
-    else if  (data.score >= orangeRange[0] && data.score <= orangeRange[1])  { score.textContent = "+3"; }
-    else if  (data.score >= yellowRange[0] && data.score <= yellowRange[1])  { score.textContent = "+2"; }
-    else     { score.textContent = "+0"; }
+    if (data.score >= blueRange[0] && data.score <= blueRange[1]  )  { 
+        score.textContent = "+4"; 
+        score.style.color = "#8ad9e3";
+    }
+    else if (data.score >= orangeRange[0] && data.score <= orangeRange[1])  { 
+        score.textContent = "+3"; 
+        score.style.color = "#f5912e";
+    }
+    else if  (data.score >= yellowRange[0] && data.score <= yellowRange[1])  { 
+        score.textContent = "+2"; 
+        score.style.color = "#e3e18a";
+    }
+    else { 
+        score.textContent = "+0"; 
+        score.style.color = "#c0c0c0";
+    }
 
     // Show points based off guess to user.
     hideWheel(false);
@@ -50,10 +62,10 @@ async function predict() {
     document.getElementById("pred-score").textContent = `Predicted Score: ${data.score}`;
 
     // Reshows the draw button.
-    fadeOut(input, 1);
-    input.disabled = true;
-    fadeOut(predictButton, 1);
-    predictButton.disabled = true;
+    fadeOut(inputWrapper, 1);
+    inputWrapper.disabled = true;
+    fadeOut(submitArrow, 1);
+    submitArrow.disabled = true;
     fadeIn(drawButton, 1);
     drawButton.disabled = false;
 
