@@ -1,4 +1,4 @@
-document.querySelector('.button').addEventListener('click', async function () {
+document.querySelector('.enter-button').addEventListener('click', async function () {
     document.querySelector('.parent').classList.toggle('moved');
     await sleep(1000);
     const game = document.querySelector('.game');

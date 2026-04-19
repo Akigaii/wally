@@ -50,18 +50,6 @@ const WORD_PAIRS = [
     ["Useless major", "Useful major"],
 ];
 
-document.addEventListener("keydown", (event) => {
-    if (event.key === "`") {
-        const debugs = document.querySelector('.debugs');
-        debugs.style.display = debugs.style.display === 'none' ? 'block' : 'none';
-    }
-});
-
-let trueScore = 50;
-let blueRange = [50 - 3.2, 50 + 3.2];
-let orangeRange = [50 - 9.6, 50 + 9.6];
-let yellowRange = [50 - 15.6, 50 + 15.6];
-
 const innerScore = document.getElementById('inner_score');
 const dial = document.getElementById('dial');
 const score = document.querySelector('.score');
@@ -81,5 +69,16 @@ const input = document.querySelector('.input-text');
 const submitArrow = document.querySelector('.submit-arrow');
 const inputWrapper = document.querySelector('.input-wrapper');
 
+let trueScore = 50;
+let blueRange = [50 - 3.2, 50 + 3.2];
+let orangeRange = [50 - 9.6, 50 + 9.6];
+let yellowRange = [50 - 15.6, 50 + 15.6];
 
 
+// Debug Panel:
+document.addEventListener("keydown", (event) => {
+    if (event.key === "`") {
+        const debugs = document.querySelector('.debugs');
+        debugs.style.display = debugs.style.display === 'none' ? 'block' : 'none';
+    }
+});
