@@ -33,7 +33,6 @@ async function randomizeWheel() {
     
     innerScore.style.transition = `transform ${delay}s ease-in-out`;
     innerScore.style.transform = `rotate(${START_ANGLE + trueScore + numOfSpins}deg)`;
-    console.log(START_ANGLE + trueScore + numOfSpins);
     await sleep(delay * 1000);
 
     // Calculate true scores based on range positions.
@@ -55,6 +54,10 @@ async function randomizeWheel() {
 
 // Whenever you press the draw button.
 document.querySelector('.draw-button').addEventListener('click', async function () {
+
+    drawButton.classList.add('pressed');
+    document.querySelector('.submit-arrow').style.color = "rgba(255, 255, 255, 0.6)";
+
 
     // Stop idle spin during the draw sequence.
     await stopIdleSpin(1000);
@@ -88,7 +91,7 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     innerScore.style.transform = `rotate(${START_ANGLE}deg)`;
 
     // Spin the wheel randomly.
-    await sleep(1500);
+    await sleep(1000);
     await randomizeWheel();
 
     // Show correct score, then hide again.
@@ -97,12 +100,11 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     hideWheel(true);
 
     // Make input text and predict button appear.
-    fadeIn(inputWrapper);
+    fadeIn(inputWrapper, 1);
     input.value = '';
-    // fadeIn(input, 1);
     input.disabled = false;
-    // fadeIn(predictButton, 1);
     submitArrow.disabled = false;
 
 });
+
 

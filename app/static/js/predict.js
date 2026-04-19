@@ -1,5 +1,7 @@
 async function predict() {
 
+    document.querySelector('.submit-arrow').style.color = "#a772f5";
+
     // Clear the score header.
     score.getBoundingClientRect();
     score.innerHTML = "&nbsp";
@@ -64,8 +66,8 @@ async function predict() {
     // Reshows the draw button.
     fadeOut(inputWrapper, 1);
     inputWrapper.disabled = true;
-    fadeOut(submitArrow, 1);
     submitArrow.disabled = true;
+    drawButton.classList.remove('pressed');
     fadeIn(drawButton, 1);
     drawButton.disabled = false;
 
@@ -75,5 +77,10 @@ async function predict() {
 var chosenPair;
 let guess = document.querySelector('input');
 guess.addEventListener('input', function () {
-    console.log(guess.value);
+    if (guess.value === "") 
+        document.querySelector('.submit-arrow').style.color = "rgba(255, 255, 255, 0.6)";
+
+    else{
+        document.querySelector('.submit-arrow').style.color = "#f6b826";
+    }
 });

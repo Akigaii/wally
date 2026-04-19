@@ -1,0 +1,76 @@
+.drawbutton {
+  position: relative;
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0;
+  overflow: hidden;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.draw-button {
+  position: relative;
+  z-index: 0;
+  height: 40px;
+  padding: 0 25px;
+  border: 0 solid;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, #211f1f, #242329);
+  transition: padding 0.3s ease-in-out;
+}
+
+.draw-button span {
+  position: relative;
+  z-index: 1;
+}
+
+.draw-button::before,
+.draw-button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+  border-radius: inherit;
+
+  opacity: 0;
+  z-index: -1;
+}
+
+.draw-button::before {
+  background-image: linear-gradient(90deg, #6937b5, #8f61d3);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.draw-button::after {
+  background-image: linear-gradient(90deg, #c29045, #f6b826);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.draw-button:hover {
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.draw-button:hover::after {
+  opacity: 1;
+}
+
+.draw-button.pressed::before {
+  opacity: 1;
+}
+
+.draw-button.pressed::after,
+.draw-button.pressed:hover::after {
+  opacity: 0;
+}

@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="../static/css/draw-button.css">
   <link rel="stylesheet" href="../static/css/stars.css">
+  <link rel="icon" href="../static/images/wally_wheel_stars.svg" type="image/svg+xml">
   <title>Wally</title>
 </head>
 
@@ -24,7 +26,7 @@
       {% include 'partials/wheel.html' %}
       <h2 class="score"> &nbsp </h2>
       <h2 class="wordPair"> &nbsp </h2>
-        <button class="draw-button"> Please draw a word pair... </button>
+        <button class="draw-button"> <span> Please draw a word pair... </span> </button>
         <div class="input-wrapper">
           <input class="input-text" type="text" placeholder="Enter your clue here...">
           <button class="submit-arrow" onclick="predict()"> > </button>
