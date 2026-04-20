@@ -32,16 +32,22 @@ h3{
   color: rgba(255, 255, 255, 0.554);
 }
 
-.parent {
+.welcome {
   display: flex;
   justify-content: center; 
   align-items: center;     
   flex-direction: column;
-  min-height: 75vh;
-  height: 75vh; 
-  min-width: 75vh;
-  gap: -100px;
+  min-height: 90vh;
 }
+
+.welcome {
+  transition: transform 0.6s cubic-bezier(0.55, 0, 1, 0.45);
+}
+
+.welcome.moved {
+  transform: translateX(-100%); 
+}
+
 
 .game {
   display: none;
@@ -53,6 +59,17 @@ h3{
   transition: opacity 2.5s cubic-bezier(0.16, 1, 0.3, 1);
   min-width: 40px;
   min-height: 500px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-direction: column;
+  min-height: 75vh;
+  height: 75vh; 
+  min-width: 75vh;
+  gap: -100px;
 }
 
 .button {
@@ -68,7 +85,6 @@ h3{
   border: 0;
 }
 
-
 .score{
   display: block;
   opacity: 0%;
@@ -81,13 +97,6 @@ h3{
   transition: opacity 2.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.parent {
-  transition: transform 0.6s cubic-bezier(0.55, 0, 1, 0.45);
-}
-
-.parent.moved {
-  transform: translateX(-100%); 
-}
 
 .debugs {
   display: none;
