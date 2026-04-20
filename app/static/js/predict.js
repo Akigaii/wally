@@ -68,14 +68,17 @@ async function predict() {
     // Update debug console.
     document.getElementById("pred-score").textContent = `Predicted Score: ${data.score}`;
 
-    // Reshows the draw button.
+    // Make predict button and input disappear.
     fadeOut(inputWrapper, 1);
     inputWrapper.disabled = true;
     submitArrow.disabled = true;
-    drawButton.classList.remove('pressed');
+
+    // Make draw button reappear.
+    await sleep(1000);
     fadeIn(drawButton, 1);
     drawButton.disabled = false;
     drawButton.classList.remove('pressed');
+    drawButton.style.transition = "padding 0.6s ease-in-out";
     drawButton.style.pointerEvents = '';
 }
 
@@ -83,9 +86,12 @@ async function predict() {
 var chosenPair;
 let guess = document.querySelector('input');
 guess.addEventListener('input', function () {
-    if (guess.value === "") 
+    if (event.key === "Enter") {
+        console.log("Enter!");
+        predict();
+    }
+    else if (guess.value === "") 
         document.querySelector('.submit-arrow').style.color = "rgba(255, 255, 255, 0.6)";
-
     else{
         document.querySelector('.submit-arrow').style.color = "#f6b826";
     }

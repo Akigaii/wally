@@ -54,8 +54,10 @@ async function randomizeWheel() {
 
 // Whenever you press the draw button.
 document.querySelector('.draw-button').addEventListener('click', async function () {
-
+    
+    // Make draw button disappear.
     drawButton.classList.add('pressed');
+    drawButton.style.pointerEvents = 'none';
     document.querySelector('.submit-arrow').style.color = "rgba(255, 255, 255, 0.6)";
 
     // Stop idle spin during the draw sequence.
