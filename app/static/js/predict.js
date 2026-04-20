@@ -82,17 +82,20 @@ async function predict() {
     drawButton.style.pointerEvents = '';
 }
 
+
 // Keep track of user input text.
-var chosenPair;
-let guess = document.querySelector('input');
+let guess = document.querySelector('input'); // TODO: redundant?
 guess.addEventListener('input', function () {
-    if (event.key === "Enter") {
-        console.log("Enter!");
-        predict();
-    }
-    else if (guess.value === "") 
+    if (guess.value === "") 
         document.querySelector('.submit-arrow').style.color = "rgba(255, 255, 255, 0.6)";
     else{
         document.querySelector('.submit-arrow').style.color = "#f6b826";
+    }
+});
+
+// Whenever a user presses "enter" button.
+guess.addEventListener('keydown', function (event) {
+    if (event.key === "Enter") {
+        predict();
     }
 });
