@@ -4,4 +4,5 @@ document.querySelector('.enter-button').addEventListener('click', async function
     const game = document.querySelector('.game');
     game.style.display = 'block';
     setTimeout(() => game.style.opacity = '1', 100);
+    setTimeout(() => totalPoints.style.opacity = '0.75', 100);
 });

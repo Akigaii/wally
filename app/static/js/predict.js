@@ -39,19 +39,24 @@ async function predict() {
     if (data.score >= blueRange[0] && data.score <= blueRange[1]  )  { 
         score.textContent = "+4"; 
         score.style.color = "#8ad9e3";
+        points += 4;
     }
     else if (data.score >= orangeRange[0] && data.score <= orangeRange[1])  { 
         score.textContent = "+3"; 
         score.style.color = "#f5912e";
+        points += 3;
     }
     else if  (data.score >= yellowRange[0] && data.score <= yellowRange[1])  { 
         score.textContent = "+2"; 
         score.style.color = "#e3e18a";
+        points += 2;
     }
     else { 
         score.textContent = "+0"; 
         score.style.color = "#c0c0c0";
     }
+
+    totalPoints.textContent = `Total Points: ${points}`;
 
     // Show points based off guess to user.
     hideWheel(false);

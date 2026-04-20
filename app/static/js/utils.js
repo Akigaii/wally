@@ -1,3 +1,6 @@
+// ------------------------
+//  Helper Functions
+// -------------------------
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -14,6 +17,10 @@ function angleToScore(angle) {
     return (angle + 90) / 180 * 100;
 }
 
+
+// ------------------------
+//  Global Variables
+// -------------------------
 const ORIGIN = "328.18px 283.14px";
 const ORIGIN_SVG = "328.18, 283.14"; 
 const START_ANGLE = -42.25; 
@@ -53,32 +60,38 @@ const WORD_PAIRS = [
 const innerScore = document.getElementById('inner_score');
 const dial = document.getElementById('dial');
 const score = document.querySelector('.score');
-const scoreSlider = document.getElementById('score-slider');
-const speedSlider = document.getElementById('speed-slider');
 const scoreVal = document.getElementById('score-val');
 const speedVal = document.getElementById('speed-val');
 const scoreNum = document.getElementById('score-num');
-const btnRand = document.getElementById('btn-rand');
-const btnStop = document.getElementById('btn-stop');
 const handle = document.getElementById('handle');
-const handleSlider = document.getElementById('handle-slider');
 const innerCover = document.getElementById('inner_cover');
 const drawButton = document.querySelector('.draw-button');
 const wordPair = document.querySelector('.wordPair');
 const input = document.querySelector('.input-text');
 const submitArrow = document.querySelector('.submit-arrow');
 const inputWrapper = document.querySelector('.input-wrapper');
+const totalPoints = document.querySelector('.total-points');
 
-let trueScore = 50;
-let blueRange = [50 - 3.2, 50 + 3.2];
+let points      = 0;
+let trueScore   = 50;
+let blueRange   = [50 - 3.2, 50 + 3.2];
 let orangeRange = [50 - 9.6, 50 + 9.6];
 let yellowRange = [50 - 15.6, 50 + 15.6];
 
 
-// Debug Panel:
+
+// ------------------------
+//  Debug Panel
+// -------------------------
 document.addEventListener("keydown", (event) => {
     if (event.key === "`") {
         const debugs = document.querySelector('.debugs');
         debugs.style.display = debugs.style.display === 'none' ? 'block' : 'none';
     }
 });
+
+const scoreSlider = document.getElementById('score-slider');
+const speedSlider = document.getElementById('speed-slider');
+const btnRand = document.getElementById('btn-rand');
+const btnStop = document.getElementById('btn-stop');
+const handleSlider = document.getElementById('handle-slider');

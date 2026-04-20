@@ -152,3 +152,20 @@ h3{
   color: #f6b826;
   transform: translateX(3px);
 }
+
+.total-points{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  color: rgba(183, 180, 180, 0.872);
+  transform: scaleX(0.80);
+  margin: 0px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 1000;
+}
