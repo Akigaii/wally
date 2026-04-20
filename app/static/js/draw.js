@@ -58,7 +58,6 @@ document.querySelector('.draw-button').addEventListener('click', async function 
     drawButton.classList.add('pressed');
     document.querySelector('.submit-arrow').style.color = "rgba(255, 255, 255, 0.6)";
 
-
     // Stop idle spin during the draw sequence.
     await stopIdleSpin(1000);
     hideWheel(true);

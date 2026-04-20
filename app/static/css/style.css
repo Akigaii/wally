@@ -37,7 +37,9 @@ h3{
   justify-content: center; 
   align-items: center;     
   flex-direction: column;
-  height: 85vh; 
+  min-height: 75vh;
+  height: 75vh; 
+  min-width: 75vh;
   gap: -100px;
 }
 
@@ -49,7 +51,8 @@ h3{
   transform: translate(-50%, -50%);
   opacity: 0%;
   transition: opacity 2.5s cubic-bezier(0.16, 1, 0.3, 1);
-
+  min-width: 40px;
+  min-height: 500px;
 }
 
 .button {

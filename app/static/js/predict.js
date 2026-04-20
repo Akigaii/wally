@@ -75,7 +75,8 @@ async function predict() {
     drawButton.classList.remove('pressed');
     fadeIn(drawButton, 1);
     drawButton.disabled = false;
-
+    drawButton.classList.remove('pressed');
+    drawButton.style.pointerEvents = '';
 }
 
 // Keep track of user input text.
