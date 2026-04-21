@@ -97,7 +97,10 @@ document.querySelector('.draw-button').addEventListener('click', async function 
 
     // Show correct score, then hide again.
     hideWheel(false);
+    progressBar.style.width = '100%';
+    progressContainer.style.opacity = '1';
     await sleep(5000);
+    progressContainer.style.opacity = '0';
     hideWheel(true);
 
     // Make input text and predict button appear.

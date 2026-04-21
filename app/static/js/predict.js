@@ -1,6 +1,7 @@
 async function predict() {
 
     document.querySelector('.submit-arrow').style.color = "#a772f5";
+    progressBar.style.width = '0%';
 
     // Clear the score header.
     score.getBoundingClientRect();

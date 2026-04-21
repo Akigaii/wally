@@ -72,6 +72,9 @@ const input = document.querySelector('.input-text');
 const submitArrow = document.querySelector('.submit-arrow');
 const inputWrapper = document.querySelector('.input-wrapper');
 const totalPoints = document.querySelector('.total-points');
+const progressContainer = document.querySelector('.progress-container');
+const progressBar = document.querySelector('.progress-bar');
+
 
 let points      = 0;
 let trueScore   = 50;
