@@ -209,5 +209,5 @@ __marimo__/
 # OS
 .DS_Store
 
-
-CS 489_wally_best.pt
+*.pt
+*.pth
