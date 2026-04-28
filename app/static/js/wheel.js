@@ -4,7 +4,7 @@ let handleAngle = 0;
 let targetHandleAngle = 0;
 let spinDeg = 180;
 let speed = 1;
-let idleSpin = false;
+let idleSpin = true;
 let lastTime = null;
 
 function setDialScore(s) {
@@ -38,7 +38,7 @@ function animate(ts) {
     currentAngle = lerp(currentAngle, targetDialAngle, Math.min(dt * 5, 1));
     handleAngle = lerp(handleAngle, targetHandleAngle, Math.min(dt * 5, 1));
 
-    dial.setAttribute('transform', `rotate(${currentAngle}, 328.18, 283.14)`);
+    dial.setAttribute('transform', `rotate(${currentAngle}, 328.18, 283.14)`); // TODO: Change to origin global
     handle.setAttribute('transform', `rotate(${handleAngle}, 328.18, 283.14)`);
     innerCover.setAttribute('transform', `rotate(${handleAngle}, 328.18, 283.14)`);
 
