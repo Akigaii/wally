@@ -37,12 +37,12 @@ async function randomizeWheel() {
 
     // Calculate true scores based on range positions.
     trueScore = +angleToScore(trueScore).toFixed(2);
-    blueRange[0]   = trueScore - 3.3;
-    blueRange[1]   = trueScore + 3.3;
-    orangeRange[0] = trueScore - 9.6;
-    orangeRange[1] = trueScore + 9.6;
-    yellowRange[0] = trueScore - 15.6;
-    yellowRange[1] = trueScore + 15.6;
+    blueRange[0]   = trueScore - 3.1;
+    blueRange[1]   = trueScore + 3.1;
+    orangeRange[0] = trueScore - 9.4;
+    orangeRange[1] = trueScore + 9.4;
+    yellowRange[0] = trueScore - 15.5;
+    yellowRange[1] = trueScore + 15.5;
 
     // Update the debug panel.
     document.getElementById("true-score").textContent   = `True Score: ${trueScore}`;

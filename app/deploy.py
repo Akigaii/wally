@@ -3,7 +3,7 @@ import os
 from transformers import AutoTokenizer, AutoModel
 import torch.nn as nn
 
-WALLY = "../dl/CS 489_wally_best.pt"
+WALLY = "../dl/CS 489_wally_best_old_dataset.pt"
 MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

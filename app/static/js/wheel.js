@@ -4,7 +4,7 @@ let handleAngle = 0;
 let targetHandleAngle = 0;
 let spinDeg = 180;
 let speed = 1;
-let idleSpin = true;
+let idleSpin = false;
 let lastTime = null;
 
 function setDialScore(s) {

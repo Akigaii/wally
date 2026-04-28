@@ -78,9 +78,9 @@ const progressBar = document.querySelector('.progress-bar');
 
 let points      = 0;
 let trueScore   = 50;
-let blueRange   = [50 - 3.2, 50 + 3.2];
-let orangeRange = [50 - 9.6, 50 + 9.6];
-let yellowRange = [50 - 15.6, 50 + 15.6];
+let blueRange   = [50 - 3.1, 50 + 3.1];
+let orangeRange = [50 - 9.4, 50 + 9.4];
+let yellowRange = [50 - 15.5, 50 + 15.5];
 let chosenPair; 
 
 

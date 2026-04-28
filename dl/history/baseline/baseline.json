@@ -2,9 +2,9 @@
     "cos_mae": 28.565577815614304,
     "axis_mae": 25.863171694691115,
     "wavelength_ranges": {
-        "blue_range_mae": 3.3,
-        "orange_range_mae": 9.6,
-        "yellow_range_mae": 15.6
+        "blue_range_mae": 3.1,
+        "orange_range_mae": 9.4,
+        "yellow_range_mae": 15.5
     },
     "cos_predictions": [
         30.316999435424805,
