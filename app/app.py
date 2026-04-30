@@ -34,4 +34,4 @@ def predict_route():
     return jsonify({"score": round(score, 1)})
 
 if __name__ == "__main__":
-    app.run(port=5003, debug=True)
+    app.run(port=5000, debug=True)

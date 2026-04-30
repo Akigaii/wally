@@ -3,11 +3,11 @@ import os
 from transformers import AutoTokenizer, AutoModel
 import torch.nn as nn
 
-WALLY = "../dl/CS 489_wally_best_old_dataset.pt"
+WALLY = "../dl/best_model/wally_100epochs_4bs_1e-05lr.pth"
 MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-class WallyRegressor(nn.Module):
+class Wally(nn.Module):
     def __init__(self, model_name, dropout=0.2):
         super().__init__()
         self.encoder = AutoModel.from_pretrained(model_name)
@@ -31,7 +31,7 @@ class WallyRegressor(nn.Module):
 
 
 print("Loading model...")
-model = WallyRegressor(MODEL_NAME).to(DEVICE)
+model = Wally(MODEL_NAME).to(DEVICE)
 model.load_state_dict(torch.load(WALLY, map_location=DEVICE))
 model.eval()
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
