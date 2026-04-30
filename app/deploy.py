@@ -4,9 +4,10 @@ from transformers import AutoTokenizer, AutoModel
 from huggingface_hub import hf_hub_download
 import torch.nn as nn
 
-WALLY = "akigaii/wally"  
-MODEL_NAME = "akigaii/wally"
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+MODEL_NAME  = "sentence-transformers/all-mpnet-base-v2"
+HF_REPO     = "akigaii/wally_v1"
+HF_FILENAME = "wally_100epochs_4bs_1e-05lr.pth"
+DEVICE      = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class Wally(nn.Module):
     def __init__(self, model_name, dropout=0.2):
@@ -32,13 +33,12 @@ class Wally(nn.Module):
 
 
 print("Loading model...")
+weights_path = hf_hub_download(repo_id=HF_REPO, filename=HF_FILENAME)
 model = Wally(MODEL_NAME).to(DEVICE)
-weights_path = hf_hub_download(repo_id="akigaii/wally", filename="wally_100epochs_4bs_1e-05lr.pth")
 model.load_state_dict(torch.load(weights_path, map_location=DEVICE))
 model.eval()
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 print("Model ready.")
-
 
 def predict(clue, anchor_left, anchor_right):
     text = f"clue: {clue} | left: {anchor_left} | right: {anchor_right}"
