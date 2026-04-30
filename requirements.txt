@@ -1,0 +1,6 @@
+flask
+gunicorn
+torch
+transformers
+huggingface_hub
+sentence-transformers
