@@ -1,5 +1,13 @@
 # Wally
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=fff)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=fff)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=fff)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=fff)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=fff)
+
 A fine-tuned sentence transformer trained on the mechanics of [Wavelength](https://www.boardseyeview.net/post/wavelength) to simulate human semantic reasoning. Wally acts as the "guesser" — given a word pair and a clue, it predicts a value on a 0–100 spectrum.
 
 A fully interactive Flask website allows users to play Wavelength games directly against Wally.
